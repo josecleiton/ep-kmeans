@@ -1,5 +1,6 @@
 #include <chrono>
 #include <cmath>
+#include <fstream>
 #include <iostream>
 #include <memory>
 #include <random>
@@ -16,6 +17,7 @@ using duration = std::chrono::duration<float>;
 struct Dataset {
   const std::string image;
   const std::vector<uint32_t> ks;
+  const uint16_t repeat;
 };
 
 struct Pixel {
@@ -34,6 +36,10 @@ struct KMeansResult {
 
   constexpr duration iteration() const {
     return iterations_in_seconds / iterations_count;
+  }
+
+  constexpr duration overall() const {
+    return init_in_seconds + iterations_in_seconds;
   }
 
   const std::vector<Pixel> &means() const { return *means_ptr; }
@@ -191,11 +197,20 @@ load_dataset(const std::string &file_location) {
   return result_ptr;
 }
 
-int main(void) {
-  const std::array<Dataset, 1> datasets({
-      {"images/image_teste_segementacao_3_classes.jpg", {2, 3, 4, 5}},
-  });
+void write_result_csv(std::ofstream &file, const KMeansResult &result,
+                      const uint16_t i) {
+  if (i != 0) {
+    file << ",\n";
+  } else {
+    file << "time,\n";
+  }
 
+  file << result.overall().count();
+}
+
+int exp(const std::vector<Dataset> &datasets) {
+
+  size_t dataset_id = 1;
   for (const auto &dataset : datasets) {
     const auto &pixels_ptr = load_dataset(dataset.image);
     const auto n = pixels_ptr->size();
@@ -204,32 +219,72 @@ int main(void) {
               << "pixels count: " << n << '\n';
 
     for (const auto k : dataset.ks) {
-      if (k > 1) {
-        std::clog << '\n';
+      std::ofstream file("result_" + std::to_string(dataset_id) + ".csv",
+                         std::fstream::out);
+
+      for (uint16_t i = 0; i < dataset.repeat; i++) {
+        if (n < k) {
+          std::cerr << "number of clusters must be less than " << n << '\n';
+          return 1;
+        }
+
+        if (k > 1) {
+          std::clog << '\n';
+        }
+
+        std::clog << "kmeans begin (" << i + 1 << ")\n";
+
+        const auto &result = kmeans(*pixels_ptr, n, k);
+        // results.emplace_back(result);
+
+        assert(k == result.means().size());
+        assert(n == result.belongs().size());
+
+        std::clog << "kmeans clusters: " << result.means().size() << '\n'
+                  << "iterations count: " << result.iterations_count << '\n'
+                  << "init time: " << result.init_in_seconds.count() << "s\n"
+                  << "overall iterations time: "
+                  << result.iterations_in_seconds.count() << "s\n"
+                  << "iteration mean time: " << result.iteration().count()
+                  << "s\n"
+                  << "kmeans finished\n";
+
+        write_result_csv(file, result, i);
       }
-
-      if (n < k) {
-        std::cerr << "number of clusters must be less than " << n << '\n';
-        return 1;
-      }
-
-      std::clog << "kmeans begin\n";
-
-      const auto &result = kmeans(*pixels_ptr, n, k);
-
-      assert(k == result.means().size());
-      assert(n == result.belongs().size());
-
-      std::clog << "kmeans clusters: " << result.means().size() << '\n'
-                << "iterations count: " << result.iterations_count << '\n'
-                << "init time: " << result.init_in_seconds.count() << "s\n"
-                << "overall iterations time: "
-                << result.iterations_in_seconds.count() << "s\n"
-                << "iteration mean time: " << result.iteration().count()
-                << "s\n"
-                << "kmeans finished\n";
     }
+
+    dataset_id++;
   }
 
   return 0;
+}
+
+int main(int argc, char *argv[]) {
+  if (argc > 0) {
+    std::vector<Dataset> datasets;
+    datasets.reserve(100);
+
+    std::ifstream file("experimental", std::fstream::in);
+    std::string filename;
+    uint16_t k;
+
+    while (file >> filename >> k) {
+      datasets.push_back({"images/" + filename, {k}, 100});
+
+      std::ifstream check_file(datasets.back().image);
+      if (!check_file.is_open()) {
+        std::cerr << "file " << datasets.back().image << " not found\n";
+        exit(1);
+      }
+      check_file.close();
+    }
+
+    file.close();
+
+    std::clog << "read " << datasets.size() << " photos\n";
+
+    return exp(datasets);
+  }
+
+  return exp({{"images/image_teste_segementacao_3_classes.jpg", {15}, 100}});
 }
