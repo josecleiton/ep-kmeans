@@ -10,6 +10,14 @@ Está no arquivo `main.cpp`
 
 Distribuído no arquivo `main.cpp` através de comentários na função `kmeans`
 
+Resultado:
+
+```
+(10, 0, 3) + N*(3, 1, 1) + K*(5, 1, 1) + X * (
+    (4, 1, 4) + N * (3, 1, 2) + K * (9, 4, 3) + (N * K) * (21, 13, 4)
+)
+```
+
 ## Setup experimental
 
 - CPU: Intel Xeon E-2276G (12) @ 4.9GHz

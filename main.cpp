@@ -25,7 +25,7 @@ struct Pixel {
 };
 
 struct PixelCoord : Pixel {
-  size_t x, y;
+  int x, y;
 };
 
 struct KMeansResult {
@@ -52,21 +52,18 @@ inline int d(const Pixel &c, const Pixel &p) {
 }
 
 // ANALISE QUANTITATIVA DA FUNÇÃO kmeans
-// (N, 0, 0) + ((1, 0, 1) + N * (2, 1, 1)) +
-// (K, 0, 0) + ((1, 0, 1) + K * (4, 1, 1)) +
-// (6, 0, 0) + (K, 0, 0) + (0, 0, 1) +
+// (N, 0, 0) + (2, 0, 0) + ((1, 0, 1) + N * (2, 1, 1)) +
+// (K, 0, 0) + (2, 0, 0) + ((1, 0, 1) +  K * (4, 1, 1)) +
+// (4, 0, 0) + (K, 0, 0)
+// (0, 0, 1) +
 // X * (
-//  (1, 0, 1) + ((1, 0, 1) + K * (16, 8, 2)) +
-//  ((1, 0, 1) + K* ((7, 3, 1) + (1, 0, 1) + N*(N-1)/2 * (4, 4, 1))
+//  (2, 1, 2) +
+//  ((1, 0, 1) + N * ((3, 1, 2) + K * (16, 8, 2)) +
+//  ((1, 0, 1) + K * ((9, 4, 3) + N * (5, 5, 2)))
 // )
-// JUNTANDO TERMOS COM FATORES IGUAIS:
-// (8, 0, 3) +
-// N * (3, 1, 1) +
-// K * (6, 1, 1) +
-// X * (
-//  (3, 0, 3) +
-//  N * ( (1, 0, 0) + K * (16, 8, 2) ) +
-//  K * ( (9, 4, 3) + N * (N - 1) / 2 * (4, 4, 1) )
+//
+// (10, 0, 3) + N*(3, 1, 1) + K*(5, 1, 1) + X * (
+//    (4, 1, 4) + N * (3, 1, 2) + K * (9, 4, 3) + (N * K) * (21, 13, 4)
 // )
 
 KMeansResult kmeans(const std::vector<PixelCoord> &dataset, const size_t N,
@@ -78,14 +75,14 @@ KMeansResult kmeans(const std::vector<PixelCoord> &dataset, const size_t N,
 
   const auto init_time_start = std::chrono::high_resolution_clock::now();
 
-  auto belongs_ptr = std::make_unique<std::vector<size_t>>(N); // (N, 0, 0)
+  auto belongs_ptr = std::make_unique<std::vector<size_t>>(N); // (N + 1, 0, 0)
   auto &belongs = *belongs_ptr;                                // (1, 0, 0)
   for (size_t i = 0; i < N; ++i) { // g11(1, 0, 1); gr1(1, 1, 1);
                                    // e1(1, 0, 0)
     belongs[i] = K + 1;
   }
 
-  auto means_ptr = std::make_unique<std::vector<Pixel>>(K); // (K, 0, 0)
+  auto means_ptr = std::make_unique<std::vector<Pixel>>(K); // (K + 1, 0, 0)
   auto &means = *means_ptr;                                 // (1, 0, 0)
   for (uint32_t k = 0; k < K; ++k) {
     // g12(1, 0, 1); gr2(1, 1, 1); e2(3, 0, 0)
@@ -98,11 +95,11 @@ KMeansResult kmeans(const std::vector<PixelCoord> &dataset, const size_t N,
 
   size_t distance, minimum;            // (2, 0, 0)
   uint32_t x = 0;                      // (1, 0, 0)
-  long long changed;                   // (1, 0, 0)
+  int64_t changed;                     // (1, 0, 0)
   std::vector<int> cluster_counter(K); // (K, 0, 0)
   for (; x < max_iterations; ++x) {
     // g13(0, 0, 1); gr3(1, 1, 1);
-    // ex3 = (1, 0, 1) + (K, 0, 0) + bloco4 + bloco6
+    // ex3 = (1, 0, 1) + bloco4 + bloco6
     changed = 0; // (1, 0, 0)
 
     for (size_t i = 0; i < N; ++i) {
@@ -132,14 +129,12 @@ KMeansResult kmeans(const std::vector<PixelCoord> &dataset, const size_t N,
       cluster_counter[k] = 0;                   // (1, 0, 0)
 
       for (size_t i = 0; i < N; ++i) {
-        // g17(1, 0, 1); gr7(1, 1, 1); ex7 = (4, 4, 1) * N(N -1)/2
+        // g17(1, 0, 1); gr7(1, 1, 1); ex7 = (4, 4, 1)
         if (belongs[i] == k) {        // (4, 4, 1)
           means[k].r += dataset[i].r; // (1, 1, 0)
           means[k].g += dataset[i].g; // (1, 1, 0)
           means[k].b += dataset[i].b; // (1, 1, 0)
           ++cluster_counter[k];       // (1, 1, 0)
-
-          break;
         }
       }
 
@@ -234,7 +229,6 @@ int exp(const std::vector<Dataset> &datasets) {
         std::clog << "kmeans begin (" << i + 1 << ")\n";
 
         const auto &result = kmeans(*pixels_ptr, n, k);
-        // results.emplace_back(result);
 
         assert(k == result.means().size());
         assert(n == result.belongs().size());
@@ -285,5 +279,5 @@ int main(int argc, char *argv[]) {
     return exp(datasets);
   }
 
-  return exp({{"images/morena10.jpg", {30}, 100}});
+  return exp({{"images/morena10.jpg", {15}, 100}});
 }
