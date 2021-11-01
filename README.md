@@ -17,11 +17,7 @@ Distribuído no arquivo `main.cpp` através de comentários na função `kmeans`
 - Linguagem utilizada: C++17
 - Compilador: g++ 10.3.0 com a flag -O1
 
-Output na em `/resources/setup_experimental.ods`
-
-2. Análise quantitativa do KMeans - Resultado nos comentários da fn kmeans em `main.cpp`
-3. Setup experimental - utilzando multiplicação de matrizes quadradas de 1000x1000 | Resultado: dT/Tm = 0.029
-4. Plano experimental
+Output com desvio padrão e média aritmética em: `/resources/setup_experimental.ods`
 
 ## Plano experimental
 

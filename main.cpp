@@ -178,17 +178,16 @@ load_dataset(const std::string &file_location) {
   auto result_ptr = std::make_unique<std::vector<PixelCoord>>(width * height);
   auto &result = *result_ptr;
 
-  int r_index, dest;
-  for (int j = 0; j < height; j++) {
-    for (int i = 0; i < width; i++) {
-      r_index = CHANNELS * i + CHANNELS * width * j;
-      dest = j * height + i;
+  uint64_t dest, src_index = 0;
+  for (int i = 0; i < height; i++) {
+    for (int j = 0; j < width; j++) {
+      dest = i * width + j;
 
-      result[dest].r = rgb_image[r_index];
-      result[dest].g = rgb_image[1 + r_index];
-      result[dest].b = rgb_image[2 + r_index];
-      result[dest].x = i;
-      result[dest].y = j;
+      result[dest].r = rgb_image[src_index++];
+      result[dest].g = rgb_image[src_index++];
+      result[dest].b = rgb_image[src_index++];
+      result[dest].x = j;
+      result[dest].y = i;
     }
   }
 
@@ -219,7 +218,7 @@ int exp(const std::vector<Dataset> &datasets) {
               << "pixels count: " << n << '\n';
 
     for (const auto k : dataset.ks) {
-      std::ofstream file("result_" + std::to_string(dataset_id) + ".csv",
+      std::ofstream file("output/result_" + std::to_string(dataset_id) + ".csv",
                          std::fstream::out);
 
       for (uint16_t i = 0; i < dataset.repeat; i++) {
@@ -260,7 +259,7 @@ int exp(const std::vector<Dataset> &datasets) {
 }
 
 int main(int argc, char *argv[]) {
-  if (argc > 0) {
+  if (argc > 1) {
     std::vector<Dataset> datasets;
     datasets.reserve(100);
 
@@ -286,5 +285,5 @@ int main(int argc, char *argv[]) {
     return exp(datasets);
   }
 
-  return exp({{"images/image_teste_segementacao_3_classes.jpg", {15}, 100}});
+  return exp({{"images/morena10.jpg", {30}, 100}});
 }
