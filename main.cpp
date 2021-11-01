@@ -9,7 +9,6 @@
 #define STB_IMAGE_IMPLEMENTATION
 #include "stb_image.h"
 
-#define MAX 100000
 #define CHANNELS 3
 
 using duration = std::chrono::duration<float>;
@@ -165,9 +164,8 @@ load_dataset(const std::string &file_location) {
       stbi_load(file_location.c_str(), &width, &height, &bpp, CHANNELS);
 
   if (rgb_image == nullptr) {
-    std::cerr << "error loading image " << '\'' << file_location << "'\n"
-              << "reason: " << stbi_failure_reason() << '\n';
-    exit(1);
+    throw std::domain_error("error loading image '" + file_location +
+                            "'\nreason: " + stbi_failure_reason() + "\n");
   }
 
   auto result_ptr = std::make_unique<std::vector<PixelCoord>>(width * height);
@@ -253,31 +251,37 @@ int exp(const std::vector<Dataset> &datasets) {
 }
 
 int main(int argc, char *argv[]) {
-  if (argc > 1) {
-    std::vector<Dataset> datasets;
-    datasets.reserve(100);
+  try {
+    if (argc > 1) {
+      std::vector<Dataset> datasets;
+      datasets.reserve(100);
 
-    std::ifstream file("experimental", std::fstream::in);
-    std::string filename;
-    uint16_t k;
+      std::ifstream file("experimental", std::fstream::in);
+      std::string filename;
+      uint16_t k;
 
-    while (file >> filename >> k) {
-      datasets.push_back({"images/" + filename, {k}, 100});
+      while (file >> filename >> k) {
+        datasets.push_back({"images/" + filename, {k}, 100});
 
-      std::ifstream check_file(datasets.back().image);
-      if (!check_file.is_open()) {
-        std::cerr << "file " << datasets.back().image << " not found\n";
-        exit(1);
+        std::ifstream check_file(datasets.back().image);
+        if (!check_file.is_open()) {
+          throw std::domain_error("file " + datasets.back().image +
+                                  " not found");
+        }
+        check_file.close();
       }
-      check_file.close();
+
+      file.close();
+
+      std::clog << "read " << datasets.size() << " photos\n";
+
+      return exp(datasets);
     }
 
-    file.close();
+    return exp({{"images/morena1.jpg", {15}, 100}});
+  } catch (const std::exception &e) {
+    std::cerr << e.what() << '\n';
 
-    std::clog << "read " << datasets.size() << " photos\n";
-
-    return exp(datasets);
+    return 1;
   }
-
-  return exp({{"images/morena10.jpg", {15}, 100}});
 }
