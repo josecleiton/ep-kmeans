@@ -1,5 +1,6 @@
 #include <chrono>
 #include <cmath>
+#include <filesystem>
 #include <fstream>
 #include <iostream>
 #include <memory>
@@ -12,6 +13,7 @@
 #define CHANNELS 3
 
 using duration = std::chrono::duration<float>;
+namespace fs = std::filesystem;
 
 struct Dataset {
   const std::string image;
@@ -211,13 +213,18 @@ int exp(const std::vector<Dataset> &datasets) {
               << "pixels count: " << n << '\n';
 
     for (const auto k : dataset.ks) {
-      std::ofstream file("output/result_" + std::to_string(dataset_id) + ".csv",
-                         std::fstream::out);
+      const auto filepath = fs::path(
+          "output/result_" + fs::path(dataset.image).stem().string() + ".csv");
+      std::ofstream file(filepath, std::fstream::out);
+      if (!file.is_open()) {
+        throw std::domain_error("output file not opened: '" +
+                                filepath.string() + "'");
+      }
 
       for (uint16_t i = 0; i < dataset.repeat; ++i) {
         if (n < k) {
-          std::cerr << "number of clusters must be less than " << n << '\n';
-          return 1;
+          throw std::domain_error("number of clusters must be less than " +
+                                  std::to_string(n));
         }
 
         if (k > 1) {
@@ -268,12 +275,10 @@ int main(int argc, char *argv[]) {
     while (file >> filename >> k) {
       datasets.push_back({"images/" + filename, {k}, 100});
 
-      std::ifstream check_file(datasets.back().image);
-      if (!check_file.is_open()) {
+      if (!fs::exists(datasets.back().image)) {
         throw std::domain_error("file '" + datasets.back().image +
                                 "' not found");
       }
-      check_file.close();
     }
 
     file.close();

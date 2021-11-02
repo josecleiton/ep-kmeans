@@ -24,6 +24,7 @@
         "exception": "cpp",
         "algorithm": "cpp",
         "functional": "cpp",
+        "filesystem": "cpp",
         "iterator": "cpp",
         "memory": "cpp",
         "memory_resource": "cpp",
