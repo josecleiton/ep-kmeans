@@ -26,7 +26,7 @@ struct Pixel {
 };
 
 struct PixelCoord : Pixel {
-  int x, y;
+  uint32_t x, y;
 };
 
 struct KMeansResult {
@@ -55,7 +55,7 @@ inline double d(const Pixel &p, const Pixel &q) {
   const auto r = p.r - q.r;
   const auto g = p.g - q.g;
   const auto b = p.b - q.b;
-  return sqrt(r * r + g * g + b * b);
+  return std::sqrt(r * r + g * g + b * b);
   // 3*(2, 1, 0) + 2*(1, 1, 0) + (1, 0, 0) = (9, 5, 0)
 }
 
@@ -180,7 +180,7 @@ load_dataset(const std::string &file_location) {
 
   if (rgb_image == nullptr) {
     throw std::domain_error("error loading image '" + file_location +
-                            "'\nreason: " + stbi_failure_reason() + "\n");
+                            "'\nreason: " + stbi_failure_reason());
   }
 
   auto result_ptr = std::make_unique<std::vector<PixelCoord>>(width * height);
@@ -194,8 +194,8 @@ load_dataset(const std::string &file_location) {
       result[dest].r = rgb_image[src_index++];
       result[dest].g = rgb_image[src_index++];
       result[dest].b = rgb_image[src_index++];
-      result[dest].x = j;
-      result[dest].y = i;
+      result[dest].x = static_cast<uint32_t>(j);
+      result[dest].y = static_cast<uint32_t>(i);
     }
   }
 
