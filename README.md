@@ -6,6 +6,8 @@ Projeto da disciplina de Engenharia de Programas. Especificação em /docs
 
 Está no arquivo `main.cpp`
 
+Compile utilizando o seguinte comando: `g++ --std=c++17 -O1 -Wall main.cpp -lm`
+
 ## Análise quantitativa do KMeans
 
 Distribuído no arquivo `main.cpp` através de comentários na função `kmeans`

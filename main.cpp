@@ -10,7 +10,7 @@
 #define STB_IMAGE_IMPLEMENTATION
 #include "stb_image.h"
 
-#define CHANNELS 3
+#define IMAGE_CHANNELS 3
 
 using duration = std::chrono::duration<float>;
 namespace fs = std::filesystem;
@@ -163,7 +163,7 @@ std::unique_ptr<std::vector<PixelCoord>>
 load_dataset(const std::string &file_location) {
   int width, height, bpp;
   uint8_t *const rgb_image =
-      stbi_load(file_location.c_str(), &width, &height, &bpp, CHANNELS);
+      stbi_load(file_location.c_str(), &width, &height, &bpp, IMAGE_CHANNELS);
 
   if (rgb_image == nullptr) {
     throw std::domain_error("error loading image '" + file_location +
