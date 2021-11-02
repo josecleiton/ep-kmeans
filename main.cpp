@@ -172,8 +172,8 @@ load_dataset(const std::string &file_location) {
   auto &result = *result_ptr;
 
   uint64_t dest, src_index = 0;
-  for (int i = 0; i < height; i++) {
-    for (int j = 0; j < width; j++) {
+  for (int i = 0; i < height; ++i) {
+    for (int j = 0; j < width; ++j) {
       dest = i * width + j;
 
       result[dest].r = rgb_image[src_index++];
@@ -197,7 +197,7 @@ void write_result_csv(std::ofstream &file, const KMeansResult &result,
     file << "time,\n";
   }
 
-  file << result.overall().count();
+  file << result.iteration().count();
 }
 
 int exp(const std::vector<Dataset> &datasets) {
@@ -214,7 +214,7 @@ int exp(const std::vector<Dataset> &datasets) {
       std::ofstream file("output/result_" + std::to_string(dataset_id) + ".csv",
                          std::fstream::out);
 
-      for (uint16_t i = 0; i < dataset.repeat; i++) {
+      for (uint16_t i = 0; i < dataset.repeat; ++i) {
         if (n < k) {
           std::cerr << "number of clusters must be less than " << n << '\n';
           return 1;
@@ -244,7 +244,7 @@ int exp(const std::vector<Dataset> &datasets) {
       }
     }
 
-    dataset_id++;
+    ++dataset_id;
   }
 
   return 0;
@@ -265,8 +265,8 @@ int main(int argc, char *argv[]) {
 
         std::ifstream check_file(datasets.back().image);
         if (!check_file.is_open()) {
-          throw std::domain_error("file " + datasets.back().image +
-                                  " not found");
+          throw std::domain_error("file '" + datasets.back().image +
+                                  "' not found");
         }
         check_file.close();
       }
