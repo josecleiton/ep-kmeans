@@ -51,6 +51,8 @@ struct KMeansResult {
   const std::vector<size_t> &classes() const { return *classes_ptr; }
 };
 
+enum KMeansOutputType { Iteration, Overall };
+
 inline long double d(const Pixel &p, const Pixel &q) {
   const auto r = p.r - q.r; // (2, 1, 0)
   const auto g = p.g - q.g; // (2, 1, 0)
@@ -222,17 +224,22 @@ load_dataset(const std::string &file_location) {
 }
 
 void write_result_csv(std::ofstream &file, const KMeansResult &result,
-                      const uint16_t i) {
+                      const uint16_t i, const KMeansOutputType type) {
   if (i != 0) {
     file << ",\n";
   } else {
     file << "time,\n";
   }
 
-  file << result.iteration().count();
+  if (type == KMeansOutputType::Iteration) {
+    file << result.iteration().count();
+  } else {
+    file << result.overall().count();
+  }
 }
 
-int exp(const std::vector<Dataset> &datasets) {
+int exp(const std::vector<Dataset> &datasets,
+        const KMeansOutputType outputType) {
 
   size_t dataset_id = 1;
   for (const auto &dataset : datasets) {
@@ -283,7 +290,7 @@ int exp(const std::vector<Dataset> &datasets) {
 
         std::clog << "\nkmeans finished\n";
 
-        write_result_csv(file, result, i);
+        write_result_csv(file, result, i, outputType);
       }
     }
 
@@ -298,7 +305,8 @@ int main(int argc, char *argv[]) {
     if (argc > 3) {
       return exp({{std::string(argv[1]),
                    {static_cast<uint32_t>(std::atoi(argv[2]))},
-                   static_cast<uint16_t>(std::atoi(argv[3]))}});
+                   static_cast<uint16_t>(std::atoi(argv[3]))}},
+                 KMeansOutputType::Iteration);
     }
 
     std::vector<Dataset> datasets;
@@ -321,7 +329,7 @@ int main(int argc, char *argv[]) {
 
     std::clog << "read " << datasets.size() << " photos\n";
 
-    return exp(datasets);
+    return exp(datasets, KMeansOutputType::Overall);
   } catch (const std::exception &e) {
     std::cerr << e.what() << '\n';
 
