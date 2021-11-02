@@ -45,7 +45,7 @@ struct KMeansResult {
   const std::vector<size_t> &belongs() const { return *belongs_ptr; }
 };
 
-inline int d(const Pixel &c, const Pixel &p) {
+inline double d(const Pixel &c, const Pixel &p) {
   return sqrt(pow(c.r - p.r, 2) + pow(c.g - p.g, 2) + pow(c.b - p.b, 2));
   // 3*(2, 1, 0) + 2*(1, 1, 0) + (1, 0, 0) = (9, 5, 0)
 }
@@ -92,7 +92,7 @@ KMeansResult kmeans(const std::vector<PixelCoord> &dataset, const size_t N,
 
   const auto iterations_time_start = std::chrono::high_resolution_clock::now();
 
-  size_t distance, minimum;            // (2, 0, 0)
+  double distance, minimum;            // (2, 0, 0)
   uint32_t x = 0;                      // (1, 0, 0)
   int64_t changed;                     // (1, 0, 0)
   std::vector<int> cluster_counter(K); // (K, 0, 0)
@@ -103,7 +103,7 @@ KMeansResult kmeans(const std::vector<PixelCoord> &dataset, const size_t N,
 
     for (size_t i = 0; i < N; ++i) {
       // g14(1, 0, 1); gr4(1, 1, 1); ex4 = (1, 0, 0) + N * (bloco5)
-      minimum = std::numeric_limits<size_t>::max();
+      minimum = std::numeric_limits<double>::max();
 
       for (uint32_t k = 0; k < K; ++k) {
         // g15(1, 0, 1); gr5(1, 1, 1); ex5 = (15, 7, 1)
