@@ -22,7 +22,7 @@ struct Dataset {
 };
 
 struct Pixel {
-  uint8_t r, g, b;
+  uint32_t r, g, b;
 };
 
 struct PixelCoord : Pixel {
@@ -94,10 +94,10 @@ KMeansResult kmeans(const std::vector<PixelCoord> &dataset, const size_t N,
 
   const auto iterations_time_start = std::chrono::high_resolution_clock::now();
 
-  double distance, minimum;            // (2, 0, 0)
-  uint32_t x = 0;                      // (1, 0, 0)
-  int64_t changed;                     // (1, 0, 0)
-  std::vector<int> cluster_counter(K); // (K, 0, 0)
+  double distance, minimum;                 // (2, 0, 0)
+  uint32_t x = 0;                           // (1, 0, 0)
+  int64_t changed;                          // (1, 0, 0)
+  std::vector<uint32_t> cluster_counter(K); // (K, 0, 0)
   for (; x < max_iterations; ++x) {
     // g13(0, 0, 1); gr3(1, 1, 1);
     // ex3 = (1, 0, 1) + bloco4 + bloco6
@@ -245,7 +245,13 @@ int exp(const std::vector<Dataset> &datasets) {
                   << result.iterations_in_seconds.count() << "s\n"
                   << "iteration mean time: " << result.iteration().count()
                   << "s\n"
-                  << "kmeans finished\n";
+                  << "means colors: ";
+        for (const auto &mean : result.means()) {
+          std::clog << "(" << mean.r << ", " << mean.g << ", " << mean.b
+                    << ") ";
+        }
+
+        std::clog << "\nkmeans finished\n";
 
         write_result_csv(file, result, i);
       }
