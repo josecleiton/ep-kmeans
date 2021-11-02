@@ -87,7 +87,7 @@ KMeansResult kmeans(const std::vector<PixelCoord> &dataset, const size_t N,
   auto &classes = *classes_ptr;                                // (1, 0, 0)
   for (size_t i = 0; i < N; ++i) { // g11(1, 0, 1); gr1(1, 1, 1);
                                    // e1(1, 0, 0)
-    classes[i] = K + 1;
+    classes[i] = std::numeric_limits<size_t>::max();
   }
 
   auto means_ptr = std::make_unique<std::vector<Pixel>>(K); // (K + 1, 0, 0)
