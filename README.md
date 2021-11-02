@@ -16,8 +16,8 @@ Distribuído no arquivo `main.cpp` através de comentários na função `kmeans`
 Resultado:
 
 ```
-(10, 0, 3) + N*(3, 1, 1) + K*(5, 1, 1) + X * (
-    (4, 1, 4) + N * (3, 1, 2) + K * (9, 4, 3) + (N * K) * (21, 13, 4)
+(10, 0, 2) + K * (5, 1, 1) + N * (1, 0, 0) + X * (
+   (4, 2, 4) + N * (6, 1 ,3) + K * (12, 4, 3) + (N * K) * (25, 15, 4)
 )
 ```
 

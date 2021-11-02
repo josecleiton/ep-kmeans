@@ -51,28 +51,44 @@ struct KMeansResult {
   const std::vector<size_t> &classes() const { return *classes_ptr; }
 };
 
-inline double d(const Pixel &p, const Pixel &q) {
-  const auto r = p.r - q.r;
-  const auto g = p.g - q.g;
-  const auto b = p.b - q.b;
+inline long double d(const Pixel &p, const Pixel &q) {
+  const auto r = p.r - q.r; // (2, 1, 0)
+  const auto g = p.g - q.g; // (2, 1, 0)
+  const auto b = p.b - q.b; // (2, 1, 0)
 
-  return std::sqrt(r * r + g * g + b * b);
-  // 3*(2, 1, 0) + 2*(1, 1, 0) + (1, 0, 0) = (9, 5, 0)
+  return std::sqrt(static_cast<long double>(r * r + g * g + b * b));
+  // 3* (2, 1, 0) + (5, 5, 0) + (2, 1, 0) = (13, 9, 0)
 }
 
 // ANALISE QUANTITATIVA DA FUNÇÃO kmeans
-// (N, 0, 0) + (2, 0, 0) + ((1, 0, 1) + N * (2, 1, 1)) +
-// (K, 0, 0) + (2, 0, 0) + ((1, 0, 1) +  K * (4, 1, 1)) +
-// (4, 0, 0) + (K, 0, 0)
-// (0, 0, 1) +
-// X * (
-//  (2, 1, 2) +
-//  ((1, 0, 1) + N * ((3, 1, 2) + K * (16, 8, 2)) +
-//  ((1, 0, 1) + K * ((9, 4, 3) + N * (5, 5, 2)))
+// (3, 0, 1) + K * (4, 1, 1) +
+// (2, 0, 0) + N * ((1, 0, 0)) +
+// (5, 0, 0) + K * ((1, 0, 0)) +
+// (0, 0, 1) + X * (
+//    (2, 2, 2) + (
+//       (1, 0, 1) + N * ((1, 1, 1) + (4, 0, 1) +  (1, 0, 1) + K * (
+//          (1, 1, 1) + (16, 9, 1)
+//      )) +
+//       (1, 0, 1) + K * ((1, 1, 1) + (10, 3, 1) + (1, 0, 1) + N * (
+//          (1, 1, 1) + (7, 4, 1)
+//      ))
+//    )
 // )
 //
-// (10, 0, 3) + N*(3, 1, 1) + K*(5, 1, 1) + X * (
-//    (4, 1, 4) + N * (3, 1, 2) + K * (9, 4, 3) + (N * K) * (21, 13, 4)
+// JUNTA OS TERMOS EM COMUM
+//
+// (10, 0, 2) + K * (5, 1, 1) + N * (1, 0, 0) + X * (
+//    (4, 2, 4) + N * ((6, 1, 3) + K * (17, 10, 2)) +
+//    K * ((12, 4, 3) + N * (8, 5, 2))
+// )
+//
+// (10, 0, 2) + K * (5, 1, 1) + N * (1, 0, 0) + X * (
+//    (4, 2, 4) + N * (6, 1, 3) + (N * K) * (17, 10, 2) +
+//    K * (12, 4, 3) + (N * K) * (8, 5, 2)
+// )
+//
+// (10, 0, 2) + K * (5, 1, 1) + N * (1, 0, 0) + X * (
+//    (4, 2, 4) + N * (6, 1 ,3) + K * (12, 4, 3) + (N * K) * (25, 15, 4)
 // )
 
 KMeansResult kmeans(const std::vector<PixelCoord> &dataset, const size_t N,
@@ -80,14 +96,14 @@ KMeansResult kmeans(const std::vector<PixelCoord> &dataset, const size_t N,
 
   std::random_device rdev;
   std::mt19937 eng{rdev()};
-  std::uniform_int_distribution<int> dist(0, N);
+  std::uniform_int_distribution<int> dist(0, N - 1);
 
   const auto init_time_start = std::chrono::high_resolution_clock::now();
 
   auto means_ptr = std::make_unique<std::vector<Pixel>>(K); // (K + 1, 0, 0)
   auto &means = *means_ptr;                                 // (1, 0, 0)
   for (uint32_t k = 0; k < K; ++k) {
-    // g12(1, 0, 1); gr2(1, 1, 1); e2(3, 0, 0)
+    // g12(1, 0, 1); gr2(1, 1, 1); e2(2, 0, 0)
     means[k] = dataset[dist(eng)];
   }
 
@@ -95,71 +111,65 @@ KMeansResult kmeans(const std::vector<PixelCoord> &dataset, const size_t N,
 
   const auto iterations_time_start = std::chrono::high_resolution_clock::now();
 
-  auto classes_ptr = std::make_unique<std::vector<size_t>>(N); // (N + 1, 0, 0)
-  auto &classes = *classes_ptr;                                // (1, 0, 0)
-  for (size_t i = 0; i < N; ++i) { // g11(1, 0, 1); gr1(1, 1, 1);
-                                   // e1(1, 0, 0)
-    classes[i] = std::numeric_limits<size_t>::max();
-  }
+  auto classes_ptr = std::make_unique<std::vector<size_t>>(
+      N, std::numeric_limits<size_t>::max()); // (N + 1, 0, 0)
+  auto &classes = *classes_ptr;               // (1, 0, 0)
 
-  double distance, minimum;                 // (2, 0, 0)
+  long double distance, minimum;            // (2, 0, 0)
   uint32_t x = 0;                           // (1, 0, 0)
   bool changed;                             // (1, 0, 0)
   std::vector<uint32_t> cluster_counter(K); // (K, 0, 0)
-  size_t new_class = 0;
+  size_t new_class = 0;                     // (1, 0, 0)
   for (; x < max_iterations; ++x) {
-    if (x == max_iterations - 1) {
-      std::clog << "queisso\n";
-    }
     // g13(0, 0, 1); gr3(1, 1, 1);
-    // ex3 = (1, 0, 1) + bloco4 + bloco6
+    // ex3 = (1, 1, 1) + (gr4 + ex4) + (gr6 + ex6)
     changed = false; // (1, 0, 0)
 
     for (size_t i = 0; i < N; ++i) {
-      // g14(1, 0, 1); gr4(1, 1, 1); ex4 = (1, 0, 0) + N * (bloco5)
-      minimum = std::numeric_limits<double>::max();
-      new_class = classes[i];
+      // g14(1, 0, 1); gr4(1, 1, 1); ex4 = (4, 0, 1) + N * (gr5 + ex5)
+      minimum = std::numeric_limits<long double>::max(); // (1, 0, 0)
+      new_class = classes[i];                            // (1, 0, 0)
 
       for (uint32_t k = 0; k < K; ++k) {
-        // g15(1, 0, 1); gr5(1, 1, 1); ex5 = (15, 7, 1)
+        // g15(1, 0, 1); gr5(1, 1, 1); ex5 = (16, 9, 1)
         distance =                   // (1, 0 ,0)
-            d(dataset[i], means[k]); // inline function: (9, 5, 0)
+            d(dataset[i], means[k]); // inline function: (13, 9, 0)
 
-        if (distance < minimum) { // total = (5, 2, 1)
+        if (distance < minimum) { // (0, 0, 1) + 2*(1, 0, 0) = (2, 0, 1)
           minimum = distance;     // (1, 0, 0)
           new_class = k;          // (1, 0, 0)
         }
       }
 
-      if (new_class != classes[i]) {
+      if (new_class != classes[i]) { // (0, 0, 1) + 2 * (1, 0, 0) = (2, 0, 1)
         changed = true;
         classes[i] = new_class;
       }
     }
 
-    if (!changed) { // (0, 0, 1)
+    if (!changed) { // (0, 1, 1)
       break;
     }
 
     for (uint32_t k = 0; k < K; ++k) {
-      // g16(1, 0, 1); gr6(1, 1, 1); ex6 = (4, 0, 0) + (3, 3, 1)
+      // g16(1, 0, 1); gr6(1, 1, 1); ex6 = (4, 0, 0) + (6, 3, 1) = (10, 3, 1)
       means[k].r = means[k].g = means[k].b = 0; // (3, 0, 0)
       cluster_counter[k] = 0;                   // (1, 0, 0)
 
       for (size_t i = 0; i < N; ++i) {
-        // g17(1, 0, 1); gr7(1, 1, 1); ex7 = (4, 4, 1)
-        if (classes[i] == k) {        // (4, 4, 1)
-          means[k].r += dataset[i].r; // (1, 1, 0)
-          means[k].g += dataset[i].g; // (1, 1, 0)
-          means[k].b += dataset[i].b; // (1, 1, 0)
+        // g17(1, 0, 1); gr7(1, 1, 1); ex7 = (7, 4, 1)
+        if (classes[i] == k) {        // (0, 0, 1) + 3 * (2, 1, 0) + (1, 1, 0)
+          means[k].r += dataset[i].r; // (2, 1, 0)
+          means[k].g += dataset[i].g; // (2, 1, 0)
+          means[k].b += dataset[i].b; // (2, 1, 0)
           ++cluster_counter[k];       // (1, 1, 0)
         }
       }
 
-      if (cluster_counter[k]) {           // (3, 3, 1)
-        means[k].r /= cluster_counter[k]; // (1, 1, 0)
-        means[k].g /= cluster_counter[k]; // (1, 1, 0)
-        means[k].b /= cluster_counter[k]; // (1, 1, 0)
+      if (cluster_counter[k]) { // (0, 0, 1) + 3 * (2, 1, 0) = (6, 3, 1)
+        means[k].r /= cluster_counter[k]; // (2, 1, 0)
+        means[k].g /= cluster_counter[k]; // (2, 1, 0)
+        means[k].b /= cluster_counter[k]; // (2, 1, 0)
       }
     }
   }
