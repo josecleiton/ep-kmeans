@@ -252,33 +252,35 @@ int exp(const std::vector<Dataset> &datasets) {
 
 int main(int argc, char *argv[]) {
   try {
-    if (argc > 1) {
-      std::vector<Dataset> datasets;
-      datasets.reserve(100);
-
-      std::ifstream file("experimental", std::fstream::in);
-      std::string filename;
-      uint16_t k;
-
-      while (file >> filename >> k) {
-        datasets.push_back({"images/" + filename, {k}, 100});
-
-        std::ifstream check_file(datasets.back().image);
-        if (!check_file.is_open()) {
-          throw std::domain_error("file '" + datasets.back().image +
-                                  "' not found");
-        }
-        check_file.close();
-      }
-
-      file.close();
-
-      std::clog << "read " << datasets.size() << " photos\n";
-
-      return exp(datasets);
+    if (argc > 3) {
+      return exp({{std::string(argv[1]),
+                   {static_cast<uint32_t>(std::atoi(argv[2]))},
+                   static_cast<uint16_t>(std::atoi(argv[3]))}});
     }
 
-    return exp({{"images/morena1.jpg", {15}, 100}});
+    std::vector<Dataset> datasets;
+    datasets.reserve(100);
+
+    std::ifstream file("experimental", std::fstream::in);
+    std::string filename;
+    uint16_t k;
+
+    while (file >> filename >> k) {
+      datasets.push_back({"images/" + filename, {k}, 100});
+
+      std::ifstream check_file(datasets.back().image);
+      if (!check_file.is_open()) {
+        throw std::domain_error("file '" + datasets.back().image +
+                                "' not found");
+      }
+      check_file.close();
+    }
+
+    file.close();
+
+    std::clog << "read " << datasets.size() << " photos\n";
+
+    return exp(datasets);
   } catch (const std::exception &e) {
     std::cerr << e.what() << '\n';
 
