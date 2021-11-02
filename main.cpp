@@ -51,8 +51,11 @@ struct KMeansResult {
   const std::vector<size_t> &classes() const { return *classes_ptr; }
 };
 
-inline double d(const Pixel &c, const Pixel &p) {
-  return sqrt(pow(c.r - p.r, 2) + pow(c.g - p.g, 2) + pow(c.b - p.b, 2));
+inline double d(const Pixel &p, const Pixel &q) {
+  const auto r = p.r - q.r;
+  const auto g = p.g - q.g;
+  const auto b = p.b - q.b;
+  return sqrt(r * r + g * g + b * b);
   // 3*(2, 1, 0) + 2*(1, 1, 0) + (1, 0, 0) = (9, 5, 0)
 }
 
@@ -161,7 +164,10 @@ KMeansResult kmeans(const std::vector<PixelCoord> &dataset, const size_t N,
   }
 
   return {init_time_end - init_time_start,
-          iterations_time_end - iterations_time_start, x, max_iterations, std::move(means_ptr),
+          iterations_time_end - iterations_time_start,
+          x,
+          max_iterations,
+          std::move(means_ptr),
           std::move(classes_ptr)};
 }
 

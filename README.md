@@ -7,6 +7,7 @@ Projeto da disciplina de Engenharia de Programas. Especificação em /docs
 Está no arquivo `main.cpp`
 
 Compile utilizando o seguinte comando: `g++ --std=c++17 -O1 -Wall main.cpp -lm`
+Rode: `./a.out <image> <k> <repeat>`
 
 ## Análise quantitativa do KMeans
 
