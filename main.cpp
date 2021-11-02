@@ -22,7 +22,7 @@ struct Dataset {
 };
 
 struct Pixel {
-  uint32_t r, g, b;
+  int32_t r, g, b;
 };
 
 struct PixelCoord : Pixel {
@@ -31,9 +31,9 @@ struct PixelCoord : Pixel {
 
 struct KMeansResult {
   const duration init_in_seconds, iterations_in_seconds;
-  const uint32_t iterations_count;
+  const uint32_t iterations_count, max_iterations;
   const std::unique_ptr<std::vector<Pixel>> means_ptr;
-  const std::unique_ptr<std::vector<size_t>> belongs_ptr;
+  const std::unique_ptr<std::vector<size_t>> classes_ptr;
 
   constexpr duration iteration() const {
     return iterations_in_seconds / iterations_count;
@@ -43,8 +43,12 @@ struct KMeansResult {
     return init_in_seconds + iterations_in_seconds;
   }
 
+  constexpr bool max_interations_reached() const {
+    return iterations_count == max_iterations;
+  }
+
   const std::vector<Pixel> &means() const { return *means_ptr; }
-  const std::vector<size_t> &belongs() const { return *belongs_ptr; }
+  const std::vector<size_t> &classes() const { return *classes_ptr; }
 };
 
 inline double d(const Pixel &c, const Pixel &p) {
@@ -76,11 +80,11 @@ KMeansResult kmeans(const std::vector<PixelCoord> &dataset, const size_t N,
 
   const auto init_time_start = std::chrono::high_resolution_clock::now();
 
-  auto belongs_ptr = std::make_unique<std::vector<size_t>>(N); // (N + 1, 0, 0)
-  auto &belongs = *belongs_ptr;                                // (1, 0, 0)
+  auto classes_ptr = std::make_unique<std::vector<size_t>>(N); // (N + 1, 0, 0)
+  auto &classes = *classes_ptr;                                // (1, 0, 0)
   for (size_t i = 0; i < N; ++i) { // g11(1, 0, 1); gr1(1, 1, 1);
                                    // e1(1, 0, 0)
-    belongs[i] = K + 1;
+    classes[i] = K + 1;
   }
 
   auto means_ptr = std::make_unique<std::vector<Pixel>>(K); // (K + 1, 0, 0)
@@ -96,12 +100,12 @@ KMeansResult kmeans(const std::vector<PixelCoord> &dataset, const size_t N,
 
   double distance, minimum;                 // (2, 0, 0)
   uint32_t x = 0;                           // (1, 0, 0)
-  int64_t changed;                          // (1, 0, 0)
+  bool changed;                             // (1, 0, 0)
   std::vector<uint32_t> cluster_counter(K); // (K, 0, 0)
   for (; x < max_iterations; ++x) {
     // g13(0, 0, 1); gr3(1, 1, 1);
     // ex3 = (1, 0, 1) + bloco4 + bloco6
-    changed = 0; // (1, 0, 0)
+    changed = false; // (1, 0, 0)
 
     for (size_t i = 0; i < N; ++i) {
       // g14(1, 0, 1); gr4(1, 1, 1); ex4 = (1, 0, 0) + N * (bloco5)
@@ -112,15 +116,18 @@ KMeansResult kmeans(const std::vector<PixelCoord> &dataset, const size_t N,
         distance =                   // (1, 0 ,0)
             d(dataset[i], means[k]); // inline function: (9, 5, 0)
 
-        if (distance < minimum) {    // total = (5, 2, 1)
-          minimum = distance;        // (1, 0, 0)
-          changed += belongs[i] - k; // (3, 2, 0)
-          belongs[i] = k;            // (1, 0, 0)
+        if (distance < minimum) { // total = (5, 2, 1)
+          minimum = distance;     // (1, 0, 0)
+
+          if (classes[i] != k) {
+            classes[i] = k; // (1, 0, 0)
+            changed = true;
+          }
         }
       }
     }
 
-    if (changed == 0) { // (0, 0, 1)
+    if (!changed) { // (0, 0, 1)
       break;
     }
 
@@ -131,7 +138,7 @@ KMeansResult kmeans(const std::vector<PixelCoord> &dataset, const size_t N,
 
       for (size_t i = 0; i < N; ++i) {
         // g17(1, 0, 1); gr7(1, 1, 1); ex7 = (4, 4, 1)
-        if (belongs[i] == k) {        // (4, 4, 1)
+        if (classes[i] == k) {        // (4, 4, 1)
           means[k].r += dataset[i].r; // (1, 1, 0)
           means[k].g += dataset[i].g; // (1, 1, 0)
           means[k].b += dataset[i].b; // (1, 1, 0)
@@ -154,8 +161,8 @@ KMeansResult kmeans(const std::vector<PixelCoord> &dataset, const size_t N,
   }
 
   return {init_time_end - init_time_start,
-          iterations_time_end - iterations_time_start, x, std::move(means_ptr),
-          std::move(belongs_ptr)};
+          iterations_time_end - iterations_time_start, x, max_iterations, std::move(means_ptr),
+          std::move(classes_ptr)};
 }
 
 // IGNORE: MAGICA
@@ -236,7 +243,7 @@ int exp(const std::vector<Dataset> &datasets) {
         const auto &result = kmeans(*pixels_ptr, n, k);
 
         assert(k == result.means().size());
-        assert(n == result.belongs().size());
+        assert(n == result.classes().size());
 
         std::clog << "kmeans clusters: " << result.means().size() << '\n'
                   << "iterations count: " << result.iterations_count << '\n'
