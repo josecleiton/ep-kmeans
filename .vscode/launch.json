@@ -9,7 +9,7 @@
 			"type": "cppdbg",
 			"request": "launch",
 			"program": "${fileDirname}/${fileBasenameNoExtension}",
-			"args": [],
+			"args": ["images/image_teste_segementacao_3_classes.jpg", "3", "1"],
 			"stopAtEntry": false,
 			"cwd": "${fileDirname}",
 			"environment": [],

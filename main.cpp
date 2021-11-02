@@ -55,6 +55,7 @@ inline double d(const Pixel &p, const Pixel &q) {
   const auto r = p.r - q.r;
   const auto g = p.g - q.g;
   const auto b = p.b - q.b;
+
   return std::sqrt(r * r + g * g + b * b);
   // 3*(2, 1, 0) + 2*(1, 1, 0) + (1, 0, 0) = (9, 5, 0)
 }
@@ -83,13 +84,6 @@ KMeansResult kmeans(const std::vector<PixelCoord> &dataset, const size_t N,
 
   const auto init_time_start = std::chrono::high_resolution_clock::now();
 
-  auto classes_ptr = std::make_unique<std::vector<size_t>>(N); // (N + 1, 0, 0)
-  auto &classes = *classes_ptr;                                // (1, 0, 0)
-  for (size_t i = 0; i < N; ++i) { // g11(1, 0, 1); gr1(1, 1, 1);
-                                   // e1(1, 0, 0)
-    classes[i] = std::numeric_limits<size_t>::max();
-  }
-
   auto means_ptr = std::make_unique<std::vector<Pixel>>(K); // (K + 1, 0, 0)
   auto &means = *means_ptr;                                 // (1, 0, 0)
   for (uint32_t k = 0; k < K; ++k) {
@@ -101,11 +95,22 @@ KMeansResult kmeans(const std::vector<PixelCoord> &dataset, const size_t N,
 
   const auto iterations_time_start = std::chrono::high_resolution_clock::now();
 
+  auto classes_ptr = std::make_unique<std::vector<size_t>>(N); // (N + 1, 0, 0)
+  auto &classes = *classes_ptr;                                // (1, 0, 0)
+  for (size_t i = 0; i < N; ++i) { // g11(1, 0, 1); gr1(1, 1, 1);
+                                   // e1(1, 0, 0)
+    classes[i] = std::numeric_limits<size_t>::max();
+  }
+
   double distance, minimum;                 // (2, 0, 0)
   uint32_t x = 0;                           // (1, 0, 0)
   bool changed;                             // (1, 0, 0)
   std::vector<uint32_t> cluster_counter(K); // (K, 0, 0)
+  size_t new_class = 0;
   for (; x < max_iterations; ++x) {
+    if (x == max_iterations - 1) {
+      std::clog << "queisso\n";
+    }
     // g13(0, 0, 1); gr3(1, 1, 1);
     // ex3 = (1, 0, 1) + bloco4 + bloco6
     changed = false; // (1, 0, 0)
@@ -113,6 +118,7 @@ KMeansResult kmeans(const std::vector<PixelCoord> &dataset, const size_t N,
     for (size_t i = 0; i < N; ++i) {
       // g14(1, 0, 1); gr4(1, 1, 1); ex4 = (1, 0, 0) + N * (bloco5)
       minimum = std::numeric_limits<double>::max();
+      new_class = classes[i];
 
       for (uint32_t k = 0; k < K; ++k) {
         // g15(1, 0, 1); gr5(1, 1, 1); ex5 = (15, 7, 1)
@@ -121,12 +127,13 @@ KMeansResult kmeans(const std::vector<PixelCoord> &dataset, const size_t N,
 
         if (distance < minimum) { // total = (5, 2, 1)
           minimum = distance;     // (1, 0, 0)
-
-          if (classes[i] != k) {
-            classes[i] = k; // (1, 0, 0)
-            changed = true;
-          }
+          new_class = k;          // (1, 0, 0)
         }
+      }
+
+      if (new_class != classes[i]) {
+        changed = true;
+        classes[i] = new_class;
       }
     }
 
