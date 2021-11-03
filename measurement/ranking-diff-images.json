@@ -1,0 +1,6488 @@
+[
+  {
+    "id": "2132",
+    "Comparation": "(../images/jovem_moreno01.jpg == ../images/senhor_branco02.jpg)",
+    "distance": 0.28125,
+    "diffInPercent": 0.9927743454856863
+  },
+  {
+    "id": "4344",
+    "Comparation": "(../images/senhora_morena01.jpg == ../images/senhora_morena02.jpg)",
+    "distance": 0.46875,
+    "diffInPercent": 0.990185306170933
+  },
+  {
+    "id": "2144",
+    "Comparation": "(../images/jovem_moreno01.jpg == ../images/senhora_morena02.jpg)",
+    "distance": 0.328125,
+    "diffInPercent": 0.9867529667237582
+  },
+  {
+    "id": "1021",
+    "Comparation": "(../images/homem_branco04.jpg == ../images/jovem_moreno01.jpg)",
+    "distance": 0.203125,
+    "diffInPercent": 0.978401469179176
+  },
+  {
+    "id": "2145",
+    "Comparation": "(../images/jovem_moreno01.jpg == ../images/senhora_morena03.jpg)",
+    "distance": 0.359375,
+    "diffInPercent": 0.9773213848788843
+  },
+  {
+    "id": "2142",
+    "Comparation": "(../images/jovem_moreno01.jpg == ../images/senhora_branca04.jpg)",
+    "distance": 0.28125,
+    "diffInPercent": 0.9756659836065574
+  },
+  {
+    "id": "2127",
+    "Comparation": "(../images/jovem_moreno01.jpg == ../images/morena10.jpg)",
+    "distance": 0.328125,
+    "diffInPercent": 0.975035172498165
+  },
+  {
+    "id": "2326",
+    "Comparation": "(../images/jovem_moreno03.jpg == ../images/morena03.jpg)",
+    "distance": 0.421875,
+    "diffInPercent": 0.9749775139413563
+  },
+  {
+    "id": "726",
+    "Comparation": "(../images/homem_branco01.jpg == ../images/morena03.jpg)",
+    "distance": 0.4375,
+    "diffInPercent": 0.9734591761092873
+  },
+  {
+    "id": "1526",
+    "Comparation": "(../images/image_teste_segementacao_3_classes.jpg == ../images/morena03.jpg)",
+    "distance": 0.4375,
+    "diffInPercent": 0.9725199550895448
+  },
+  {
+    "id": "2136",
+    "Comparation": "(../images/jovem_moreno01.jpg == ../images/senhor_moreno02.jpg)",
+    "distance": 0.34375,
+    "diffInPercent": 0.9713879373623685
+  },
+  {
+    "id": "1321",
+    "Comparation": "(../images/homem_moreno03.jpg == ../images/jovem_moreno01.jpg)",
+    "distance": 0.25,
+    "diffInPercent": 0.9704991164271859
+  },
+  {
+    "id": "1026",
+    "Comparation": "(../images/homem_branco04.jpg == ../images/morena03.jpg)",
+    "distance": 0.515625,
+    "diffInPercent": 0.9681589126654601
+  },
+  {
+    "id": "1626",
+    "Comparation": "(../images/jovem_branco01.jpg == ../images/morena03.jpg)",
+    "distance": 0.4375,
+    "diffInPercent": 0.9672620280966392
+  },
+  {
+    "id": "2426",
+    "Comparation": "(../images/jovem_moreno04.jpg == ../images/morena03.jpg)",
+    "distance": 0.46875,
+    "diffInPercent": 0.9639134113058565
+  },
+  {
+    "id": "2131",
+    "Comparation": "(../images/jovem_moreno01.jpg == ../images/senhor_branco01.jpg)",
+    "distance": 0.359375,
+    "diffInPercent": 0.9630956386102275
+  },
+  {
+    "id": "3637",
+    "Comparation": "(../images/senhor_moreno02.jpg == ../images/senhor_moreno03.jpg)",
+    "distance": 0.328125,
+    "diffInPercent": 0.9622908551289185
+  },
+  {
+    "id": "1921",
+    "Comparation": "(../images/jovem_branco04.jpg == ../images/jovem_moreno01.jpg)",
+    "distance": 0.296875,
+    "diffInPercent": 0.9601511050058583
+  },
+  {
+    "id": "2141",
+    "Comparation": "(../images/jovem_moreno01.jpg == ../images/senhora_branca03.jpg)",
+    "distance": 0.234375,
+    "diffInPercent": 0.9594139955957915
+  },
+  {
+    "id": "2126",
+    "Comparation": "(../images/jovem_moreno01.jpg == ../images/morena03.jpg)",
+    "distance": 0.46875,
+    "diffInPercent": 0.9584849828725226
+  },
+  {
+    "id": "2335",
+    "Comparation": "(../images/jovem_moreno03.jpg == ../images/senhor_moreno01.jpg)",
+    "distance": 0.296875,
+    "diffInPercent": 0.9581444504407267
+  },
+  {
+    "id": "4346",
+    "Comparation": "(../images/senhora_morena01.jpg == ../images/senhora_morena04.jpg)",
+    "distance": 0.46875,
+    "diffInPercent": 0.9580388430242918
+  },
+  {
+    "id": "2122",
+    "Comparation": "(../images/jovem_moreno01.jpg == ../images/jovem_moreno02.jpg)",
+    "distance": 0.265625,
+    "diffInPercent": 0.9563440482016149
+  },
+  {
+    "id": "1326",
+    "Comparation": "(../images/homem_moreno03.jpg == ../images/morena03.jpg)",
+    "distance": 0.46875,
+    "diffInPercent": 0.9546038913546148
+  },
+  {
+    "id": "2138",
+    "Comparation": "(../images/jovem_moreno01.jpg == ../images/senhor_moreno04.jpg)",
+    "distance": 0.328125,
+    "diffInPercent": 0.9529911915830682
+  },
+  {
+    "id": "1035",
+    "Comparation": "(../images/homem_branco04.jpg == ../images/senhor_moreno01.jpg)",
+    "distance": 0.359375,
+    "diffInPercent": 0.9528638347705738
+  },
+  {
+    "id": "2327",
+    "Comparation": "(../images/jovem_moreno03.jpg == ../images/morena10.jpg)",
+    "distance": 0.34375,
+    "diffInPercent": 0.9491095520777119
+  },
+  {
+    "id": "3542",
+    "Comparation": "(../images/senhor_moreno01.jpg == ../images/senhora_branca04.jpg)",
+    "distance": 0.34375,
+    "diffInPercent": 0.9475623638981552
+  },
+  {
+    "id": "2331",
+    "Comparation": "(../images/jovem_moreno03.jpg == ../images/senhor_branco01.jpg)",
+    "distance": 0.25,
+    "diffInPercent": 0.9475580140313006
+  },
+  {
+    "id": "727",
+    "Comparation": "(../images/homem_branco01.jpg == ../images/morena10.jpg)",
+    "distance": 0.265625,
+    "diffInPercent": 0.9445929965759469
+  },
+  {
+    "id": "1318",
+    "Comparation": "(../images/homem_moreno03.jpg == ../images/jovem_branco03.jpg)",
+    "distance": 0.265625,
+    "diffInPercent": 0.9443099273607748
+  },
+  {
+    "id": "526",
+    "Comparation": "(../images/familia_branca01.jpg == ../images/morena03.jpg)",
+    "distance": 0.40625,
+    "diffInPercent": 0.942891651031895
+  },
+  {
+    "id": "1323",
+    "Comparation": "(../images/homem_moreno03.jpg == ../images/jovem_moreno03.jpg)",
+    "distance": 0.234375,
+    "diffInPercent": 0.9421021310231728
+  },
+  {
+    "id": "3541",
+    "Comparation": "(../images/senhor_moreno01.jpg == ../images/senhora_branca03.jpg)",
+    "distance": 0.234375,
+    "diffInPercent": 0.9399981753923898
+  },
+  {
+    "id": "1527",
+    "Comparation": "(../images/image_teste_segementacao_3_classes.jpg == ../images/morena10.jpg)",
+    "distance": 0.390625,
+    "diffInPercent": 0.9394261032817763
+  },
+  {
+    "id": "1031",
+    "Comparation": "(../images/homem_branco04.jpg == ../images/senhor_branco01.jpg)",
+    "distance": 0.34375,
+    "diffInPercent": 0.9390104333013947
+  },
+  {
+    "id": "1837",
+    "Comparation": "(../images/jovem_branco03.jpg == ../images/senhor_moreno03.jpg)",
+    "distance": 0.34375,
+    "diffInPercent": 0.9373574311282681
+  },
+  {
+    "id": "537",
+    "Comparation": "(../images/familia_branca01.jpg == ../images/senhor_moreno03.jpg)",
+    "distance": 0.296875,
+    "diffInPercent": 0.935750469043152
+  },
+  {
+    "id": "1019",
+    "Comparation": "(../images/homem_branco04.jpg == ../images/jovem_branco04.jpg)",
+    "distance": 0.25,
+    "diffInPercent": 0.9346099932573902
+  },
+  {
+    "id": "1335",
+    "Comparation": "(../images/homem_moreno03.jpg == ../images/senhor_moreno01.jpg)",
+    "distance": 0.25,
+    "diffInPercent": 0.9334208577697622
+  },
+  {
+    "id": "2431",
+    "Comparation": "(../images/jovem_moreno04.jpg == ../images/senhor_branco01.jpg)",
+    "distance": 0.265625,
+    "diffInPercent": 0.9328837247095149
+  },
+  {
+    "id": "1331",
+    "Comparation": "(../images/homem_moreno03.jpg == ../images/senhor_branco01.jpg)",
+    "distance": 0.390625,
+    "diffInPercent": 0.9327803242644086
+  },
+  {
+    "id": "426",
+    "Comparation": "(../images/casal_moreno01.jpg == ../images/morena03.jpg)",
+    "distance": 0.46875,
+    "diffInPercent": 0.9312382739212007
+  },
+  {
+    "id": "2531",
+    "Comparation": "(../images/morena01.jpg == ../images/senhor_branco01.jpg)",
+    "distance": 0.34375,
+    "diffInPercent": 0.9304423309178744
+  },
+  {
+    "id": "1426",
+    "Comparation": "(../images/homem_moreno04.jpg == ../images/morena03.jpg)",
+    "distance": 0.515625,
+    "diffInPercent": 0.9302789658648214
+  },
+  {
+    "id": "3137",
+    "Comparation": "(../images/senhor_branco01.jpg == ../images/senhor_moreno03.jpg)",
+    "distance": 0.34375,
+    "diffInPercent": 0.9299925925925926
+  },
+  {
+    "id": "3544",
+    "Comparation": "(../images/senhor_moreno01.jpg == ../images/senhora_morena02.jpg)",
+    "distance": 0.265625,
+    "diffInPercent": 0.9285150470629767
+  },
+  {
+    "id": "3538",
+    "Comparation": "(../images/senhor_moreno01.jpg == ../images/senhor_moreno04.jpg)",
+    "distance": 0.296875,
+    "diffInPercent": 0.9283048205339753
+  },
+  {
+    "id": "3437",
+    "Comparation": "(../images/senhor_branco04.jpg == ../images/senhor_moreno03.jpg)",
+    "distance": 0.5,
+    "diffInPercent": 0.9281037352523621
+  },
+  {
+    "id": "2133",
+    "Comparation": "(../images/jovem_moreno01.jpg == ../images/senhor_branco03.jpg)",
+    "distance": 0.28125,
+    "diffInPercent": 0.927624938830438
+  },
+  {
+    "id": "731",
+    "Comparation": "(../images/homem_branco01.jpg == ../images/senhor_branco01.jpg)",
+    "distance": 0.234375,
+    "diffInPercent": 0.9274771435631332
+  },
+  {
+    "id": "1427",
+    "Comparation": "(../images/homem_moreno04.jpg == ../images/morena10.jpg)",
+    "distance": 0.3125,
+    "diffInPercent": 0.9274150706949628
+  },
+  {
+    "id": "2137",
+    "Comparation": "(../images/jovem_moreno01.jpg == ../images/senhor_moreno03.jpg)",
+    "distance": 0.390625,
+    "diffInPercent": 0.9258319060435527
+  },
+  {
+    "id": "826",
+    "Comparation": "(../images/homem_branco02.jpg == ../images/morena03.jpg)",
+    "distance": 0.4375,
+    "diffInPercent": 0.925695661700263
+  },
+  {
+    "id": "512",
+    "Comparation": "(../images/familia_branca01.jpg == ../images/homem_moreno02.jpg)",
+    "distance": 0.328125,
+    "diffInPercent": 0.9248616322701688
+  },
+  {
+    "id": "1334",
+    "Comparation": "(../images/homem_moreno03.jpg == ../images/senhor_branco04.jpg)",
+    "distance": 0.359375,
+    "diffInPercent": 0.9230542091228325
+  },
+  {
+    "id": "326",
+    "Comparation": "(../images/casal_branco01.jpg == ../images/morena03.jpg)",
+    "distance": 0.5,
+    "diffInPercent": 0.9229760787992495
+  },
+  {
+    "id": "1631",
+    "Comparation": "(../images/jovem_branco01.jpg == ../images/senhor_branco01.jpg)",
+    "distance": 0.328125,
+    "diffInPercent": 0.9228286344443984
+  },
+  {
+    "id": "2139",
+    "Comparation": "(../images/jovem_moreno01.jpg == ../images/senhora_branca01.jpg)",
+    "distance": 0.359375,
+    "diffInPercent": 0.9223261255199413
+  },
+  {
+    "id": "831",
+    "Comparation": "(../images/homem_branco02.jpg == ../images/senhor_branco01.jpg)",
+    "distance": 0.359375,
+    "diffInPercent": 0.9213257133119096
+  },
+  {
+    "id": "3545",
+    "Comparation": "(../images/senhor_moreno01.jpg == ../images/senhora_morena03.jpg)",
+    "distance": 0.328125,
+    "diffInPercent": 0.9212681816198549
+  },
+  {
+    "id": "1544",
+    "Comparation": "(../images/image_teste_segementacao_3_classes.jpg == ../images/senhora_morena02.jpg)",
+    "distance": 0.265625,
+    "diffInPercent": 0.9207256842402342
+  },
+  {
+    "id": "1344",
+    "Comparation": "(../images/homem_moreno03.jpg == ../images/senhora_morena02.jpg)",
+    "distance": 0.203125,
+    "diffInPercent": 0.9196925439174303
+  },
+  {
+    "id": "2544",
+    "Comparation": "(../images/morena01.jpg == ../images/senhora_morena02.jpg)",
+    "distance": 0.28125,
+    "diffInPercent": 0.9188493860708534
+  },
+  {
+    "id": "2435",
+    "Comparation": "(../images/jovem_moreno04.jpg == ../images/senhor_moreno01.jpg)",
+    "distance": 0.21875,
+    "diffInPercent": 0.9187263107079185
+  },
+  {
+    "id": "737",
+    "Comparation": "(../images/homem_branco01.jpg == ../images/senhor_moreno03.jpg)",
+    "distance": 0.421875,
+    "diffInPercent": 0.9182463200254156
+  },
+  {
+    "id": "712",
+    "Comparation": "(../images/homem_branco01.jpg == ../images/homem_moreno02.jpg)",
+    "distance": 0.390625,
+    "diffInPercent": 0.917394719192347
+  },
+  {
+    "id": "1431",
+    "Comparation": "(../images/homem_moreno04.jpg == ../images/senhor_branco01.jpg)",
+    "distance": 0.34375,
+    "diffInPercent": 0.9171173073255783
+  },
+  {
+    "id": "1545",
+    "Comparation": "(../images/image_teste_segementacao_3_classes.jpg == ../images/senhora_morena03.jpg)",
+    "distance": 0.328125,
+    "diffInPercent": 0.9169524697682694
+  },
+  {
+    "id": "2427",
+    "Comparation": "(../images/jovem_moreno04.jpg == ../images/morena10.jpg)",
+    "distance": 0.203125,
+    "diffInPercent": 0.9161309441303133
+  },
+  {
+    "id": "937",
+    "Comparation": "(../images/homem_branco03.jpg == ../images/senhor_moreno03.jpg)",
+    "distance": 0.390625,
+    "diffInPercent": 0.9160164530928651
+  },
+  {
+    "id": "1644",
+    "Comparation": "(../images/jovem_branco01.jpg == ../images/senhora_morena02.jpg)",
+    "distance": 0.265625,
+    "diffInPercent": 0.9138314477919136
+  },
+  {
+    "id": "1131",
+    "Comparation": "(../images/homem_moreno01.jpg == ../images/senhor_branco01.jpg)",
+    "distance": 0.421875,
+    "diffInPercent": 0.9137424373379429
+  },
+  {
+    "id": "1231",
+    "Comparation": "(../images/homem_moreno02.jpg == ../images/senhor_branco01.jpg)",
+    "distance": 0.28125,
+    "diffInPercent": 0.913387037037037
+  },
+  {
+    "id": "1822",
+    "Comparation": "(../images/jovem_branco03.jpg == ../images/jovem_moreno02.jpg)",
+    "distance": 0.21875,
+    "diffInPercent": 0.91331475157585
+  },
+  {
+    "id": "2134",
+    "Comparation": "(../images/jovem_moreno01.jpg == ../images/senhor_branco04.jpg)",
+    "distance": 0.328125,
+    "diffInPercent": 0.912867781991681
+  },
+  {
+    "id": "2434",
+    "Comparation": "(../images/jovem_moreno04.jpg == ../images/senhor_branco04.jpg)",
+    "distance": 0.421875,
+    "diffInPercent": 0.9122402841042162
+  },
+  {
+    "id": "026",
+    "Comparation": "(../images/branca01.jpg == ../images/morena03.jpg)",
+    "distance": 0.4375,
+    "diffInPercent": 0.9121688581032069
+  },
+  {
+    "id": "1635",
+    "Comparation": "(../images/jovem_branco01.jpg == ../images/senhor_moreno01.jpg)",
+    "distance": 0.3125,
+    "diffInPercent": 0.9111332126955184
+  },
+  {
+    "id": "2534",
+    "Comparation": "(../images/morena01.jpg == ../images/senhor_branco04.jpg)",
+    "distance": 0.4375,
+    "diffInPercent": 0.910552536231884
+  },
+  {
+    "id": "1226",
+    "Comparation": "(../images/homem_moreno02.jpg == ../images/morena03.jpg)",
+    "distance": 0.421875,
+    "diffInPercent": 0.9102907407407408
+  },
+  {
+    "id": "1621",
+    "Comparation": "(../images/jovem_branco01.jpg == ../images/jovem_moreno01.jpg)",
+    "distance": 0.21875,
+    "diffInPercent": 0.9099406480368728
+  },
+  {
+    "id": "827",
+    "Comparation": "(../images/homem_branco02.jpg == ../images/morena10.jpg)",
+    "distance": 0.328125,
+    "diffInPercent": 0.9093022689648457
+  },
+  {
+    "id": "837",
+    "Comparation": "(../images/homem_branco02.jpg == ../images/senhor_moreno03.jpg)",
+    "distance": 0.328125,
+    "diffInPercent": 0.9088610137306457
+  },
+  {
+    "id": "1434",
+    "Comparation": "(../images/homem_moreno04.jpg == ../images/senhor_branco04.jpg)",
+    "distance": 0.40625,
+    "diffInPercent": 0.908706105102569
+  },
+  {
+    "id": "031",
+    "Comparation": "(../images/branca01.jpg == ../images/senhor_branco01.jpg)",
+    "distance": 0.328125,
+    "diffInPercent": 0.9083751357941446
+  },
+  {
+    "id": "2736",
+    "Comparation": "(../images/morena10.jpg == ../images/senhor_moreno02.jpg)",
+    "distance": 0.296875,
+    "diffInPercent": 0.9080581613508443
+  },
+  {
+    "id": "1926",
+    "Comparation": "(../images/jovem_branco04.jpg == ../images/morena03.jpg)",
+    "distance": 0.484375,
+    "diffInPercent": 0.9079592743727526
+  },
+  {
+    "id": "1529",
+    "Comparation": "(../images/image_teste_segementacao_3_classes.jpg == ../images/mulher_morena02.jpg)",
+    "distance": 0.390625,
+    "diffInPercent": 0.9077863194900332
+  },
+  {
+    "id": "1327",
+    "Comparation": "(../images/homem_moreno03.jpg == ../images/morena10.jpg)",
+    "distance": 0.203125,
+    "diffInPercent": 0.907590549177982
+  },
+  {
+    "id": "3344",
+    "Comparation": "(../images/senhor_branco03.jpg == ../images/senhora_morena02.jpg)",
+    "distance": 0.234375,
+    "diffInPercent": 0.9071460030830214
+  },
+  {
+    "id": "1027",
+    "Comparation": "(../images/homem_branco04.jpg == ../images/morena10.jpg)",
+    "distance": 0.375,
+    "diffInPercent": 0.9063930586607047
+  },
+  {
+    "id": "2532",
+    "Comparation": "(../images/morena01.jpg == ../images/senhor_branco02.jpg)",
+    "distance": 0.296875,
+    "diffInPercent": 0.9058851650563607
+  },
+  {
+    "id": "08",
+    "Comparation": "(../images/branca01.jpg == ../images/homem_branco02.jpg)",
+    "distance": 0.40625,
+    "diffInPercent": 0.9058210139523163
+  },
+  {
+    "id": "1034",
+    "Comparation": "(../images/homem_branco04.jpg == ../images/senhor_branco04.jpg)",
+    "distance": 0.40625,
+    "diffInPercent": 0.9052352815926754
+  },
+  {
+    "id": "1826",
+    "Comparation": "(../images/jovem_branco03.jpg == ../images/morena03.jpg)",
+    "distance": 0.484375,
+    "diffInPercent": 0.9040992346835477
+  },
+  {
+    "id": "1520",
+    "Comparation": "(../images/image_teste_segementacao_3_classes.jpg == ../images/jovem_loura01.jpg)",
+    "distance": 0.390625,
+    "diffInPercent": 0.9033198152045205
+  },
+  {
+    "id": "2536",
+    "Comparation": "(../images/morena01.jpg == ../images/senhor_moreno02.jpg)",
+    "distance": 0.296875,
+    "diffInPercent": 0.902211654589372
+  },
+  {
+    "id": "2832",
+    "Comparation": "(../images/mulher_morena01.jpg == ../images/senhor_branco02.jpg)",
+    "distance": 0.328125,
+    "diffInPercent": 0.9020455979093449
+  },
+  {
+    "id": "1332",
+    "Comparation": "(../images/homem_moreno03.jpg == ../images/senhor_branco02.jpg)",
+    "distance": 0.28125,
+    "diffInPercent": 0.901952945772706
+  },
+  {
+    "id": "2732",
+    "Comparation": "(../images/morena10.jpg == ../images/senhor_branco02.jpg)",
+    "distance": 0.265625,
+    "diffInPercent": 0.9017823639774859
+  },
+  {
+    "id": "2535",
+    "Comparation": "(../images/morena01.jpg == ../images/senhor_moreno01.jpg)",
+    "distance": 0.421875,
+    "diffInPercent": 0.8994565217391305
+  },
+  {
+    "id": "1944",
+    "Comparation": "(../images/jovem_branco04.jpg == ../images/senhora_morena02.jpg)",
+    "distance": 0.28125,
+    "diffInPercent": 0.8988727728172599
+  },
+  {
+    "id": "231",
+    "Comparation": "(../images/branca03.jpg == ../images/senhor_branco01.jpg)",
+    "distance": 0.328125,
+    "diffInPercent": 0.8988665040250796
+  },
+  {
+    "id": "745",
+    "Comparation": "(../images/homem_branco01.jpg == ../images/senhora_morena03.jpg)",
+    "distance": 0.359375,
+    "diffInPercent": 0.8986948003812347
+  },
+  {
+    "id": "2731",
+    "Comparation": "(../images/morena10.jpg == ../images/senhor_branco01.jpg)",
+    "distance": 0.28125,
+    "diffInPercent": 0.898046435272045
+  },
+  {
+    "id": "1521",
+    "Comparation": "(../images/image_teste_segementacao_3_classes.jpg == ../images/jovem_moreno01.jpg)",
+    "distance": 0.28125,
+    "diffInPercent": 0.8975096784485033
+  },
+  {
+    "id": "3334",
+    "Comparation": "(../images/senhor_branco03.jpg == ../images/senhor_branco04.jpg)",
+    "distance": 0.421875,
+    "diffInPercent": 0.8970344270718638
+  },
+  {
+    "id": "2637",
+    "Comparation": "(../images/morena03.jpg == ../images/senhor_moreno03.jpg)",
+    "distance": 0.453125,
+    "diffInPercent": 0.8969759259259259
+  },
+  {
+    "id": "713",
+    "Comparation": "(../images/homem_branco01.jpg == ../images/homem_moreno03.jpg)",
+    "distance": 0.34375,
+    "diffInPercent": 0.8969474743196019
+  },
+  {
+    "id": "1336",
+    "Comparation": "(../images/homem_moreno03.jpg == ../images/senhor_moreno02.jpg)",
+    "distance": 0.28125,
+    "diffInPercent": 0.896846848893149
+  },
+  {
+    "id": "2528",
+    "Comparation": "(../images/morena01.jpg == ../images/mulher_morena01.jpg)",
+    "distance": 0.34375,
+    "diffInPercent": 0.8959905897745571
+  },
+  {
+    "id": "2932",
+    "Comparation": "(../images/mulher_morena02.jpg == ../images/senhor_branco02.jpg)",
+    "distance": 0.328125,
+    "diffInPercent": 0.8957956548613814
+  },
+  {
+    "id": "1937",
+    "Comparation": "(../images/jovem_branco04.jpg == ../images/senhor_moreno03.jpg)",
+    "distance": 0.3125,
+    "diffInPercent": 0.8955234131954265
+  },
+  {
+    "id": "722",
+    "Comparation": "(../images/homem_branco01.jpg == ../images/jovem_moreno02.jpg)",
+    "distance": 0.328125,
+    "diffInPercent": 0.8953281090049067
+  },
+  {
+    "id": "2334",
+    "Comparation": "(../images/jovem_moreno03.jpg == ../images/senhor_branco04.jpg)",
+    "distance": 0.40625,
+    "diffInPercent": 0.8952509444144631
+  },
+  {
+    "id": "1528",
+    "Comparation": "(../images/image_teste_segementacao_3_classes.jpg == ../images/mulher_morena01.jpg)",
+    "distance": 0.484375,
+    "diffInPercent": 0.8946751661134664
+  },
+  {
+    "id": "1627",
+    "Comparation": "(../images/jovem_branco01.jpg == ../images/morena10.jpg)",
+    "distance": 0.234375,
+    "diffInPercent": 0.8939814622960783
+  },
+  {
+    "id": "1845",
+    "Comparation": "(../images/jovem_branco03.jpg == ../images/senhora_morena03.jpg)",
+    "distance": 0.34375,
+    "diffInPercent": 0.8936790530052506
+  },
+  {
+    "id": "3539",
+    "Comparation": "(../images/senhor_moreno01.jpg == ../images/senhora_branca01.jpg)",
+    "distance": 0.359375,
+    "diffInPercent": 0.8935539786362248
+  },
+  {
+    "id": "1634",
+    "Comparation": "(../images/jovem_branco01.jpg == ../images/senhor_branco04.jpg)",
+    "distance": 0.390625,
+    "diffInPercent": 0.8933644597313737
+  },
+  {
+    "id": "527",
+    "Comparation": "(../images/familia_branca01.jpg == ../images/morena10.jpg)",
+    "distance": 0.265625,
+    "diffInPercent": 0.8929901500938087
+  },
+  {
+    "id": "4345",
+    "Comparation": "(../images/senhora_morena01.jpg == ../images/senhora_morena03.jpg)",
+    "distance": 0.46875,
+    "diffInPercent": 0.8924244224030409
+  },
+  {
+    "id": "2231",
+    "Comparation": "(../images/jovem_moreno02.jpg == ../images/senhor_branco01.jpg)",
+    "distance": 0.34375,
+    "diffInPercent": 0.8924065720467965
+  },
+  {
+    "id": "2340",
+    "Comparation": "(../images/jovem_moreno03.jpg == ../images/senhora_branca02.jpg)",
+    "distance": 0.234375,
+    "diffInPercent": 0.8915407447382623
+  },
+  {
+    "id": "822",
+    "Comparation": "(../images/homem_branco02.jpg == ../images/jovem_moreno02.jpg)",
+    "distance": 0.234375,
+    "diffInPercent": 0.8902369997078586
+  },
+  {
+    "id": "3537",
+    "Comparation": "(../images/senhor_moreno01.jpg == ../images/senhor_moreno03.jpg)",
+    "distance": 0.296875,
+    "diffInPercent": 0.8898809641861258
+  },
+  {
+    "id": "1827",
+    "Comparation": "(../images/jovem_branco03.jpg == ../images/morena10.jpg)",
+    "distance": 0.25,
+    "diffInPercent": 0.8893463090690674
+  },
+  {
+    "id": "431",
+    "Comparation": "(../images/casal_moreno01.jpg == ../images/senhor_branco01.jpg)",
+    "distance": 0.265625,
+    "diffInPercent": 0.8892026266416511
+  },
+  {
+    "id": "227",
+    "Comparation": "(../images/branca03.jpg == ../images/morena10.jpg)",
+    "distance": 0.328125,
+    "diffInPercent": 0.8891409766887052
+  },
+  {
+    "id": "2026",
+    "Comparation": "(../images/jovem_loura01.jpg == ../images/morena03.jpg)",
+    "distance": 0.359375,
+    "diffInPercent": 0.8890685262378745
+  },
+  {
+    "id": "2130",
+    "Comparation": "(../images/jovem_moreno01.jpg == ../images/mulher_morena03.jpg)",
+    "distance": 0.375,
+    "diffInPercent": 0.88895048323954
+  },
+  {
+    "id": "3339",
+    "Comparation": "(../images/senhor_branco03.jpg == ../images/senhora_branca01.jpg)",
+    "distance": 0.296875,
+    "diffInPercent": 0.8886735667620935
+  },
+  {
+    "id": "711",
+    "Comparation": "(../images/homem_branco01.jpg == ../images/homem_moreno01.jpg)",
+    "distance": 0.40625,
+    "diffInPercent": 0.8883873415934201
+  },
+  {
+    "id": "2539",
+    "Comparation": "(../images/morena01.jpg == ../images/senhora_branca01.jpg)",
+    "distance": 0.3125,
+    "diffInPercent": 0.8877126107085346
+  },
+  {
+    "id": "2844",
+    "Comparation": "(../images/mulher_morena01.jpg == ../images/senhora_morena02.jpg)",
+    "distance": 0.375,
+    "diffInPercent": 0.8875421785667799
+  },
+  {
+    "id": "733",
+    "Comparation": "(../images/homem_branco01.jpg == ../images/senhor_branco03.jpg)",
+    "distance": 0.34375,
+    "diffInPercent": 0.8874430795298105
+  },
+  {
+    "id": "626",
+    "Comparation": "(../images/familia_morena01.jpg == ../images/morena03.jpg)",
+    "distance": 0.453125,
+    "diffInPercent": 0.8866697936210132
+  },
+  {
+    "id": "2027",
+    "Comparation": "(../images/jovem_loura01.jpg == ../images/morena10.jpg)",
+    "distance": 0.21875,
+    "diffInPercent": 0.8862376147622943
+  },
+  {
+    "id": "1726",
+    "Comparation": "(../images/jovem_branco02.jpg == ../images/morena03.jpg)",
+    "distance": 0.359375,
+    "diffInPercent": 0.8862171669793621
+  },
+  {
+    "id": "331",
+    "Comparation": "(../images/casal_branco01.jpg == ../images/senhor_branco01.jpg)",
+    "distance": 0.390625,
+    "diffInPercent": 0.8859521575984991
+  },
+  {
+    "id": "2636",
+    "Comparation": "(../images/morena03.jpg == ../images/senhor_moreno02.jpg)",
+    "distance": 0.40625,
+    "diffInPercent": 0.885924074074074
+  },
+  {
+    "id": "018",
+    "Comparation": "(../images/branca01.jpg == ../images/jovem_branco03.jpg)",
+    "distance": 0.390625,
+    "diffInPercent": 0.885892052594477
+  },
+  {
+    "id": "1618",
+    "Comparation": "(../images/jovem_branco01.jpg == ../images/jovem_branco03.jpg)",
+    "distance": 0.296875,
+    "diffInPercent": 0.8856795546530742
+  },
+  {
+    "id": "719",
+    "Comparation": "(../images/homem_branco01.jpg == ../images/jovem_branco04.jpg)",
+    "distance": 0.296875,
+    "diffInPercent": 0.8854486568534011
+  },
+  {
+    "id": "1532",
+    "Comparation": "(../images/image_teste_segementacao_3_classes.jpg == ../images/senhor_branco02.jpg)",
+    "distance": 0.34375,
+    "diffInPercent": 0.8850918148854845
+  },
+  {
+    "id": "2526",
+    "Comparation": "(../images/morena01.jpg == ../images/morena03.jpg)",
+    "distance": 0.421875,
+    "diffInPercent": 0.8846807065217391
+  },
+  {
+    "id": "1932",
+    "Comparation": "(../images/jovem_branco04.jpg == ../images/senhor_branco02.jpg)",
+    "distance": 0.296875,
+    "diffInPercent": 0.8845541594279019
+  },
+  {
+    "id": "720",
+    "Comparation": "(../images/homem_branco01.jpg == ../images/jovem_loura01.jpg)",
+    "distance": 0.328125,
+    "diffInPercent": 0.8843984962406015
+  },
+  {
+    "id": "3336",
+    "Comparation": "(../images/senhor_branco03.jpg == ../images/senhor_moreno02.jpg)",
+    "distance": 0.25,
+    "diffInPercent": 0.8842215371063642
+  },
+  {
+    "id": "2831",
+    "Comparation": "(../images/mulher_morena01.jpg == ../images/senhor_branco01.jpg)",
+    "distance": 0.46875,
+    "diffInPercent": 0.8840577533467504
+  },
+  {
+    "id": "4045",
+    "Comparation": "(../images/senhora_branca02.jpg == ../images/senhora_morena03.jpg)",
+    "distance": 0.390625,
+    "diffInPercent": 0.883835557001844
+  },
+  {
+    "id": "1619",
+    "Comparation": "(../images/jovem_branco01.jpg == ../images/jovem_branco04.jpg)",
+    "distance": 0.390625,
+    "diffInPercent": 0.8837180390369235
+  },
+  {
+    "id": "2339",
+    "Comparation": "(../images/jovem_moreno03.jpg == ../images/senhora_branca01.jpg)",
+    "distance": 0.25,
+    "diffInPercent": 0.8830185285123223
+  },
+  {
+    "id": "1737",
+    "Comparation": "(../images/jovem_branco02.jpg == ../images/senhor_moreno03.jpg)",
+    "distance": 0.375,
+    "diffInPercent": 0.8825984990619137
+  },
+  {
+    "id": "1731",
+    "Comparation": "(../images/jovem_branco02.jpg == ../images/senhor_branco01.jpg)",
+    "distance": 0.28125,
+    "diffInPercent": 0.8821106941838649
+  },
+  {
+    "id": "1531",
+    "Comparation": "(../images/image_teste_segementacao_3_classes.jpg == ../images/senhor_branco01.jpg)",
+    "distance": 0.328125,
+    "diffInPercent": 0.8820732433079127
+  },
+  {
+    "id": "1541",
+    "Comparation": "(../images/image_teste_segementacao_3_classes.jpg == ../images/senhora_branca03.jpg)",
+    "distance": 0.453125,
+    "diffInPercent": 0.8814903890398856
+  },
+  {
+    "id": "226",
+    "Comparation": "(../images/branca03.jpg == ../images/morena03.jpg)",
+    "distance": 0.4375,
+    "diffInPercent": 0.8808300715103489
+  },
+  {
+    "id": "730",
+    "Comparation": "(../images/homem_branco01.jpg == ../images/mulher_morena03.jpg)",
+    "distance": 0.34375,
+    "diffInPercent": 0.8806435101839105
+  },
+  {
+    "id": "3237",
+    "Comparation": "(../images/senhor_branco02.jpg == ../images/senhor_moreno03.jpg)",
+    "distance": 0.328125,
+    "diffInPercent": 0.8806132958801498
+  },
+  {
+    "id": "1319",
+    "Comparation": "(../images/homem_moreno03.jpg == ../images/jovem_branco04.jpg)",
+    "distance": 0.296875,
+    "diffInPercent": 0.8803565182234053
+  },
+  {
+    "id": "1539",
+    "Comparation": "(../images/image_teste_segementacao_3_classes.jpg == ../images/senhora_branca01.jpg)",
+    "distance": 0.421875,
+    "diffInPercent": 0.8801344859532121
+  },
+  {
+    "id": "2631",
+    "Comparation": "(../images/morena03.jpg == ../images/senhor_branco01.jpg)",
+    "distance": 0.328125,
+    "diffInPercent": 0.8795055555555555
+  },
+  {
+    "id": "735",
+    "Comparation": "(../images/homem_branco01.jpg == ../images/senhor_moreno01.jpg)",
+    "distance": 0.34375,
+    "diffInPercent": 0.8793639027145328
+  },
+  {
+    "id": "1542",
+    "Comparation": "(../images/image_teste_segementacao_3_classes.jpg == ../images/senhora_branca04.jpg)",
+    "distance": 0.46875,
+    "diffInPercent": 0.8792203250486224
+  },
+  {
+    "id": "3536",
+    "Comparation": "(../images/senhor_moreno01.jpg == ../images/senhor_moreno02.jpg)",
+    "distance": 0.28125,
+    "diffInPercent": 0.8791276789007929
+  },
+  {
+    "id": "2944",
+    "Comparation": "(../images/mulher_morena02.jpg == ../images/senhora_morena02.jpg)",
+    "distance": 0.21875,
+    "diffInPercent": 0.8780076005585953
+  },
+  {
+    "id": "28",
+    "Comparation": "(../images/branca03.jpg == ../images/homem_branco02.jpg)",
+    "distance": 0.3125,
+    "diffInPercent": 0.8779618651433504
+  },
+  {
+    "id": "234",
+    "Comparation": "(../images/branca03.jpg == ../images/senhor_branco04.jpg)",
+    "distance": 0.328125,
+    "diffInPercent": 0.87771310743336
+  },
+  {
+    "id": "1538",
+    "Comparation": "(../images/image_teste_segementacao_3_classes.jpg == ../images/senhor_moreno04.jpg)",
+    "distance": 0.421875,
+    "diffInPercent": 0.8772999736181752
+  },
+  {
+    "id": "2838",
+    "Comparation": "(../images/mulher_morena01.jpg == ../images/senhor_moreno04.jpg)",
+    "distance": 0.34375,
+    "diffInPercent": 0.8766733751864868
+  },
+  {
+    "id": "1933",
+    "Comparation": "(../images/jovem_branco04.jpg == ../images/senhor_branco03.jpg)",
+    "distance": 0.265625,
+    "diffInPercent": 0.8764979192759889
+  },
+  {
+    "id": "4044",
+    "Comparation": "(../images/senhora_branca02.jpg == ../images/senhora_morena02.jpg)",
+    "distance": 0.328125,
+    "diffInPercent": 0.8758346892287667
+  },
+  {
+    "id": "1517",
+    "Comparation": "(../images/image_teste_segementacao_3_classes.jpg == ../images/jovem_branco02.jpg)",
+    "distance": 0.453125,
+    "diffInPercent": 0.8756679816676994
+  },
+  {
+    "id": "2232",
+    "Comparation": "(../images/jovem_moreno02.jpg == ../images/senhor_branco02.jpg)",
+    "distance": 0.265625,
+    "diffInPercent": 0.8746103348369825
+  },
+  {
+    "id": "034",
+    "Comparation": "(../images/branca01.jpg == ../images/senhor_branco04.jpg)",
+    "distance": 0.453125,
+    "diffInPercent": 0.873962600845244
+  },
+  {
+    "id": "3839",
+    "Comparation": "(../images/senhor_moreno04.jpg == ../images/senhora_branca01.jpg)",
+    "distance": 0.1875,
+    "diffInPercent": 0.8737018112329678
+  },
+  {
+    "id": "1820",
+    "Comparation": "(../images/jovem_branco03.jpg == ../images/jovem_loura01.jpg)",
+    "distance": 0.28125,
+    "diffInPercent": 0.8736991644957954
+  },
+  {
+    "id": "3031",
+    "Comparation": "(../images/mulher_morena03.jpg == ../images/senhor_branco01.jpg)",
+    "distance": 0.359375,
+    "diffInPercent": 0.8731410022854493
+  },
+  {
+    "id": "845",
+    "Comparation": "(../images/homem_branco02.jpg == ../images/senhora_morena03.jpg)",
+    "distance": 0.390625,
+    "diffInPercent": 0.8726689551076054
+  },
+  {
+    "id": "027",
+    "Comparation": "(../images/branca01.jpg == ../images/morena10.jpg)",
+    "distance": 0.328125,
+    "diffInPercent": 0.8716843241623332
+  },
+  {
+    "id": "2931",
+    "Comparation": "(../images/mulher_morena02.jpg == ../images/senhor_branco01.jpg)",
+    "distance": 0.34375,
+    "diffInPercent": 0.8710137130560198
+  },
+  {
+    "id": "1838",
+    "Comparation": "(../images/jovem_branco03.jpg == ../images/senhor_moreno04.jpg)",
+    "distance": 0.3125,
+    "diffInPercent": 0.8708174173606705
+  },
+  {
+    "id": "427",
+    "Comparation": "(../images/casal_moreno01.jpg == ../images/morena10.jpg)",
+    "distance": 0.265625,
+    "diffInPercent": 0.870609756097561
+  },
+  {
+    "id": "3345",
+    "Comparation": "(../images/senhor_branco03.jpg == ../images/senhora_morena03.jpg)",
+    "distance": 0.265625,
+    "diffInPercent": 0.8705094325772591
+  },
+  {
+    "id": "1927",
+    "Comparation": "(../images/jovem_branco04.jpg == ../images/morena10.jpg)",
+    "distance": 0.34375,
+    "diffInPercent": 0.869880004848289
+  },
+  {
+    "id": "1530",
+    "Comparation": "(../images/image_teste_segementacao_3_classes.jpg == ../images/mulher_morena03.jpg)",
+    "distance": 0.40625,
+    "diffInPercent": 0.8697658152904149
+  },
+  {
+    "id": "1930",
+    "Comparation": "(../images/jovem_branco04.jpg == ../images/mulher_morena03.jpg)",
+    "distance": 0.390625,
+    "diffInPercent": 0.8693709345076966
+  },
+  {
+    "id": "1938",
+    "Comparation": "(../images/jovem_branco04.jpg == ../images/senhor_moreno04.jpg)",
+    "distance": 0.375,
+    "diffInPercent": 0.8689022665750878
+  },
+  {
+    "id": "710",
+    "Comparation": "(../images/homem_branco01.jpg == ../images/homem_branco04.jpg)",
+    "distance": 0.328125,
+    "diffInPercent": 0.868681386565004
+  },
+  {
+    "id": "2034",
+    "Comparation": "(../images/jovem_loura01.jpg == ../images/senhor_branco04.jpg)",
+    "distance": 0.46875,
+    "diffInPercent": 0.8683593699274091
+  },
+  {
+    "id": "2839",
+    "Comparation": "(../images/mulher_morena01.jpg == ../images/senhora_branca01.jpg)",
+    "distance": 0.28125,
+    "diffInPercent": 0.8682626936208986
+  },
+  {
+    "id": "3442",
+    "Comparation": "(../images/senhor_branco04.jpg == ../images/senhora_branca04.jpg)",
+    "distance": 0.421875,
+    "diffInPercent": 0.8679076712194644
+  },
+  {
+    "id": "1020",
+    "Comparation": "(../images/homem_branco04.jpg == ../images/jovem_loura01.jpg)",
+    "distance": 0.34375,
+    "diffInPercent": 0.8674367436743674
+  },
+  {
+    "id": "1132",
+    "Comparation": "(../images/homem_moreno01.jpg == ../images/senhor_branco02.jpg)",
+    "distance": 0.3125,
+    "diffInPercent": 0.8663401517334102
+  },
+  {
+    "id": "2833",
+    "Comparation": "(../images/mulher_morena01.jpg == ../images/senhor_branco03.jpg)",
+    "distance": 0.359375,
+    "diffInPercent": 0.8657144573608483
+  },
+  {
+    "id": "1338",
+    "Comparation": "(../images/homem_moreno03.jpg == ../images/senhor_moreno04.jpg)",
+    "distance": 0.328125,
+    "diffInPercent": 0.8650745699112793
+  },
+  {
+    "id": "1632",
+    "Comparation": "(../images/jovem_branco01.jpg == ../images/senhor_branco02.jpg)",
+    "distance": 0.25,
+    "diffInPercent": 0.8647797438978907
+  },
+  {
+    "id": "3039",
+    "Comparation": "(../images/mulher_morena03.jpg == ../images/senhora_branca01.jpg)",
+    "distance": 0.359375,
+    "diffInPercent": 0.8647775827233282
+  },
+  {
+    "id": "2226",
+    "Comparation": "(../images/jovem_moreno02.jpg == ../images/morena03.jpg)",
+    "distance": 0.421875,
+    "diffInPercent": 0.8647288847324605
+  },
+  {
+    "id": "1439",
+    "Comparation": "(../images/homem_moreno04.jpg == ../images/senhora_branca01.jpg)",
+    "distance": 0.34375,
+    "diffInPercent": 0.8646239136949355
+  },
+  {
+    "id": "1931",
+    "Comparation": "(../images/jovem_branco04.jpg == ../images/senhor_branco01.jpg)",
+    "distance": 0.34375,
+    "diffInPercent": 0.8645994101248434
+  },
+  {
+    "id": "2039",
+    "Comparation": "(../images/jovem_loura01.jpg == ../images/senhora_branca01.jpg)",
+    "distance": 0.21875,
+    "diffInPercent": 0.864408430402431
+  },
+  {
+    "id": "1935",
+    "Comparation": "(../images/jovem_branco04.jpg == ../images/senhor_moreno01.jpg)",
+    "distance": 0.328125,
+    "diffInPercent": 0.8637347985939962
+  },
+  {
+    "id": "1727",
+    "Comparation": "(../images/jovem_branco02.jpg == ../images/morena10.jpg)",
+    "distance": 0.25,
+    "diffInPercent": 0.8634169793621013
+  },
+  {
+    "id": "2834",
+    "Comparation": "(../images/mulher_morena01.jpg == ../images/senhor_branco04.jpg)",
+    "distance": 0.53125,
+    "diffInPercent": 0.8631011384458263
+  },
+  {
+    "id": "2737",
+    "Comparation": "(../images/morena10.jpg == ../images/senhor_moreno03.jpg)",
+    "distance": 0.28125,
+    "diffInPercent": 0.8629033771106942
+  },
+  {
+    "id": "437",
+    "Comparation": "(../images/casal_moreno01.jpg == ../images/senhor_moreno03.jpg)",
+    "distance": 0.265625,
+    "diffInPercent": 0.8624366791744841
+  },
+  {
+    "id": "1040",
+    "Comparation": "(../images/homem_branco04.jpg == ../images/senhora_branca02.jpg)",
+    "distance": 0.203125,
+    "diffInPercent": 0.861470421235672
+  },
+  {
+    "id": "014",
+    "Comparation": "(../images/branca01.jpg == ../images/homem_moreno04.jpg)",
+    "distance": 0.359375,
+    "diffInPercent": 0.8598570372867734
+  },
+  {
+    "id": "1839",
+    "Comparation": "(../images/jovem_branco03.jpg == ../images/senhora_branca01.jpg)",
+    "distance": 0.34375,
+    "diffInPercent": 0.8596042490585393
+  },
+  {
+    "id": "1236",
+    "Comparation": "(../images/homem_moreno02.jpg == ../images/senhor_moreno02.jpg)",
+    "distance": 0.328125,
+    "diffInPercent": 0.8589888888888889
+  },
+  {
+    "id": "2227",
+    "Comparation": "(../images/jovem_moreno02.jpg == ../images/morena10.jpg)",
+    "distance": 0.34375,
+    "diffInPercent": 0.8589572560237649
+  },
+  {
+    "id": "912",
+    "Comparation": "(../images/homem_branco03.jpg == ../images/homem_moreno02.jpg)",
+    "distance": 0.265625,
+    "diffInPercent": 0.8588672678373676
+  },
+  {
+    "id": "1139",
+    "Comparation": "(../images/homem_moreno01.jpg == ../images/senhora_branca01.jpg)",
+    "distance": 0.359375,
+    "diffInPercent": 0.8584109606581517
+  },
+  {
+    "id": "734",
+    "Comparation": "(../images/homem_branco01.jpg == ../images/senhor_branco04.jpg)",
+    "distance": 0.421875,
+    "diffInPercent": 0.8577429489215997
+  },
+  {
+    "id": "2032",
+    "Comparation": "(../images/jovem_loura01.jpg == ../images/senhor_branco02.jpg)",
+    "distance": 0.234375,
+    "diffInPercent": 0.8573668627527368
+  },
+  {
+    "id": "2031",
+    "Comparation": "(../images/jovem_loura01.jpg == ../images/senhor_branco01.jpg)",
+    "distance": 0.3125,
+    "diffInPercent": 0.8571428571428571
+  },
+  {
+    "id": "1018",
+    "Comparation": "(../images/homem_branco04.jpg == ../images/jovem_branco03.jpg)",
+    "distance": 0.25,
+    "diffInPercent": 0.8569369033677561
+  },
+  {
+    "id": "06",
+    "Comparation": "(../images/branca01.jpg == ../images/familia_morena01.jpg)",
+    "distance": 0.296875,
+    "diffInPercent": 0.8567512251271101
+  },
+  {
+    "id": "1039",
+    "Comparation": "(../images/homem_branco04.jpg == ../images/senhora_branca01.jpg)",
+    "distance": 0.34375,
+    "diffInPercent": 0.856706235139643
+  },
+  {
+    "id": "1831",
+    "Comparation": "(../images/jovem_branco03.jpg == ../images/senhor_branco01.jpg)",
+    "distance": 0.34375,
+    "diffInPercent": 0.8562872028830969
+  },
+  {
+    "id": "1418",
+    "Comparation": "(../images/homem_moreno04.jpg == ../images/jovem_branco03.jpg)",
+    "distance": 0.3125,
+    "diffInPercent": 0.8561309831912169
+  },
+  {
+    "id": "636",
+    "Comparation": "(../images/familia_morena01.jpg == ../images/senhor_moreno02.jpg)",
+    "distance": 0.328125,
+    "diffInPercent": 0.855921669793621
+  },
+  {
+    "id": "714",
+    "Comparation": "(../images/homem_branco01.jpg == ../images/homem_moreno04.jpg)",
+    "distance": 0.328125,
+    "diffInPercent": 0.8558941367503266
+  },
+  {
+    "id": "1923",
+    "Comparation": "(../images/jovem_branco04.jpg == ../images/jovem_moreno03.jpg)",
+    "distance": 0.21875,
+    "diffInPercent": 0.8558563290372107
+  },
+  {
+    "id": "2830",
+    "Comparation": "(../images/mulher_morena01.jpg == ../images/mulher_morena03.jpg)",
+    "distance": 0.390625,
+    "diffInPercent": 0.8553412834299561
+  },
+  {
+    "id": "1420",
+    "Comparation": "(../images/homem_moreno04.jpg == ../images/jovem_loura01.jpg)",
+    "distance": 0.28125,
+    "diffInPercent": 0.8550378674367287
+  },
+  {
+    "id": "2236",
+    "Comparation": "(../images/jovem_moreno02.jpg == ../images/senhor_moreno02.jpg)",
+    "distance": 0.234375,
+    "diffInPercent": 0.8539649576411046
+  },
+  {
+    "id": "1722",
+    "Comparation": "(../images/jovem_branco02.jpg == ../images/jovem_moreno02.jpg)",
+    "distance": 0.34375,
+    "diffInPercent": 0.853810975609756
+  },
+  {
+    "id": "2835",
+    "Comparation": "(../images/mulher_morena01.jpg == ../images/senhor_moreno01.jpg)",
+    "distance": 0.390625,
+    "diffInPercent": 0.8526728945761116
+  },
+  {
+    "id": "1339",
+    "Comparation": "(../images/homem_moreno03.jpg == ../images/senhora_branca01.jpg)",
+    "distance": 0.328125,
+    "diffInPercent": 0.8526591226053813
+  },
+  {
+    "id": "2938",
+    "Comparation": "(../images/mulher_morena02.jpg == ../images/senhor_moreno04.jpg)",
+    "distance": 0.25,
+    "diffInPercent": 0.851394198850759
+  },
+  {
+    "id": "2845",
+    "Comparation": "(../images/mulher_morena01.jpg == ../images/senhora_morena03.jpg)",
+    "distance": 0.46875,
+    "diffInPercent": 0.8502247854775565
+  },
+  {
+    "id": "2333",
+    "Comparation": "(../images/jovem_moreno03.jpg == ../images/senhor_branco03.jpg)",
+    "distance": 0.203125,
+    "diffInPercent": 0.8501214247166756
+  },
+  {
+    "id": "744",
+    "Comparation": "(../images/homem_branco01.jpg == ../images/senhora_morena02.jpg)",
+    "distance": 0.234375,
+    "diffInPercent": 0.8496417099085742
+  },
+  {
+    "id": "037",
+    "Comparation": "(../images/branca01.jpg == ../images/senhor_moreno03.jpg)",
+    "distance": 0.359375,
+    "diffInPercent": 0.8495826564910453
+  },
+  {
+    "id": "721",
+    "Comparation": "(../images/homem_branco01.jpg == ../images/jovem_moreno01.jpg)",
+    "distance": 0.3125,
+    "diffInPercent": 0.849319601821455
+  },
+  {
+    "id": "1945",
+    "Comparation": "(../images/jovem_branco04.jpg == ../images/senhora_morena03.jpg)",
+    "distance": 0.3125,
+    "diffInPercent": 0.8487455052321118
+  },
+  {
+    "id": "021",
+    "Comparation": "(../images/branca01.jpg == ../images/jovem_moreno01.jpg)",
+    "distance": 0.34375,
+    "diffInPercent": 0.8482306746627708
+  },
+  {
+    "id": "1314",
+    "Comparation": "(../images/homem_moreno03.jpg == ../images/homem_moreno04.jpg)",
+    "distance": 0.265625,
+    "diffInPercent": 0.8480391043433623
+  },
+  {
+    "id": "2439",
+    "Comparation": "(../images/jovem_moreno04.jpg == ../images/senhora_branca01.jpg)",
+    "distance": 0.265625,
+    "diffInPercent": 0.848020495270506
+  },
+  {
+    "id": "3335",
+    "Comparation": "(../images/senhor_branco03.jpg == ../images/senhor_moreno01.jpg)",
+    "distance": 0.25,
+    "diffInPercent": 0.8480180576965426
+  },
+  {
+    "id": "1519",
+    "Comparation": "(../images/image_teste_segementacao_3_classes.jpg == ../images/jovem_branco04.jpg)",
+    "distance": 0.390625,
+    "diffInPercent": 0.8478075476560055
+  },
+  {
+    "id": "1422",
+    "Comparation": "(../images/homem_moreno04.jpg == ../images/jovem_moreno02.jpg)",
+    "distance": 0.28125,
+    "diffInPercent": 0.8477197809682077
+  },
+  {
+    "id": "2837",
+    "Comparation": "(../images/mulher_morena01.jpg == ../images/senhor_moreno03.jpg)",
+    "distance": 0.40625,
+    "diffInPercent": 0.8472460024230773
+  },
+  {
+    "id": "932",
+    "Comparation": "(../images/homem_branco03.jpg == ../images/senhor_branco02.jpg)",
+    "distance": 0.375,
+    "diffInPercent": 0.8466508463850656
+  },
+  {
+    "id": "627",
+    "Comparation": "(../images/familia_morena01.jpg == ../images/morena10.jpg)",
+    "distance": 0.3125,
+    "diffInPercent": 0.8466369606003752
+  },
+  {
+    "id": "718",
+    "Comparation": "(../images/homem_branco01.jpg == ../images/jovem_branco03.jpg)",
+    "distance": 0.265625,
+    "diffInPercent": 0.8454763669737725
+  },
+  {
+    "id": "3034",
+    "Comparation": "(../images/mulher_morena03.jpg == ../images/senhor_branco04.jpg)",
+    "distance": 0.328125,
+    "diffInPercent": 0.8452684574873307
+  },
+  {
+    "id": "922",
+    "Comparation": "(../images/homem_branco03.jpg == ../images/jovem_moreno02.jpg)",
+    "distance": 0.296875,
+    "diffInPercent": 0.845249169435216
+  },
+  {
+    "id": "631",
+    "Comparation": "(../images/familia_morena01.jpg == ../images/senhor_branco01.jpg)",
+    "distance": 0.34375,
+    "diffInPercent": 0.8443785178236398
+  },
+  {
+    "id": "1536",
+    "Comparation": "(../images/image_teste_segementacao_3_classes.jpg == ../images/senhor_moreno02.jpg)",
+    "distance": 0.375,
+    "diffInPercent": 0.8440650097244633
+  },
+  {
+    "id": "522",
+    "Comparation": "(../images/familia_branca01.jpg == ../images/jovem_moreno02.jpg)",
+    "distance": 0.359375,
+    "diffInPercent": 0.8438883677298311
+  },
+  {
+    "id": "56",
+    "Comparation": "(../images/familia_branca01.jpg == ../images/familia_morena01.jpg)",
+    "distance": 0.328125,
+    "diffInPercent": 0.8436749530956849
+  },
+  {
+    "id": "2538",
+    "Comparation": "(../images/morena01.jpg == ../images/senhor_moreno04.jpg)",
+    "distance": 0.3125,
+    "diffInPercent": 0.843617904589372
+  },
+  {
+    "id": "3136",
+    "Comparation": "(../images/senhor_branco01.jpg == ../images/senhor_moreno02.jpg)",
+    "distance": 0.265625,
+    "diffInPercent": 0.8426833333333333
+  },
+  {
+    "id": "2841",
+    "Comparation": "(../images/mulher_morena01.jpg == ../images/senhora_branca03.jpg)",
+    "distance": 0.375,
+    "diffInPercent": 0.8422446507063971
+  },
+  {
+    "id": "1340",
+    "Comparation": "(../images/homem_moreno03.jpg == ../images/senhora_branca02.jpg)",
+    "distance": 0.3125,
+    "diffInPercent": 0.8421789041879989
+  },
+  {
+    "id": "739",
+    "Comparation": "(../images/homem_branco01.jpg == ../images/senhora_branca01.jpg)",
+    "distance": 0.296875,
+    "diffInPercent": 0.841893466059515
+  },
+  {
+    "id": "2444",
+    "Comparation": "(../images/jovem_moreno04.jpg == ../images/senhora_morena02.jpg)",
+    "distance": 0.140625,
+    "diffInPercent": 0.8417304355722951
+  },
+  {
+    "id": "2045",
+    "Comparation": "(../images/jovem_loura01.jpg == ../images/senhora_morena03.jpg)",
+    "distance": 0.40625,
+    "diffInPercent": 0.8416410196475645
+  },
+  {
+    "id": "1421",
+    "Comparation": "(../images/homem_moreno04.jpg == ../images/jovem_moreno01.jpg)",
+    "distance": 0.328125,
+    "diffInPercent": 0.8414028659383769
+  },
+  {
+    "id": "926",
+    "Comparation": "(../images/homem_branco03.jpg == ../images/morena03.jpg)",
+    "distance": 0.5,
+    "diffInPercent": 0.8413162474292042
+  },
+  {
+    "id": "738",
+    "Comparation": "(../images/homem_branco01.jpg == ../images/senhor_moreno04.jpg)",
+    "distance": 0.296875,
+    "diffInPercent": 0.8412051254897808
+  },
+  {
+    "id": "832",
+    "Comparation": "(../images/homem_branco02.jpg == ../images/senhor_branco02.jpg)",
+    "distance": 0.34375,
+    "diffInPercent": 0.8404451504528192
+  },
+  {
+    "id": "2836",
+    "Comparation": "(../images/mulher_morena01.jpg == ../images/senhor_moreno02.jpg)",
+    "distance": 0.421875,
+    "diffInPercent": 0.8403572537122145
+  },
+  {
+    "id": "2842",
+    "Comparation": "(../images/mulher_morena01.jpg == ../images/senhora_branca04.jpg)",
+    "distance": 0.390625,
+    "diffInPercent": 0.8403121964895417
+  },
+  {
+    "id": "3044",
+    "Comparation": "(../images/mulher_morena03.jpg == ../images/senhora_morena02.jpg)",
+    "distance": 0.328125,
+    "diffInPercent": 0.8400765128680733
+  },
+  {
+    "id": "723",
+    "Comparation": "(../images/homem_branco01.jpg == ../images/jovem_moreno03.jpg)",
+    "distance": 0.265625,
+    "diffInPercent": 0.8398063821525645
+  },
+  {
+    "id": "1524",
+    "Comparation": "(../images/image_teste_segementacao_3_classes.jpg == ../images/jovem_moreno04.jpg)",
+    "distance": 0.34375,
+    "diffInPercent": 0.8392119810296274
+  },
+  {
+    "id": "2529",
+    "Comparation": "(../images/morena01.jpg == ../images/mulher_morena02.jpg)",
+    "distance": 0.21875,
+    "diffInPercent": 0.8388498892914654
+  },
+  {
+    "id": "3032",
+    "Comparation": "(../images/mulher_morena03.jpg == ../images/senhor_branco02.jpg)",
+    "distance": 0.3125,
+    "diffInPercent": 0.8385238978503528
+  },
+  {
+    "id": "039",
+    "Comparation": "(../images/branca01.jpg == ../images/senhora_branca01.jpg)",
+    "distance": 0.359375,
+    "diffInPercent": 0.8385011731932993
+  },
+  {
+    "id": "716",
+    "Comparation": "(../images/homem_branco01.jpg == ../images/jovem_branco01.jpg)",
+    "distance": 0.34375,
+    "diffInPercent": 0.8384738254085919
+  },
+  {
+    "id": "1842",
+    "Comparation": "(../images/jovem_branco03.jpg == ../images/senhora_branca04.jpg)",
+    "distance": 0.234375,
+    "diffInPercent": 0.8384601886970724
+  },
+  {
+    "id": "2840",
+    "Comparation": "(../images/mulher_morena01.jpg == ../images/senhora_branca02.jpg)",
+    "distance": 0.359375,
+    "diffInPercent": 0.8383146596177145
+  },
+  {
+    "id": "09",
+    "Comparation": "(../images/branca01.jpg == ../images/homem_branco03.jpg)",
+    "distance": 0.40625,
+    "diffInPercent": 0.8379801323375664
+  },
+  {
+    "id": "1445",
+    "Comparation": "(../images/homem_moreno04.jpg == ../images/senhora_morena03.jpg)",
+    "distance": 0.3125,
+    "diffInPercent": 0.8379634674585229
+  },
+  {
+    "id": "1934",
+    "Comparation": "(../images/jovem_branco04.jpg == ../images/senhor_branco04.jpg)",
+    "distance": 0.4375,
+    "diffInPercent": 0.8378691770029494
+  },
+  {
+    "id": "820",
+    "Comparation": "(../images/homem_branco02.jpg == ../images/jovem_loura01.jpg)",
+    "distance": 0.390625,
+    "diffInPercent": 0.8362669198558769
+  },
+  {
+    "id": "2337",
+    "Comparation": "(../images/jovem_moreno03.jpg == ../images/senhor_moreno03.jpg)",
+    "distance": 0.28125,
+    "diffInPercent": 0.8359597049829106
+  },
+  {
+    "id": "931",
+    "Comparation": "(../images/homem_branco03.jpg == ../images/senhor_branco01.jpg)",
+    "distance": 0.421875,
+    "diffInPercent": 0.8359373516848599
+  },
+  {
+    "id": "1832",
+    "Comparation": "(../images/jovem_branco03.jpg == ../images/senhor_branco02.jpg)",
+    "distance": 0.296875,
+    "diffInPercent": 0.8358686409221591
+  },
+  {
+    "id": "412",
+    "Comparation": "(../images/casal_moreno01.jpg == ../images/homem_moreno02.jpg)",
+    "distance": 0.265625,
+    "diffInPercent": 0.8353377110694183
+  },
+  {
+    "id": "717",
+    "Comparation": "(../images/homem_branco01.jpg == ../images/jovem_branco02.jpg)",
+    "distance": 0.203125,
+    "diffInPercent": 0.8343702566274842
+  },
+  {
+    "id": "817",
+    "Comparation": "(../images/homem_branco02.jpg == ../images/jovem_branco02.jpg)",
+    "distance": 0.296875,
+    "diffInPercent": 0.8325664621676891
+  },
+  {
+    "id": "3035",
+    "Comparation": "(../images/mulher_morena03.jpg == ../images/senhor_moreno01.jpg)",
+    "distance": 0.3125,
+    "diffInPercent": 0.8325204531151668
+  },
+  {
+    "id": "1518",
+    "Comparation": "(../images/image_teste_segementacao_3_classes.jpg == ../images/jovem_branco03.jpg)",
+    "distance": 0.328125,
+    "diffInPercent": 0.8322361357375561
+  },
+  {
+    "id": "740",
+    "Comparation": "(../images/homem_branco01.jpg == ../images/senhora_branca02.jpg)",
+    "distance": 0.375,
+    "diffInPercent": 0.8320713756221539
+  },
+  {
+    "id": "1317",
+    "Comparation": "(../images/homem_moreno03.jpg == ../images/jovem_branco02.jpg)",
+    "distance": 0.359375,
+    "diffInPercent": 0.8314352039031658
+  },
+  {
+    "id": "3338",
+    "Comparation": "(../images/senhor_branco03.jpg == ../images/senhor_moreno04.jpg)",
+    "distance": 0.296875,
+    "diffInPercent": 0.831395434192175
+  },
+  {
+    "id": "3844",
+    "Comparation": "(../images/senhor_moreno04.jpg == ../images/senhora_morena02.jpg)",
+    "distance": 0.28125,
+    "diffInPercent": 0.8313600864074443
+  },
+  {
+    "id": "4041",
+    "Comparation": "(../images/senhora_branca02.jpg == ../images/senhora_branca03.jpg)",
+    "distance": 0.265625,
+    "diffInPercent": 0.8310402429764616
+  },
+  {
+    "id": "842",
+    "Comparation": "(../images/homem_branco02.jpg == ../images/senhora_branca04.jpg)",
+    "distance": 0.28125,
+    "diffInPercent": 0.8308988216963678
+  },
+  {
+    "id": "742",
+    "Comparation": "(../images/homem_branco01.jpg == ../images/senhora_branca04.jpg)",
+    "distance": 0.34375,
+    "diffInPercent": 0.8308667796251191
+  },
+  {
+    "id": "1126",
+    "Comparation": "(../images/homem_moreno01.jpg == ../images/morena03.jpg)",
+    "distance": 0.4375,
+    "diffInPercent": 0.830750024008451
+  },
+  {
+    "id": "05",
+    "Comparation": "(../images/branca01.jpg == ../images/familia_branca01.jpg)",
+    "distance": 0.3125,
+    "diffInPercent": 0.8306208559373116
+  },
+  {
+    "id": "131",
+    "Comparation": "(../images/branca02.jpg == ../images/senhor_branco01.jpg)",
+    "distance": 0.3125,
+    "diffInPercent": 0.8300872427983539
+  },
+  {
+    "id": "812",
+    "Comparation": "(../images/homem_branco02.jpg == ../images/homem_moreno02.jpg)",
+    "distance": 0.296875,
+    "diffInPercent": 0.8300741308793456
+  },
+  {
+    "id": "1438",
+    "Comparation": "(../images/homem_moreno04.jpg == ../images/senhor_moreno04.jpg)",
+    "distance": 0.28125,
+    "diffInPercent": 0.8300732830250361
+  },
+  {
+    "id": "2945",
+    "Comparation": "(../images/mulher_morena02.jpg == ../images/senhora_morena03.jpg)",
+    "distance": 0.34375,
+    "diffInPercent": 0.8296627824454569
+  },
+  {
+    "id": "1516",
+    "Comparation": "(../images/image_teste_segementacao_3_classes.jpg == ../images/jovem_branco01.jpg)",
+    "distance": 0.375,
+    "diffInPercent": 0.8284445153413379
+  },
+  {
+    "id": "2545",
+    "Comparation": "(../images/morena01.jpg == ../images/senhora_morena03.jpg)",
+    "distance": 0.40625,
+    "diffInPercent": 0.8282822564412239
+  },
+  {
+    "id": "2936",
+    "Comparation": "(../images/mulher_morena02.jpg == ../images/senhor_moreno02.jpg)",
+    "distance": 0.203125,
+    "diffInPercent": 0.8280659783429867
+  },
+  {
+    "id": "136",
+    "Comparation": "(../images/branca02.jpg == ../images/senhor_moreno02.jpg)",
+    "distance": 0.328125,
+    "diffInPercent": 0.8279621399176955
+  },
+  {
+    "id": "2939",
+    "Comparation": "(../images/mulher_morena02.jpg == ../images/senhora_branca01.jpg)",
+    "distance": 0.3125,
+    "diffInPercent": 0.8278656624161534
+  },
+  {
+    "id": "2042",
+    "Comparation": "(../images/jovem_loura01.jpg == ../images/senhora_branca04.jpg)",
+    "distance": 0.265625,
+    "diffInPercent": 0.8276747568402872
+  },
+  {
+    "id": "3945",
+    "Comparation": "(../images/senhora_branca01.jpg == ../images/senhora_morena03.jpg)",
+    "distance": 0.40625,
+    "diffInPercent": 0.8276405331729544
+  },
+  {
+    "id": "1134",
+    "Comparation": "(../images/homem_moreno01.jpg == ../images/senhor_branco04.jpg)",
+    "distance": 0.390625,
+    "diffInPercent": 0.8268478504433561
+  },
+  {
+    "id": "632",
+    "Comparation": "(../images/familia_morena01.jpg == ../images/senhor_branco02.jpg)",
+    "distance": 0.265625,
+    "diffInPercent": 0.8267120075046904
+  },
+  {
+    "id": "3445",
+    "Comparation": "(../images/senhor_branco04.jpg == ../images/senhora_morena03.jpg)",
+    "distance": 0.5,
+    "diffInPercent": 0.8263327948303716
+  },
+  {
+    "id": "1320",
+    "Comparation": "(../images/homem_moreno03.jpg == ../images/jovem_loura01.jpg)",
+    "distance": 0.265625,
+    "diffInPercent": 0.8261928232990655
+  },
+  {
+    "id": "939",
+    "Comparation": "(../images/homem_branco03.jpg == ../images/senhora_branca01.jpg)",
+    "distance": 0.390625,
+    "diffInPercent": 0.8260433475715868
+  },
+  {
+    "id": "232",
+    "Comparation": "(../images/branca03.jpg == ../images/senhor_branco02.jpg)",
+    "distance": 0.21875,
+    "diffInPercent": 0.8259385358660665
+  },
+  {
+    "id": "1437",
+    "Comparation": "(../images/homem_moreno04.jpg == ../images/senhor_moreno03.jpg)",
+    "distance": 0.3125,
+    "diffInPercent": 0.8253636908491568
+  },
+  {
+    "id": "617",
+    "Comparation": "(../images/familia_morena01.jpg == ../images/jovem_branco02.jpg)",
+    "distance": 0.34375,
+    "diffInPercent": 0.8253400562851783
+  },
+  {
+    "id": "3045",
+    "Comparation": "(../images/mulher_morena03.jpg == ../images/senhora_morena03.jpg)",
+    "distance": 0.390625,
+    "diffInPercent": 0.8253121791262297
+  },
+  {
+    "id": "3038",
+    "Comparation": "(../images/mulher_morena03.jpg == ../images/senhor_moreno04.jpg)",
+    "distance": 0.265625,
+    "diffInPercent": 0.8250223576562552
+  },
+  {
+    "id": "531",
+    "Comparation": "(../images/familia_branca01.jpg == ../images/senhor_branco01.jpg)",
+    "distance": 0.296875,
+    "diffInPercent": 0.824922607879925
+  },
+  {
+    "id": "1936",
+    "Comparation": "(../images/jovem_branco04.jpg == ../images/senhor_moreno02.jpg)",
+    "distance": 0.234375,
+    "diffInPercent": 0.8241848814189325
+  },
+  {
+    "id": "836",
+    "Comparation": "(../images/homem_branco02.jpg == ../images/senhor_moreno02.jpg)",
+    "distance": 0.34375,
+    "diffInPercent": 0.8240274126010322
+  },
+  {
+    "id": "2123",
+    "Comparation": "(../images/jovem_moreno01.jpg == ../images/jovem_moreno03.jpg)",
+    "distance": 0.203125,
+    "diffInPercent": 0.8239578235869831
+  },
+  {
+    "id": "927",
+    "Comparation": "(../images/homem_branco03.jpg == ../images/morena10.jpg)",
+    "distance": 0.390625,
+    "diffInPercent": 0.8236291725992723
+  },
+  {
+    "id": "1639",
+    "Comparation": "(../images/jovem_branco01.jpg == ../images/senhora_branca01.jpg)",
+    "distance": 0.296875,
+    "diffInPercent": 0.8231366752770756
+  },
+  {
+    "id": "032",
+    "Comparation": "(../images/branca01.jpg == ../images/senhor_branco02.jpg)",
+    "distance": 0.28125,
+    "diffInPercent": 0.8229176244623574
+  },
+  {
+    "id": "1920",
+    "Comparation": "(../images/jovem_branco04.jpg == ../images/jovem_loura01.jpg)",
+    "distance": 0.28125,
+    "diffInPercent": 0.8227223142499293
+  },
+  {
+    "id": "1432",
+    "Comparation": "(../images/homem_moreno04.jpg == ../images/senhor_branco02.jpg)",
+    "distance": 0.265625,
+    "diffInPercent": 0.8222818535974065
+  },
+  {
+    "id": "2934",
+    "Comparation": "(../images/mulher_morena02.jpg == ../images/senhor_branco04.jpg)",
+    "distance": 0.4375,
+    "diffInPercent": 0.8222339232160436
+  },
+  {
+    "id": "2541",
+    "Comparation": "(../images/morena01.jpg == ../images/senhora_branca03.jpg)",
+    "distance": 0.34375,
+    "diffInPercent": 0.8210044283413849
+  },
+  {
+    "id": "741",
+    "Comparation": "(../images/homem_branco01.jpg == ../images/senhora_branca03.jpg)",
+    "distance": 0.359375,
+    "diffInPercent": 0.8207667054961347
+  },
+  {
+    "id": "1922",
+    "Comparation": "(../images/jovem_branco04.jpg == ../images/jovem_moreno02.jpg)",
+    "distance": 0.28125,
+    "diffInPercent": 0.8207627974627287
+  },
+  {
+    "id": "4042",
+    "Comparation": "(../images/senhora_branca02.jpg == ../images/senhora_branca04.jpg)",
+    "distance": 0.3125,
+    "diffInPercent": 0.8206356437791518
+  },
+  {
+    "id": "012",
+    "Comparation": "(../images/branca01.jpg == ../images/homem_moreno02.jpg)",
+    "distance": 0.390625,
+    "diffInPercent": 0.8201421453942372
+  },
+  {
+    "id": "1942",
+    "Comparation": "(../images/jovem_branco04.jpg == ../images/senhora_branca04.jpg)",
+    "distance": 0.296875,
+    "diffInPercent": 0.8197890994303261
+  },
+  {
+    "id": "732",
+    "Comparation": "(../images/homem_branco01.jpg == ../images/senhor_branco02.jpg)",
+    "distance": 0.28125,
+    "diffInPercent": 0.819685657806488
+  },
+  {
+    "id": "2527",
+    "Comparation": "(../images/morena01.jpg == ../images/morena10.jpg)",
+    "distance": 0.375,
+    "diffInPercent": 0.8192242854267311
+  },
+  {
+    "id": "736",
+    "Comparation": "(../images/homem_branco01.jpg == ../images/senhor_moreno02.jpg)",
+    "distance": 0.28125,
+    "diffInPercent": 0.8192179392142328
+  },
+  {
+    "id": "3436",
+    "Comparation": "(../images/senhor_branco04.jpg == ../images/senhor_moreno02.jpg)",
+    "distance": 0.453125,
+    "diffInPercent": 0.8182950261908258
+  },
+  {
+    "id": "1844",
+    "Comparation": "(../images/jovem_branco03.jpg == ../images/senhora_morena02.jpg)",
+    "distance": 0.28125,
+    "diffInPercent": 0.8176738159191221
+  },
+  {
+    "id": "1523",
+    "Comparation": "(../images/image_teste_segementacao_3_classes.jpg == ../images/jovem_moreno03.jpg)",
+    "distance": 0.265625,
+    "diffInPercent": 0.8172659840113872
+  },
+  {
+    "id": "1345",
+    "Comparation": "(../images/homem_moreno03.jpg == ../images/senhora_morena03.jpg)",
+    "distance": 0.296875,
+    "diffInPercent": 0.8171662979434786
+  },
+  {
+    "id": "1013",
+    "Comparation": "(../images/homem_branco04.jpg == ../images/homem_moreno03.jpg)",
+    "distance": 0.328125,
+    "diffInPercent": 0.8169691969196919
+  },
+  {
+    "id": "1833",
+    "Comparation": "(../images/jovem_branco03.jpg == ../images/senhor_branco03.jpg)",
+    "distance": 0.265625,
+    "diffInPercent": 0.8167526016710084
+  },
+  {
+    "id": "020",
+    "Comparation": "(../images/branca01.jpg == ../images/jovem_loura01.jpg)",
+    "distance": 0.234375,
+    "diffInPercent": 0.8166957836556635
+  },
+  {
+    "id": "1330",
+    "Comparation": "(../images/homem_moreno03.jpg == ../images/mulher_morena03.jpg)",
+    "distance": 0.40625,
+    "diffInPercent": 0.8159988007032241
+  },
+  {
+    "id": "1014",
+    "Comparation": "(../images/homem_branco04.jpg == ../images/homem_moreno04.jpg)",
+    "distance": 0.34375,
+    "diffInPercent": 0.8158469072713723
+  },
+  {
+    "id": "1444",
+    "Comparation": "(../images/homem_moreno04.jpg == ../images/senhora_morena02.jpg)",
+    "distance": 0.21875,
+    "diffInPercent": 0.8156550521698859
+  },
+  {
+    "id": "2540",
+    "Comparation": "(../images/morena01.jpg == ../images/senhora_branca02.jpg)",
+    "distance": 0.328125,
+    "diffInPercent": 0.8155822262479872
+  },
+  {
+    "id": "2021",
+    "Comparation": "(../images/jovem_loura01.jpg == ../images/jovem_moreno01.jpg)",
+    "distance": 0.296875,
+    "diffInPercent": 0.8155362499513031
+  },
+  {
+    "id": "1841",
+    "Comparation": "(../images/jovem_branco03.jpg == ../images/senhora_branca03.jpg)",
+    "distance": 0.25,
+    "diffInPercent": 0.8155243160068568
+  },
+  {
+    "id": "1640",
+    "Comparation": "(../images/jovem_branco01.jpg == ../images/senhora_branca02.jpg)",
+    "distance": 0.3125,
+    "diffInPercent": 0.8150695969683993
+  },
+  {
+    "id": "3341",
+    "Comparation": "(../images/senhor_branco03.jpg == ../images/senhora_branca03.jpg)",
+    "distance": 0.296875,
+    "diffInPercent": 0.8150297291345519
+  },
+  {
+    "id": "2542",
+    "Comparation": "(../images/morena01.jpg == ../images/senhora_branca04.jpg)",
+    "distance": 0.328125,
+    "diffInPercent": 0.8150286835748792
+  },
+  {
+    "id": "25",
+    "Comparation": "(../images/branca03.jpg == ../images/familia_branca01.jpg)",
+    "distance": 0.3125,
+    "diffInPercent": 0.8149572316563667
+  },
+  {
+    "id": "1120",
+    "Comparation": "(../images/homem_moreno01.jpg == ../images/jovem_loura01.jpg)",
+    "distance": 0.328125,
+    "diffInPercent": 0.8136303979000609
+  },
+  {
+    "id": "1342",
+    "Comparation": "(../images/homem_moreno03.jpg == ../images/senhora_branca04.jpg)",
+    "distance": 0.3125,
+    "diffInPercent": 0.8136092927328975
+  },
+  {
+    "id": "1127",
+    "Comparation": "(../images/homem_moreno01.jpg == ../images/morena10.jpg)",
+    "distance": 0.359375,
+    "diffInPercent": 0.8135471686033484
+  },
+  {
+    "id": "336",
+    "Comparation": "(../images/casal_branco01.jpg == ../images/senhor_moreno02.jpg)",
+    "distance": 0.3125,
+    "diffInPercent": 0.8132152908067543
+  },
+  {
+    "id": "432",
+    "Comparation": "(../images/casal_moreno01.jpg == ../images/senhor_branco02.jpg)",
+    "distance": 0.25,
+    "diffInPercent": 0.8119277673545966
+  },
+  {
+    "id": "934",
+    "Comparation": "(../images/homem_branco03.jpg == ../images/senhor_branco04.jpg)",
+    "distance": 0.390625,
+    "diffInPercent": 0.8113969308653695
+  },
+  {
+    "id": "3845",
+    "Comparation": "(../images/senhor_moreno04.jpg == ../images/senhora_morena03.jpg)",
+    "distance": 0.40625,
+    "diffInPercent": 0.811250276946937
+  },
+  {
+    "id": "834",
+    "Comparation": "(../images/homem_branco02.jpg == ../images/senhor_branco04.jpg)",
+    "distance": 0.359375,
+    "diffInPercent": 0.8112431833674165
+  },
+  {
+    "id": "2041",
+    "Comparation": "(../images/jovem_loura01.jpg == ../images/senhora_branca03.jpg)",
+    "distance": 0.25,
+    "diffInPercent": 0.8111308062903373
+  },
+  {
+    "id": "1939",
+    "Comparation": "(../images/jovem_branco04.jpg == ../images/senhora_branca01.jpg)",
+    "distance": 0.34375,
+    "diffInPercent": 0.81107834026908
+  },
+  {
+    "id": "038",
+    "Comparation": "(../images/branca01.jpg == ../images/senhor_moreno04.jpg)",
+    "distance": 0.328125,
+    "diffInPercent": 0.8103819944626639
+  },
+  {
+    "id": "536",
+    "Comparation": "(../images/familia_branca01.jpg == ../images/senhor_moreno02.jpg)",
+    "distance": 0.28125,
+    "diffInPercent": 0.8096763602251407
+  },
+  {
+    "id": "2345",
+    "Comparation": "(../images/jovem_moreno03.jpg == ../images/senhora_morena03.jpg)",
+    "distance": 0.25,
+    "diffInPercent": 0.8093856808778558
+  },
+  {
+    "id": "1836",
+    "Comparation": "(../images/jovem_branco03.jpg == ../images/senhor_moreno02.jpg)",
+    "distance": 0.234375,
+    "diffInPercent": 0.808822735432667
+  },
+  {
+    "id": "2940",
+    "Comparation": "(../images/mulher_morena02.jpg == ../images/senhora_branca02.jpg)",
+    "distance": 0.390625,
+    "diffInPercent": 0.808698289874316
+  },
+  {
+    "id": "2930",
+    "Comparation": "(../images/mulher_morena02.jpg == ../images/mulher_morena03.jpg)",
+    "distance": 0.359375,
+    "diffInPercent": 0.808257594835283
+  },
+  {
+    "id": "2428",
+    "Comparation": "(../images/jovem_moreno04.jpg == ../images/mulher_morena01.jpg)",
+    "distance": 0.390625,
+    "diffInPercent": 0.8081866369689177
+  },
+  {
+    "id": "637",
+    "Comparation": "(../images/familia_morena01.jpg == ../images/senhor_moreno03.jpg)",
+    "distance": 0.28125,
+    "diffInPercent": 0.8080558161350845
+  },
+  {
+    "id": "728",
+    "Comparation": "(../images/homem_branco01.jpg == ../images/mulher_morena01.jpg)",
+    "distance": 0.421875,
+    "diffInPercent": 0.8080324049560521
+  },
+  {
+    "id": "920",
+    "Comparation": "(../images/homem_branco03.jpg == ../images/jovem_loura01.jpg)",
+    "distance": 0.359375,
+    "diffInPercent": 0.8070811580446132
+  },
+  {
+    "id": "2135",
+    "Comparation": "(../images/jovem_moreno01.jpg == ../images/senhor_moreno01.jpg)",
+    "distance": 0.3125,
+    "diffInPercent": 0.8068265231220945
+  },
+  {
+    "id": "1540",
+    "Comparation": "(../images/image_teste_segementacao_3_classes.jpg == ../images/senhora_branca02.jpg)",
+    "distance": 0.375,
+    "diffInPercent": 0.8060751820652674
+  },
+  {
+    "id": "2328",
+    "Comparation": "(../images/jovem_moreno03.jpg == ../images/mulher_morena01.jpg)",
+    "distance": 0.3125,
+    "diffInPercent": 0.8055990286022666
+  },
+  {
+    "id": "1522",
+    "Comparation": "(../images/image_teste_segementacao_3_classes.jpg == ../images/jovem_moreno02.jpg)",
+    "distance": 0.421875,
+    "diffInPercent": 0.805289862630452
+  },
+  {
+    "id": "2942",
+    "Comparation": "(../images/mulher_morena02.jpg == ../images/senhora_branca04.jpg)",
+    "distance": 0.296875,
+    "diffInPercent": 0.805046816693757
+  },
+  {
+    "id": "532",
+    "Comparation": "(../images/familia_branca01.jpg == ../images/senhor_branco02.jpg)",
+    "distance": 0.25,
+    "diffInPercent": 0.8049976547842401
+  },
+  {
+    "id": "422",
+    "Comparation": "(../images/casal_moreno01.jpg == ../images/jovem_moreno02.jpg)",
+    "distance": 0.265625,
+    "diffInPercent": 0.8044652908067542
+  },
+  {
+    "id": "3441",
+    "Comparation": "(../images/senhor_branco04.jpg == ../images/senhora_branca03.jpg)",
+    "distance": 0.375,
+    "diffInPercent": 0.8041746218240564
+  },
+  {
+    "id": "317",
+    "Comparation": "(../images/casal_branco01.jpg == ../images/jovem_branco02.jpg)",
+    "distance": 0.453125,
+    "diffInPercent": 0.8040877110694183
+  },
+  {
+    "id": "1136",
+    "Comparation": "(../images/homem_moreno01.jpg == ../images/senhor_moreno02.jpg)",
+    "distance": 0.375,
+    "diffInPercent": 0.8039597938474343
+  },
+  {
+    "id": "1628",
+    "Comparation": "(../images/jovem_branco01.jpg == ../images/mulher_morena01.jpg)",
+    "distance": 0.390625,
+    "diffInPercent": 0.8028722850736029
+  },
+  {
+    "id": "3439",
+    "Comparation": "(../images/senhor_branco04.jpg == ../images/senhora_branca01.jpg)",
+    "distance": 0.53125,
+    "diffInPercent": 0.8027763499290155
+  },
+  {
+    "id": "2941",
+    "Comparation": "(../images/mulher_morena02.jpg == ../images/senhora_branca03.jpg)",
+    "distance": 0.34375,
+    "diffInPercent": 0.8023911998351686
+  },
+  {
+    "id": "1435",
+    "Comparation": "(../images/homem_moreno04.jpg == ../images/senhor_moreno01.jpg)",
+    "distance": 0.234375,
+    "diffInPercent": 0.802312910344076
+  },
+  {
+    "id": "239",
+    "Comparation": "(../images/branca03.jpg == ../images/senhora_branca01.jpg)",
+    "distance": 0.265625,
+    "diffInPercent": 0.8016082335804926
+  },
+  {
+    "id": "1535",
+    "Comparation": "(../images/image_teste_segementacao_3_classes.jpg == ../images/senhor_moreno01.jpg)",
+    "distance": 0.375,
+    "diffInPercent": 0.8013816713806283
+  },
+  {
+    "id": "036",
+    "Comparation": "(../images/branca01.jpg == ../images/senhor_moreno02.jpg)",
+    "distance": 0.375,
+    "diffInPercent": 0.8008193622868586
+  },
+  {
+    "id": "1620",
+    "Comparation": "(../images/jovem_branco01.jpg == ../images/jovem_loura01.jpg)",
+    "distance": 0.296875,
+    "diffInPercent": 0.8001832589707107
+  },
+  {
+    "id": "841",
+    "Comparation": "(../images/homem_branco02.jpg == ../images/senhora_branca03.jpg)",
+    "distance": 0.265625,
+    "diffInPercent": 0.8001570260005842
+  },
+  {
+    "id": "26",
+    "Comparation": "(../images/branca03.jpg == ../images/familia_morena01.jpg)",
+    "distance": 0.234375,
+    "diffInPercent": 0.8000137865718789
+  },
+  {
+    "id": "022",
+    "Comparation": "(../images/branca01.jpg == ../images/jovem_moreno02.jpg)",
+    "distance": 0.328125,
+    "diffInPercent": 0.7994401364922712
+  },
+  {
+    "id": "914",
+    "Comparation": "(../images/homem_branco03.jpg == ../images/homem_moreno04.jpg)",
+    "distance": 0.328125,
+    "diffInPercent": 0.7992437905394716
+  },
+  {
+    "id": "3438",
+    "Comparation": "(../images/senhor_branco04.jpg == ../images/senhor_moreno04.jpg)",
+    "distance": 0.5,
+    "diffInPercent": 0.7990282469280854
+  },
+  {
+    "id": "2036",
+    "Comparation": "(../images/jovem_loura01.jpg == ../images/senhor_moreno02.jpg)",
+    "distance": 0.296875,
+    "diffInPercent": 0.7989273702390691
+  },
+  {
+    "id": "218",
+    "Comparation": "(../images/branca03.jpg == ../images/jovem_branco03.jpg)",
+    "distance": 0.171875,
+    "diffInPercent": 0.7986890768391587
+  },
+  {
+    "id": "2038",
+    "Comparation": "(../images/jovem_loura01.jpg == ../images/senhor_moreno04.jpg)",
+    "distance": 0.25,
+    "diffInPercent": 0.7983300219460568
+  },
+  {
+    "id": "1941",
+    "Comparation": "(../images/jovem_branco04.jpg == ../images/senhora_branca03.jpg)",
+    "distance": 0.28125,
+    "diffInPercent": 0.7983192598278858
+  },
+  {
+    "id": "46",
+    "Comparation": "(../images/casal_moreno01.jpg == ../images/familia_morena01.jpg)",
+    "distance": 0.265625,
+    "diffInPercent": 0.7983161350844278
+  },
+  {
+    "id": "612",
+    "Comparation": "(../images/familia_morena01.jpg == ../images/homem_moreno02.jpg)",
+    "distance": 0.3125,
+    "diffInPercent": 0.7981238273921201
+  },
+  {
+    "id": "1623",
+    "Comparation": "(../images/jovem_branco01.jpg == ../images/jovem_moreno03.jpg)",
+    "distance": 0.296875,
+    "diffInPercent": 0.7973883294425336
+  },
+  {
+    "id": "1636",
+    "Comparation": "(../images/jovem_branco01.jpg == ../images/senhor_moreno02.jpg)",
+    "distance": 0.375,
+    "diffInPercent": 0.7972225675594786
+  },
+  {
+    "id": "2330",
+    "Comparation": "(../images/jovem_moreno03.jpg == ../images/mulher_morena03.jpg)",
+    "distance": 0.296875,
+    "diffInPercent": 0.797153264975715
+  },
+  {
+    "id": "838",
+    "Comparation": "(../images/homem_branco02.jpg == ../images/senhor_moreno04.jpg)",
+    "distance": 0.359375,
+    "diffInPercent": 0.795714042263122
+  },
+  {
+    "id": "945",
+    "Comparation": "(../images/homem_branco03.jpg == ../images/senhora_morena03.jpg)",
+    "distance": 0.359375,
+    "diffInPercent": 0.7956842271792438
+  },
+  {
+    "id": "3036",
+    "Comparation": "(../images/mulher_morena03.jpg == ../images/senhor_moreno02.jpg)",
+    "distance": 0.3125,
+    "diffInPercent": 0.7956427412142691
+  },
+  {
+    "id": "3944",
+    "Comparation": "(../images/senhora_branca01.jpg == ../images/senhora_morena02.jpg)",
+    "distance": 0.28125,
+    "diffInPercent": 0.7944610416353427
+  },
+  {
+    "id": "4145",
+    "Comparation": "(../images/senhora_branca03.jpg == ../images/senhora_morena03.jpg)",
+    "distance": 0.34375,
+    "diffInPercent": 0.7942378597764884
+  },
+  {
+    "id": "1436",
+    "Comparation": "(../images/homem_moreno04.jpg == ../images/senhor_moreno02.jpg)",
+    "distance": 0.234375,
+    "diffInPercent": 0.7930537772087067
+  },
+  {
+    "id": "2022",
+    "Comparation": "(../images/jovem_loura01.jpg == ../images/jovem_moreno02.jpg)",
+    "distance": 0.28125,
+    "diffInPercent": 0.7930090770968873
+  },
+  {
+    "id": "04",
+    "Comparation": "(../images/branca01.jpg == ../images/casal_moreno01.jpg)",
+    "distance": 0.3125,
+    "diffInPercent": 0.79297991098034
+  },
+  {
+    "id": "3942",
+    "Comparation": "(../images/senhora_branca01.jpg == ../images/senhora_branca04.jpg)",
+    "distance": 0.328125,
+    "diffInPercent": 0.791686005844245
+  },
+  {
+    "id": "45",
+    "Comparation": "(../images/casal_moreno01.jpg == ../images/familia_branca01.jpg)",
+    "distance": 0.28125,
+    "diffInPercent": 0.7914024390243902
+  },
+  {
+    "id": "236",
+    "Comparation": "(../images/branca03.jpg == ../images/senhor_moreno02.jpg)",
+    "distance": 0.34375,
+    "diffInPercent": 0.7911873834884822
+  },
+  {
+    "id": "1417",
+    "Comparation": "(../images/homem_moreno04.jpg == ../images/jovem_branco02.jpg)",
+    "distance": 0.375,
+    "diffInPercent": 0.7911740267523906
+  },
+  {
+    "id": "3041",
+    "Comparation": "(../images/mulher_morena03.jpg == ../images/senhora_branca03.jpg)",
+    "distance": 0.359375,
+    "diffInPercent": 0.7911587890430923
+  },
+  {
+    "id": "1118",
+    "Comparation": "(../images/homem_moreno01.jpg == ../images/jovem_branco03.jpg)",
+    "distance": 0.328125,
+    "diffInPercent": 0.7910016325746663
+  },
+  {
+    "id": "1145",
+    "Comparation": "(../images/homem_moreno01.jpg == ../images/senhora_morena03.jpg)",
+    "distance": 0.390625,
+    "diffInPercent": 0.7909248055315471
+  },
+  {
+    "id": "2530",
+    "Comparation": "(../images/morena01.jpg == ../images/mulher_morena03.jpg)",
+    "distance": 0.390625,
+    "diffInPercent": 0.7908992552334944
+  },
+  {
+    "id": "811",
+    "Comparation": "(../images/homem_branco02.jpg == ../images/homem_moreno01.jpg)",
+    "distance": 0.375,
+    "diffInPercent": 0.7905741795695783
+  },
+  {
+    "id": "126",
+    "Comparation": "(../images/branca02.jpg == ../images/morena03.jpg)",
+    "distance": 0.453125,
+    "diffInPercent": 0.7903094650205761
+  },
+  {
+    "id": "1525",
+    "Comparation": "(../images/image_teste_segementacao_3_classes.jpg == ../images/morena01.jpg)",
+    "distance": 0.453125,
+    "diffInPercent": 0.7899147805707064
+  },
+  {
+    "id": "332",
+    "Comparation": "(../images/casal_branco01.jpg == ../images/senhor_branco02.jpg)",
+    "distance": 0.375,
+    "diffInPercent": 0.7898921200750469
+  },
+  {
+    "id": "2935",
+    "Comparation": "(../images/mulher_morena02.jpg == ../images/senhor_moreno01.jpg)",
+    "distance": 0.328125,
+    "diffInPercent": 0.7893706645910121
+  },
+  {
+    "id": "3342",
+    "Comparation": "(../images/senhor_branco03.jpg == ../images/senhora_branca04.jpg)",
+    "distance": 0.3125,
+    "diffInPercent": 0.7892020847096821
+  },
+  {
+    "id": "921",
+    "Comparation": "(../images/homem_branco03.jpg == ../images/jovem_moreno01.jpg)",
+    "distance": 0.34375,
+    "diffInPercent": 0.789125138427464
+  },
+  {
+    "id": "517",
+    "Comparation": "(../images/familia_branca01.jpg == ../images/jovem_branco02.jpg)",
+    "distance": 0.265625,
+    "diffInPercent": 0.7889516885553471
+  },
+  {
+    "id": "1638",
+    "Comparation": "(../images/jovem_branco01.jpg == ../images/senhor_moreno04.jpg)",
+    "distance": 0.265625,
+    "diffInPercent": 0.7887825250139286
+  },
+  {
+    "id": "622",
+    "Comparation": "(../images/familia_morena01.jpg == ../images/jovem_moreno02.jpg)",
+    "distance": 0.21875,
+    "diffInPercent": 0.7887429643527204
+  },
+  {
+    "id": "1117",
+    "Comparation": "(../images/homem_moreno01.jpg == ../images/jovem_branco02.jpg)",
+    "distance": 0.390625,
+    "diffInPercent": 0.7884631390249368
+  },
+  {
+    "id": "327",
+    "Comparation": "(../images/casal_branco01.jpg == ../images/morena10.jpg)",
+    "distance": 0.390625,
+    "diffInPercent": 0.788344277673546
+  },
+  {
+    "id": "436",
+    "Comparation": "(../images/casal_moreno01.jpg == ../images/senhor_moreno02.jpg)",
+    "distance": 0.21875,
+    "diffInPercent": 0.7882363977485929
+  },
+  {
+    "id": "2432",
+    "Comparation": "(../images/jovem_moreno04.jpg == ../images/senhor_branco02.jpg)",
+    "distance": 0.21875,
+    "diffInPercent": 0.788097639315741
+  },
+  {
+    "id": "1045",
+    "Comparation": "(../images/homem_branco04.jpg == ../images/senhora_morena03.jpg)",
+    "distance": 0.3125,
+    "diffInPercent": 0.7873726888817915
+  },
+  {
+    "id": "1534",
+    "Comparation": "(../images/image_teste_segementacao_3_classes.jpg == ../images/senhor_branco04.jpg)",
+    "distance": 0.390625,
+    "diffInPercent": 0.7867305556748532
+  },
+  {
+    "id": "1138",
+    "Comparation": "(../images/homem_moreno01.jpg == ../images/senhor_moreno04.jpg)",
+    "distance": 0.390625,
+    "diffInPercent": 0.7865904798489068
+  },
+  {
+    "id": "1122",
+    "Comparation": "(../images/homem_moreno01.jpg == ../images/jovem_moreno02.jpg)",
+    "distance": 0.265625,
+    "diffInPercent": 0.786414417875092
+  },
+  {
+    "id": "2140",
+    "Comparation": "(../images/jovem_moreno01.jpg == ../images/senhora_branca02.jpg)",
+    "distance": 0.25,
+    "diffInPercent": 0.7863653046244189
+  },
+  {
+    "id": "79",
+    "Comparation": "(../images/homem_branco01.jpg == ../images/homem_branco03.jpg)",
+    "distance": 0.375,
+    "diffInPercent": 0.7845449892336475
+  },
+  {
+    "id": "814",
+    "Comparation": "(../images/homem_branco02.jpg == ../images/homem_moreno04.jpg)",
+    "distance": 0.328125,
+    "diffInPercent": 0.7845122455935339
+  },
+  {
+    "id": "1341",
+    "Comparation": "(../images/homem_moreno03.jpg == ../images/senhora_branca03.jpg)",
+    "distance": 0.296875,
+    "diffInPercent": 0.7842719496295354
+  },
+  {
+    "id": "1940",
+    "Comparation": "(../images/jovem_branco04.jpg == ../images/senhora_branca02.jpg)",
+    "distance": 0.328125,
+    "diffInPercent": 0.7842188194416387
+  },
+  {
+    "id": "1121",
+    "Comparation": "(../images/homem_moreno01.jpg == ../images/jovem_moreno01.jpg)",
+    "distance": 0.28125,
+    "diffInPercent": 0.7820640865584686
+  },
+  {
+    "id": "2438",
+    "Comparation": "(../images/jovem_moreno04.jpg == ../images/senhor_moreno04.jpg)",
+    "distance": 0.265625,
+    "diffInPercent": 0.7817406640888256
+  },
+  {
+    "id": "1322",
+    "Comparation": "(../images/homem_moreno03.jpg == ../images/jovem_moreno02.jpg)",
+    "distance": 0.296875,
+    "diffInPercent": 0.7800971248676912
+  },
+  {
+    "id": "01",
+    "Comparation": "(../images/branca01.jpg == ../images/branca02.jpg)",
+    "distance": 0.421875,
+    "diffInPercent": 0.7798415082259751
+  },
+  {
+    "id": "2937",
+    "Comparation": "(../images/mulher_morena02.jpg == ../images/senhor_moreno03.jpg)",
+    "distance": 0.25,
+    "diffInPercent": 0.7797783933518005
+  },
+  {
+    "id": "237",
+    "Comparation": "(../images/branca03.jpg == ../images/senhor_moreno03.jpg)",
+    "distance": 0.390625,
+    "diffInPercent": 0.7797355375863908
+  },
+  {
+    "id": "29",
+    "Comparation": "(../images/branca03.jpg == ../images/homem_branco03.jpg)",
+    "distance": 0.375,
+    "diffInPercent": 0.7792500104897829
+  },
+  {
+    "id": "1821",
+    "Comparation": "(../images/jovem_branco03.jpg == ../images/jovem_moreno01.jpg)",
+    "distance": 0.234375,
+    "diffInPercent": 0.7777815271235169
+  },
+  {
+    "id": "417",
+    "Comparation": "(../images/casal_moreno01.jpg == ../images/jovem_branco02.jpg)",
+    "distance": 0.328125,
+    "diffInPercent": 0.7775586303939962
+  },
+  {
+    "id": "1834",
+    "Comparation": "(../images/jovem_branco03.jpg == ../images/senhor_branco04.jpg)",
+    "distance": 0.28125,
+    "diffInPercent": 0.777379972194852
+  },
+  {
+    "id": "2044",
+    "Comparation": "(../images/jovem_loura01.jpg == ../images/senhora_morena02.jpg)",
+    "distance": 0.21875,
+    "diffInPercent": 0.7763060500993416
+  },
+  {
+    "id": "1316",
+    "Comparation": "(../images/homem_moreno03.jpg == ../images/jovem_branco01.jpg)",
+    "distance": 0.25,
+    "diffInPercent": 0.7759132145242108
+  },
+  {
+    "id": "1441",
+    "Comparation": "(../images/homem_moreno04.jpg == ../images/senhora_branca03.jpg)",
+    "distance": 0.25,
+    "diffInPercent": 0.7748930721660718
+  },
+  {
+    "id": "936",
+    "Comparation": "(../images/homem_branco03.jpg == ../images/senhor_moreno02.jpg)",
+    "distance": 0.4375,
+    "diffInPercent": 0.7745008701154881
+  },
+  {
+    "id": "1433",
+    "Comparation": "(../images/homem_moreno04.jpg == ../images/senhor_branco03.jpg)",
+    "distance": 0.171875,
+    "diffInPercent": 0.7733538562127115
+  },
+  {
+    "id": "1022",
+    "Comparation": "(../images/homem_branco04.jpg == ../images/jovem_moreno02.jpg)",
+    "distance": 0.21875,
+    "diffInPercent": 0.7730091557542851
+  },
+  {
+    "id": "1419",
+    "Comparation": "(../images/homem_moreno04.jpg == ../images/jovem_branco04.jpg)",
+    "distance": 0.34375,
+    "diffInPercent": 0.7722947939085189
+  },
+  {
+    "id": "839",
+    "Comparation": "(../images/homem_branco02.jpg == ../images/senhora_branca01.jpg)",
+    "distance": 0.328125,
+    "diffInPercent": 0.7717797497322038
+  },
+  {
+    "id": "1924",
+    "Comparation": "(../images/jovem_branco04.jpg == ../images/jovem_moreno04.jpg)",
+    "distance": 0.296875,
+    "diffInPercent": 0.7716577107995637
+  },
+  {
+    "id": "1533",
+    "Comparation": "(../images/image_teste_segementacao_3_classes.jpg == ../images/senhor_branco03.jpg)",
+    "distance": 0.375,
+    "diffInPercent": 0.7713922854636146
+  },
+  {
+    "id": "1442",
+    "Comparation": "(../images/homem_moreno04.jpg == ../images/senhora_branca04.jpg)",
+    "distance": 0.328125,
+    "diffInPercent": 0.7699961860135669
+  },
+  {
+    "id": "1141",
+    "Comparation": "(../images/homem_moreno01.jpg == ../images/senhora_branca03.jpg)",
+    "distance": 0.359375,
+    "diffInPercent": 0.769093120778514
+  },
+  {
+    "id": "78",
+    "Comparation": "(../images/homem_branco01.jpg == ../images/homem_branco02.jpg)",
+    "distance": 0.3125,
+    "diffInPercent": 0.7682586748561545
+  },
+  {
+    "id": "1144",
+    "Comparation": "(../images/homem_moreno01.jpg == ../images/senhora_morena02.jpg)",
+    "distance": 0.328125,
+    "diffInPercent": 0.7680559556964052
+  },
+  {
+    "id": "2445",
+    "Comparation": "(../images/jovem_moreno04.jpg == ../images/senhora_morena03.jpg)",
+    "distance": 0.296875,
+    "diffInPercent": 0.7676167078515813
+  },
+  {
+    "id": "1617",
+    "Comparation": "(../images/jovem_branco01.jpg == ../images/jovem_branco02.jpg)",
+    "distance": 0.296875,
+    "diffInPercent": 0.7654745624576962
+  },
+  {
+    "id": "3042",
+    "Comparation": "(../images/mulher_morena03.jpg == ../images/senhora_branca04.jpg)",
+    "distance": 0.375,
+    "diffInPercent": 0.7650996985856712
+  },
+  {
+    "id": "217",
+    "Comparation": "(../images/branca03.jpg == ../images/jovem_branco02.jpg)",
+    "distance": 0.328125,
+    "diffInPercent": 0.7646542267831132
+  },
+  {
+    "id": "3842",
+    "Comparation": "(../images/senhor_moreno04.jpg == ../images/senhora_branca04.jpg)",
+    "distance": 0.265625,
+    "diffInPercent": 0.7645293286806248
+  },
+  {
+    "id": "017",
+    "Comparation": "(../images/branca01.jpg == ../images/jovem_branco02.jpg)",
+    "distance": 0.359375,
+    "diffInPercent": 0.7645031551918486
+  },
+  {
+    "id": "011",
+    "Comparation": "(../images/branca01.jpg == ../images/homem_moreno01.jpg)",
+    "distance": 0.46875,
+    "diffInPercent": 0.7644112068055428
+  },
+  {
+    "id": "2933",
+    "Comparation": "(../images/mulher_morena02.jpg == ../images/senhor_branco03.jpg)",
+    "distance": 0.265625,
+    "diffInPercent": 0.7642396007417412
+  },
+  {
+    "id": "2436",
+    "Comparation": "(../images/jovem_moreno04.jpg == ../images/senhor_moreno02.jpg)",
+    "distance": 0.21875,
+    "diffInPercent": 0.7639650318565714
+  },
+  {
+    "id": "1028",
+    "Comparation": "(../images/homem_branco04.jpg == ../images/mulher_morena01.jpg)",
+    "distance": 0.3125,
+    "diffInPercent": 0.7627311118208595
+  },
+  {
+    "id": "2632",
+    "Comparation": "(../images/morena03.jpg == ../images/senhor_branco02.jpg)",
+    "distance": 0.46875,
+    "diffInPercent": 0.7620222222222223
+  },
+  {
+    "id": "035",
+    "Comparation": "(../images/branca01.jpg == ../images/senhor_moreno01.jpg)",
+    "distance": 0.3125,
+    "diffInPercent": 0.7618298409974016
+  },
+  {
+    "id": "938",
+    "Comparation": "(../images/homem_branco03.jpg == ../images/senhor_moreno04.jpg)",
+    "distance": 0.359375,
+    "diffInPercent": 0.7617054263565891
+  },
+  {
+    "id": "1137",
+    "Comparation": "(../images/homem_moreno01.jpg == ../images/senhor_moreno03.jpg)",
+    "distance": 0.296875,
+    "diffInPercent": 0.7614584333685457
+  },
+  {
+    "id": "03",
+    "Comparation": "(../images/branca01.jpg == ../images/casal_branco01.jpg)",
+    "distance": 0.28125,
+    "diffInPercent": 0.7603961272701887
+  },
+  {
+    "id": "918",
+    "Comparation": "(../images/homem_branco03.jpg == ../images/jovem_branco03.jpg)",
+    "distance": 0.421875,
+    "diffInPercent": 0.7601265622528081
+  },
+  {
+    "id": "2338",
+    "Comparation": "(../images/jovem_moreno03.jpg == ../images/senhor_moreno04.jpg)",
+    "distance": 0.21875,
+    "diffInPercent": 0.7600827486958086
+  },
+  {
+    "id": "042",
+    "Comparation": "(../images/branca01.jpg == ../images/senhora_branca04.jpg)",
+    "distance": 0.34375,
+    "diffInPercent": 0.7600555776912782
+  },
+  {
+    "id": "35",
+    "Comparation": "(../images/casal_branco01.jpg == ../images/familia_branca01.jpg)",
+    "distance": 0.34375,
+    "diffInPercent": 0.7595450281425892
+  },
+  {
+    "id": "1732",
+    "Comparation": "(../images/jovem_branco02.jpg == ../images/senhor_branco02.jpg)",
+    "distance": 0.265625,
+    "diffInPercent": 0.7585858348968105
+  },
+  {
+    "id": "221",
+    "Comparation": "(../images/branca03.jpg == ../images/jovem_moreno01.jpg)",
+    "distance": 0.1875,
+    "diffInPercent": 0.7584982227310599
+  },
+  {
+    "id": "1537",
+    "Comparation": "(../images/image_teste_segementacao_3_classes.jpg == ../images/senhor_moreno03.jpg)",
+    "distance": 0.390625,
+    "diffInPercent": 0.7561337742574743
+  },
+  {
+    "id": "1114",
+    "Comparation": "(../images/homem_moreno01.jpg == ../images/homem_moreno04.jpg)",
+    "distance": 0.328125,
+    "diffInPercent": 0.7549889561125516
+  },
+  {
+    "id": "3841",
+    "Comparation": "(../images/senhor_moreno04.jpg == ../images/senhora_branca03.jpg)",
+    "distance": 0.3125,
+    "diffInPercent": 0.7542026697684724
+  },
+  {
+    "id": "1324",
+    "Comparation": "(../images/homem_moreno03.jpg == ../images/jovem_moreno04.jpg)",
+    "distance": 0.25,
+    "diffInPercent": 0.7541668748779125
+  },
+  {
+    "id": "2037",
+    "Comparation": "(../images/jovem_loura01.jpg == ../images/senhor_moreno03.jpg)",
+    "distance": 0.3125,
+    "diffInPercent": 0.7525517160777592
+  },
+  {
+    "id": "2440",
+    "Comparation": "(../images/jovem_moreno04.jpg == ../images/senhora_branca02.jpg)",
+    "distance": 0.28125,
+    "diffInPercent": 0.7524316625163107
+  },
+  {
+    "id": "724",
+    "Comparation": "(../images/homem_branco01.jpg == ../images/jovem_moreno04.jpg)",
+    "distance": 0.25,
+    "diffInPercent": 0.7518488121712733
+  },
+  {
+    "id": "1038",
+    "Comparation": "(../images/homem_branco04.jpg == ../images/senhor_moreno04.jpg)",
+    "distance": 0.34375,
+    "diffInPercent": 0.751459420135562
+  },
+  {
+    "id": "2430",
+    "Comparation": "(../images/jovem_moreno04.jpg == ../images/mulher_morena03.jpg)",
+    "distance": 0.25,
+    "diffInPercent": 0.7497789397712444
+  },
+  {
+    "id": "1041",
+    "Comparation": "(../images/homem_branco04.jpg == ../images/senhora_branca03.jpg)",
+    "distance": 0.21875,
+    "diffInPercent": 0.7494499449944995
+  },
+  {
+    "id": "1142",
+    "Comparation": "(../images/homem_moreno01.jpg == ../images/senhora_branca04.jpg)",
+    "distance": 0.375,
+    "diffInPercent": 0.7484490540670315
+  },
+  {
+    "id": "917",
+    "Comparation": "(../images/homem_branco03.jpg == ../images/jovem_branco02.jpg)",
+    "distance": 0.390625,
+    "diffInPercent": 0.7483531086853346
+  },
+  {
+    "id": "3444",
+    "Comparation": "(../images/senhor_branco04.jpg == ../images/senhora_morena02.jpg)",
+    "distance": 0.46875,
+    "diffInPercent": 0.7482804621334508
+  },
+  {
+    "id": "1011",
+    "Comparation": "(../images/homem_branco04.jpg == ../images/homem_moreno01.jpg)",
+    "distance": 0.296875,
+    "diffInPercent": 0.7464734376663473
+  },
+  {
+    "id": "844",
+    "Comparation": "(../images/homem_branco02.jpg == ../images/senhora_morena02.jpg)",
+    "distance": 0.328125,
+    "diffInPercent": 0.7455874476579998
+  },
+  {
+    "id": "1630",
+    "Comparation": "(../images/jovem_branco01.jpg == ../images/mulher_morena03.jpg)",
+    "distance": 0.34375,
+    "diffInPercent": 0.745468024072309
+  },
+  {
+    "id": "337",
+    "Comparation": "(../images/casal_branco01.jpg == ../images/senhor_moreno03.jpg)",
+    "distance": 0.296875,
+    "diffInPercent": 0.7448780487804878
+  },
+  {
+    "id": "1033",
+    "Comparation": "(../images/homem_branco04.jpg == ../images/senhor_branco03.jpg)",
+    "distance": 0.234375,
+    "diffInPercent": 0.7442155505873168
+  },
+  {
+    "id": "911",
+    "Comparation": "(../images/homem_branco03.jpg == ../images/homem_moreno01.jpg)",
+    "distance": 0.4375,
+    "diffInPercent": 0.7441828824553077
+  },
+  {
+    "id": "36",
+    "Comparation": "(../images/casal_branco01.jpg == ../images/familia_morena01.jpg)",
+    "distance": 0.296875,
+    "diffInPercent": 0.7426008442776736
+  },
+  {
+    "id": "033",
+    "Comparation": "(../images/branca01.jpg == ../images/senhor_branco03.jpg)",
+    "distance": 0.34375,
+    "diffInPercent": 0.7422005632690035
+  },
+  {
+    "id": "322",
+    "Comparation": "(../images/casal_branco01.jpg == ../images/jovem_moreno02.jpg)",
+    "distance": 0.265625,
+    "diffInPercent": 0.7403541275797373
+  },
+  {
+    "id": "24",
+    "Comparation": "(../images/branca03.jpg == ../images/casal_moreno01.jpg)",
+    "distance": 0.25,
+    "diffInPercent": 0.7396375929844332
+  },
+  {
+    "id": "1030",
+    "Comparation": "(../images/homem_branco04.jpg == ../images/mulher_morena03.jpg)",
+    "distance": 0.359375,
+    "diffInPercent": 0.7388170268639768
+  },
+  {
+    "id": "3941",
+    "Comparation": "(../images/senhora_branca01.jpg == ../images/senhora_branca03.jpg)",
+    "distance": 0.34375,
+    "diffInPercent": 0.7385550202325931
+  },
+  {
+    "id": "1328",
+    "Comparation": "(../images/homem_moreno03.jpg == ../images/mulher_morena01.jpg)",
+    "distance": 0.421875,
+    "diffInPercent": 0.7384806181829745
+  },
+  {
+    "id": "942",
+    "Comparation": "(../images/homem_branco03.jpg == ../images/senhora_branca04.jpg)",
+    "distance": 0.40625,
+    "diffInPercent": 0.7380667615883563
+  },
+  {
+    "id": "1819",
+    "Comparation": "(../images/jovem_branco03.jpg == ../images/jovem_branco04.jpg)",
+    "distance": 0.21875,
+    "diffInPercent": 0.7360839283545021
+  },
+  {
+    "id": "1333",
+    "Comparation": "(../images/homem_moreno03.jpg == ../images/senhor_branco03.jpg)",
+    "distance": 0.21875,
+    "diffInPercent": 0.7353324641460235
+  },
+  {
+    "id": "1119",
+    "Comparation": "(../images/homem_moreno01.jpg == ../images/jovem_branco04.jpg)",
+    "distance": 0.359375,
+    "diffInPercent": 0.7352444060309229
+  },
+  {
+    "id": "1645",
+    "Comparation": "(../images/jovem_branco01.jpg == ../images/senhora_morena03.jpg)",
+    "distance": 0.359375,
+    "diffInPercent": 0.7349789804723292
+  },
+  {
+    "id": "044",
+    "Comparation": "(../images/branca01.jpg == ../images/senhora_morena02.jpg)",
+    "distance": 0.296875,
+    "diffInPercent": 0.7347118780287628
+  },
+  {
+    "id": "1337",
+    "Comparation": "(../images/homem_moreno03.jpg == ../images/senhor_moreno03.jpg)",
+    "distance": 0.296875,
+    "diffInPercent": 0.7342603655129493
+  },
+  {
+    "id": "2035",
+    "Comparation": "(../images/jovem_loura01.jpg == ../images/senhor_moreno01.jpg)",
+    "distance": 0.296875,
+    "diffInPercent": 0.7340469048268339
+  },
+  {
+    "id": "3236",
+    "Comparation": "(../images/senhor_branco02.jpg == ../images/senhor_moreno02.jpg)",
+    "distance": 0.3125,
+    "diffInPercent": 0.7332982209737827
+  },
+  {
+    "id": "89",
+    "Comparation": "(../images/homem_branco02.jpg == ../images/homem_branco03.jpg)",
+    "distance": 0.34375,
+    "diffInPercent": 0.7329523322621482
+  },
+  {
+    "id": "242",
+    "Comparation": "(../images/branca03.jpg == ../images/senhora_branca04.jpg)",
+    "distance": 0.25,
+    "diffInPercent": 0.7310089972366914
+  },
+  {
+    "id": "3040",
+    "Comparation": "(../images/mulher_morena03.jpg == ../images/senhora_branca02.jpg)",
+    "distance": 0.3125,
+    "diffInPercent": 0.7300188797986155
+  },
+  {
+    "id": "220",
+    "Comparation": "(../images/branca03.jpg == ../images/jovem_loura01.jpg)",
+    "distance": 0.234375,
+    "diffInPercent": 0.7294535122790402
+  },
+  {
+    "id": "041",
+    "Comparation": "(../images/branca01.jpg == ../images/senhora_branca03.jpg)",
+    "distance": 0.296875,
+    "diffInPercent": 0.7288884802293942
+  },
+  {
+    "id": "2124",
+    "Comparation": "(../images/jovem_moreno01.jpg == ../images/jovem_moreno04.jpg)",
+    "distance": 0.28125,
+    "diffInPercent": 0.7285562454122828
+  },
+  {
+    "id": "1232",
+    "Comparation": "(../images/homem_moreno02.jpg == ../images/senhor_branco02.jpg)",
+    "distance": 0.265625,
+    "diffInPercent": 0.7271537037037037
+  },
+  {
+    "id": "019",
+    "Comparation": "(../images/branca01.jpg == ../images/jovem_branco04.jpg)",
+    "distance": 0.359375,
+    "diffInPercent": 0.7246826929298502
+  },
+  {
+    "id": "214",
+    "Comparation": "(../images/branca03.jpg == ../images/homem_moreno04.jpg)",
+    "distance": 0.328125,
+    "diffInPercent": 0.7239928309826229
+  },
+  {
+    "id": "212",
+    "Comparation": "(../images/branca03.jpg == ../images/homem_moreno02.jpg)",
+    "distance": 0.296875,
+    "diffInPercent": 0.7236721433323943
+  },
+  {
+    "id": "2128",
+    "Comparation": "(../images/jovem_moreno01.jpg == ../images/mulher_morena01.jpg)",
+    "distance": 0.359375,
+    "diffInPercent": 0.723601510888182
+  },
+  {
+    "id": "02",
+    "Comparation": "(../images/branca01.jpg == ../images/branca03.jpg)",
+    "distance": 0.34375,
+    "diffInPercent": 0.7221421930711782
+  },
+  {
+    "id": "3540",
+    "Comparation": "(../images/senhor_moreno01.jpg == ../images/senhora_branca02.jpg)",
+    "distance": 0.34375,
+    "diffInPercent": 0.7214974475326149
+  },
+  {
+    "id": "818",
+    "Comparation": "(../images/homem_branco02.jpg == ../images/jovem_branco03.jpg)",
+    "distance": 0.265625,
+    "diffInPercent": 0.7208132486123283
+  },
+  {
+    "id": "3037",
+    "Comparation": "(../images/mulher_morena03.jpg == ../images/senhor_moreno03.jpg)",
+    "distance": 0.359375,
+    "diffInPercent": 0.7204257891424597
+  },
+  {
+    "id": "2237",
+    "Comparation": "(../images/jovem_moreno02.jpg == ../images/senhor_moreno03.jpg)",
+    "distance": 0.34375,
+    "diffInPercent": 0.719723016833535
+  },
+  {
+    "id": "1036",
+    "Comparation": "(../images/homem_branco04.jpg == ../images/senhor_moreno02.jpg)",
+    "distance": 0.328125,
+    "diffInPercent": 0.719587281308776
+  },
+  {
+    "id": "941",
+    "Comparation": "(../images/homem_branco03.jpg == ../images/senhora_branca03.jpg)",
+    "distance": 0.328125,
+    "diffInPercent": 0.7194304698623636
+  },
+  {
+    "id": "4445",
+    "Comparation": "(../images/senhora_morena02.jpg == ../images/senhora_morena03.jpg)",
+    "distance": 0.3125,
+    "diffInPercent": 0.7192608386638237
+  },
+  {
+    "id": "045",
+    "Comparation": "(../images/branca01.jpg == ../images/senhora_morena03.jpg)",
+    "distance": 0.390625,
+    "diffInPercent": 0.7189546490125764
+  },
+  {
+    "id": "2324",
+    "Comparation": "(../images/jovem_moreno03.jpg == ../images/jovem_moreno04.jpg)",
+    "distance": 0.203125,
+    "diffInPercent": 0.7184025903939557
+  },
+  {
+    "id": "2341",
+    "Comparation": "(../images/jovem_moreno03.jpg == ../images/senhora_branca03.jpg)",
+    "distance": 0.25,
+    "diffInPercent": 0.7137389818312646
+  },
+  {
+    "id": "1017",
+    "Comparation": "(../images/homem_branco04.jpg == ../images/jovem_branco02.jpg)",
+    "distance": 0.34375,
+    "diffInPercent": 0.7123655913978495
+  },
+  {
+    "id": "1642",
+    "Comparation": "(../images/jovem_branco01.jpg == ../images/senhora_branca04.jpg)",
+    "distance": 0.3125,
+    "diffInPercent": 0.7123570879320744
+  },
+  {
+    "id": "245",
+    "Comparation": "(../images/branca03.jpg == ../images/senhora_morena03.jpg)",
+    "distance": 0.328125,
+    "diffInPercent": 0.7122262915919894
+  },
+  {
+    "id": "833",
+    "Comparation": "(../images/homem_branco02.jpg == ../images/senhor_branco03.jpg)",
+    "distance": 0.3125,
+    "diffInPercent": 0.7114312493913721
+  },
+  {
+    "id": "4245",
+    "Comparation": "(../images/senhora_branca04.jpg == ../images/senhora_morena03.jpg)",
+    "distance": 0.359375,
+    "diffInPercent": 0.7108539727281704
+  },
+  {
+    "id": "1736",
+    "Comparation": "(../images/jovem_branco02.jpg == ../images/senhor_moreno02.jpg)",
+    "distance": 0.359375,
+    "diffInPercent": 0.7101500938086304
+  },
+  {
+    "id": "2342",
+    "Comparation": "(../images/jovem_moreno03.jpg == ../images/senhora_branca04.jpg)",
+    "distance": 0.265625,
+    "diffInPercent": 0.7071775499190502
+  },
+  {
+    "id": "2441",
+    "Comparation": "(../images/jovem_moreno04.jpg == ../images/senhora_branca03.jpg)",
+    "distance": 0.265625,
+    "diffInPercent": 0.7069147639554725
+  },
+  {
+    "id": "1624",
+    "Comparation": "(../images/jovem_branco01.jpg == ../images/jovem_moreno04.jpg)",
+    "distance": 0.21875,
+    "diffInPercent": 0.706758019882217
+  },
+  {
+    "id": "211",
+    "Comparation": "(../images/branca03.jpg == ../images/homem_moreno01.jpg)",
+    "distance": 0.3125,
+    "diffInPercent": 0.7047905340198647
+  },
+  {
+    "id": "68",
+    "Comparation": "(../images/familia_morena01.jpg == ../images/homem_branco02.jpg)",
+    "distance": 0.296875,
+    "diffInPercent": 0.7047349906191369
+  },
+  {
+    "id": "935",
+    "Comparation": "(../images/homem_branco03.jpg == ../images/senhor_moreno01.jpg)",
+    "distance": 0.375,
+    "diffInPercent": 0.7038506565416864
+  },
+  {
+    "id": "38",
+    "Comparation": "(../images/casal_branco01.jpg == ../images/homem_branco02.jpg)",
+    "distance": 0.28125,
+    "diffInPercent": 0.7037148217636022
+  },
+  {
+    "id": "1237",
+    "Comparation": "(../images/homem_moreno02.jpg == ../images/senhor_moreno03.jpg)",
+    "distance": 0.28125,
+    "diffInPercent": 0.703462962962963
+  },
+  {
+    "id": "2829",
+    "Comparation": "(../images/mulher_morena01.jpg == ../images/mulher_morena02.jpg)",
+    "distance": 0.375,
+    "diffInPercent": 0.7032531314769758
+  },
+  {
+    "id": "1622",
+    "Comparation": "(../images/jovem_branco01.jpg == ../images/jovem_moreno02.jpg)",
+    "distance": 0.296875,
+    "diffInPercent": 0.7031803259062801
+  },
+  {
+    "id": "23",
+    "Comparation": "(../images/branca03.jpg == ../images/casal_branco01.jpg)",
+    "distance": 0.28125,
+    "diffInPercent": 0.7020991554226184
+  },
+  {
+    "id": "235",
+    "Comparation": "(../images/branca03.jpg == ../images/senhor_moreno01.jpg)",
+    "distance": 0.25,
+    "diffInPercent": 0.7011131158251863
+  },
+  {
+    "id": "1835",
+    "Comparation": "(../images/jovem_branco03.jpg == ../images/senhor_moreno01.jpg)",
+    "distance": 0.296875,
+    "diffInPercent": 0.7003826582261395
+  },
+  {
+    "id": "222",
+    "Comparation": "(../images/branca03.jpg == ../images/jovem_moreno02.jpg)",
+    "distance": 0.203125,
+    "diffInPercent": 0.7002020032488356
+  },
+  {
+    "id": "933",
+    "Comparation": "(../images/homem_branco03.jpg == ../images/senhor_branco03.jpg)",
+    "distance": 0.34375,
+    "diffInPercent": 0.7001771871539313
+  },
+  {
+    "id": "1135",
+    "Comparation": "(../images/homem_moreno01.jpg == ../images/senhor_moreno01.jpg)",
+    "distance": 0.375,
+    "diffInPercent": 0.6999455808444572
+  },
+  {
+    "id": "1928",
+    "Comparation": "(../images/jovem_branco04.jpg == ../images/mulher_morena01.jpg)",
+    "distance": 0.28125,
+    "diffInPercent": 0.6998545513312593
+  },
+  {
+    "id": "1217",
+    "Comparation": "(../images/homem_moreno02.jpg == ../images/jovem_branco02.jpg)",
+    "distance": 0.40625,
+    "diffInPercent": 0.6982444444444444
+  },
+  {
+    "id": "2533",
+    "Comparation": "(../images/morena01.jpg == ../images/senhor_branco03.jpg)",
+    "distance": 0.359375,
+    "diffInPercent": 0.697199577294686
+  },
+  {
+    "id": "2537",
+    "Comparation": "(../images/morena01.jpg == ../images/senhor_moreno03.jpg)",
+    "distance": 0.3125,
+    "diffInPercent": 0.6971492552334944
+  },
+  {
+    "id": "3132",
+    "Comparation": "(../images/senhor_branco01.jpg == ../images/senhor_branco02.jpg)",
+    "distance": 0.234375,
+    "diffInPercent": 0.6971148148148149
+  },
+  {
+    "id": "3033",
+    "Comparation": "(../images/mulher_morena03.jpg == ../images/senhor_branco03.jpg)",
+    "distance": 0.28125,
+    "diffInPercent": 0.696710112285118
+  },
+  {
+    "id": "334",
+    "Comparation": "(../images/casal_branco01.jpg == ../images/senhor_branco04.jpg)",
+    "distance": 0.265625,
+    "diffInPercent": 0.6965408067542214
+  },
+  {
+    "id": "1024",
+    "Comparation": "(../images/homem_branco04.jpg == ../images/jovem_moreno04.jpg)",
+    "distance": 0.265625,
+    "diffInPercent": 0.6962764824869584
+  },
+  {
+    "id": "1641",
+    "Comparation": "(../images/jovem_branco01.jpg == ../images/senhora_branca03.jpg)",
+    "distance": 0.328125,
+    "diffInPercent": 0.6962413493017281
+  },
+  {
+    "id": "1032",
+    "Comparation": "(../images/homem_branco04.jpg == ../images/senhor_branco02.jpg)",
+    "distance": 0.234375,
+    "diffInPercent": 0.6939786720607545
+  },
+  {
+    "id": "3234",
+    "Comparation": "(../images/senhor_branco02.jpg == ../images/senhor_branco04.jpg)",
+    "distance": 0.453125,
+    "diffInPercent": 0.6916807116104869
+  },
+  {
+    "id": "634",
+    "Comparation": "(../images/familia_morena01.jpg == ../images/senhor_branco04.jpg)",
+    "distance": 0.34375,
+    "diffInPercent": 0.6886139774859287
+  },
+  {
+    "id": "2329",
+    "Comparation": "(../images/jovem_moreno03.jpg == ../images/mulher_morena02.jpg)",
+    "distance": 0.25,
+    "diffInPercent": 0.6881003777657853
+  },
+  {
+    "id": "1315",
+    "Comparation": "(../images/homem_moreno03.jpg == ../images/image_teste_segementacao_3_classes.jpg)",
+    "distance": 0.3125,
+    "diffInPercent": 0.6873469647343149
+  },
+  {
+    "id": "1227",
+    "Comparation": "(../images/homem_moreno02.jpg == ../images/morena10.jpg)",
+    "distance": 0.375,
+    "diffInPercent": 0.6871666666666667
+  },
+  {
+    "id": "1016",
+    "Comparation": "(../images/homem_branco04.jpg == ../images/jovem_branco01.jpg)",
+    "distance": 0.296875,
+    "diffInPercent": 0.6871340359842436
+  },
+  {
+    "id": "2442",
+    "Comparation": "(../images/jovem_moreno04.jpg == ../images/senhora_branca04.jpg)",
+    "distance": 0.25,
+    "diffInPercent": 0.6859510847485171
+  },
+  {
+    "id": "1044",
+    "Comparation": "(../images/homem_branco04.jpg == ../images/senhora_morena02.jpg)",
+    "distance": 0.34375,
+    "diffInPercent": 0.6859452074239683
+  },
+  {
+    "id": "34",
+    "Comparation": "(../images/casal_branco01.jpg == ../images/casal_moreno01.jpg)",
+    "distance": 0.25,
+    "diffInPercent": 0.6858114446529081
+  },
+  {
+    "id": "241",
+    "Comparation": "(../images/branca03.jpg == ../images/senhora_branca03.jpg)",
+    "distance": 0.234375,
+    "diffInPercent": 0.6853184997812131
+  },
+  {
+    "id": "07",
+    "Comparation": "(../images/branca01.jpg == ../images/homem_branco01.jpg)",
+    "distance": 0.34375,
+    "diffInPercent": 0.6852504571878096
+  },
+  {
+    "id": "944",
+    "Comparation": "(../images/homem_branco03.jpg == ../images/senhora_morena02.jpg)",
+    "distance": 0.390625,
+    "diffInPercent": 0.6850118652112007
+  },
+  {
+    "id": "58",
+    "Comparation": "(../images/familia_branca01.jpg == ../images/homem_branco02.jpg)",
+    "distance": 0.375,
+    "diffInPercent": 0.6849648217636023
+  },
+  {
+    "id": "2234",
+    "Comparation": "(../images/jovem_moreno02.jpg == ../images/senhor_branco04.jpg)",
+    "distance": 0.375,
+    "diffInPercent": 0.6846646129020427
+  },
+  {
+    "id": "729",
+    "Comparation": "(../images/homem_branco01.jpg == ../images/mulher_morena02.jpg)",
+    "distance": 0.390625,
+    "diffInPercent": 0.6816160118606375
+  },
+  {
+    "id": "434",
+    "Comparation": "(../images/casal_moreno01.jpg == ../images/senhor_branco04.jpg)",
+    "distance": 0.390625,
+    "diffInPercent": 0.6813461538461538
+  },
+  {
+    "id": "312",
+    "Comparation": "(../images/casal_branco01.jpg == ../images/homem_moreno02.jpg)",
+    "distance": 0.296875,
+    "diffInPercent": 0.6808231707317073
+  },
+  {
+    "id": "534",
+    "Comparation": "(../images/familia_branca01.jpg == ../images/senhor_branco04.jpg)",
+    "distance": 0.421875,
+    "diffInPercent": 0.6781848030018762
+  },
+  {
+    "id": "2742",
+    "Comparation": "(../images/morena10.jpg == ../images/senhora_branca04.jpg)",
+    "distance": 0.265625,
+    "diffInPercent": 0.6780065666041276
+  },
+  {
+    "id": "1830",
+    "Comparation": "(../images/jovem_branco03.jpg == ../images/mulher_morena03.jpg)",
+    "distance": 0.265625,
+    "diffInPercent": 0.6750239583192733
+  },
+  {
+    "id": "2033",
+    "Comparation": "(../images/jovem_loura01.jpg == ../images/senhor_branco03.jpg)",
+    "distance": 0.265625,
+    "diffInPercent": 0.6739030218032127
+  },
+  {
+    "id": "238",
+    "Comparation": "(../images/branca03.jpg == ../images/senhor_moreno04.jpg)",
+    "distance": 0.296875,
+    "diffInPercent": 0.6730154829196363
+  },
+  {
+    "id": "1037",
+    "Comparation": "(../images/homem_branco04.jpg == ../images/senhor_moreno03.jpg)",
+    "distance": 0.375,
+    "diffInPercent": 0.6729878633024593
+  },
+  {
+    "id": "511",
+    "Comparation": "(../images/familia_branca01.jpg == ../images/homem_moreno01.jpg)",
+    "distance": 0.3125,
+    "diffInPercent": 0.671531425891182
+  },
+  {
+    "id": "1012",
+    "Comparation": "(../images/homem_branco04.jpg == ../images/homem_moreno02.jpg)",
+    "distance": 0.375,
+    "diffInPercent": 0.669439121331488
+  },
+  {
+    "id": "39",
+    "Comparation": "(../images/casal_branco01.jpg == ../images/homem_branco03.jpg)",
+    "distance": 0.34375,
+    "diffInPercent": 0.6692120075046905
+  },
+  {
+    "id": "4142",
+    "Comparation": "(../images/senhora_branca03.jpg == ../images/senhora_branca04.jpg)",
+    "distance": 0.171875,
+    "diffInPercent": 0.6676130499264806
+  },
+  {
+    "id": "48",
+    "Comparation": "(../images/casal_moreno01.jpg == ../images/homem_branco02.jpg)",
+    "distance": 0.3125,
+    "diffInPercent": 0.6670755159474672
+  },
+  {
+    "id": "835",
+    "Comparation": "(../images/homem_branco02.jpg == ../images/senhor_moreno01.jpg)",
+    "distance": 0.375,
+    "diffInPercent": 0.6664566900379784
+  },
+  {
+    "id": "3840",
+    "Comparation": "(../images/senhor_moreno04.jpg == ../images/senhora_branca02.jpg)",
+    "distance": 0.359375,
+    "diffInPercent": 0.6658704442228869
+  },
+  {
+    "id": "1430",
+    "Comparation": "(../images/homem_moreno04.jpg == ../images/mulher_morena03.jpg)",
+    "distance": 0.265625,
+    "diffInPercent": 0.6653397172201487
+  },
+  {
+    "id": "2741",
+    "Comparation": "(../images/morena10.jpg == ../images/senhora_branca03.jpg)",
+    "distance": 0.28125,
+    "diffInPercent": 0.6638860225140713
+  },
+  {
+    "id": "1042",
+    "Comparation": "(../images/homem_branco04.jpg == ../images/senhora_branca04.jpg)",
+    "distance": 0.203125,
+    "diffInPercent": 0.6634151318357642
+  },
+  {
+    "id": "244",
+    "Comparation": "(../images/branca03.jpg == ../images/senhora_morena02.jpg)",
+    "distance": 0.296875,
+    "diffInPercent": 0.6631101307326663
+  },
+  {
+    "id": "2437",
+    "Comparation": "(../images/jovem_moreno04.jpg == ../images/senhor_moreno03.jpg)",
+    "distance": 0.203125,
+    "diffInPercent": 0.662640582356287
+  },
+  {
+    "id": "645",
+    "Comparation": "(../images/familia_morena01.jpg == ../images/senhora_morena03.jpg)",
+    "distance": 0.28125,
+    "diffInPercent": 0.6621787054409005
+  },
+  {
+    "id": "3340",
+    "Comparation": "(../images/senhor_branco03.jpg == ../images/senhora_branca02.jpg)",
+    "distance": 0.21875,
+    "diffInPercent": 0.6621045291051898
+  },
+  {
+    "id": "1112",
+    "Comparation": "(../images/homem_moreno01.jpg == ../images/homem_moreno02.jpg)",
+    "distance": 0.265625,
+    "diffInPercent": 0.6616024840743941
+  },
+  {
+    "id": "1029",
+    "Comparation": "(../images/homem_branco04.jpg == ../images/mulher_morena02.jpg)",
+    "distance": 0.3125,
+    "diffInPercent": 0.6603499059583378
+  },
+  {
+    "id": "2739",
+    "Comparation": "(../images/morena10.jpg == ../images/senhora_branca01.jpg)",
+    "distance": 0.3125,
+    "diffInPercent": 0.6592448405253283
+  },
+  {
+    "id": "4144",
+    "Comparation": "(../images/senhora_branca03.jpg == ../images/senhora_morena02.jpg)",
+    "distance": 0.3125,
+    "diffInPercent": 0.6575045334298771
+  },
+  {
+    "id": "3940",
+    "Comparation": "(../images/senhora_branca01.jpg == ../images/senhora_branca02.jpg)",
+    "distance": 0.328125,
+    "diffInPercent": 0.6568565283615849
+  },
+  {
+    "id": "1440",
+    "Comparation": "(../images/homem_moreno04.jpg == ../images/senhora_branca02.jpg)",
+    "distance": 0.296875,
+    "diffInPercent": 0.6566594927398044
+  },
+  {
+    "id": "830",
+    "Comparation": "(../images/homem_branco02.jpg == ../images/mulher_morena03.jpg)",
+    "distance": 0.34375,
+    "diffInPercent": 0.6564204158145875
+  },
+  {
+    "id": "2734",
+    "Comparation": "(../images/morena10.jpg == ../images/senhor_branco04.jpg)",
+    "distance": 0.4375,
+    "diffInPercent": 0.655827861163227
+  },
+  {
+    "id": "2030",
+    "Comparation": "(../images/jovem_loura01.jpg == ../images/mulher_morena03.jpg)",
+    "distance": 0.359375,
+    "diffInPercent": 0.6547683976781331
+  },
+  {
+    "id": "69",
+    "Comparation": "(../images/familia_morena01.jpg == ../images/homem_branco03.jpg)",
+    "distance": 0.359375,
+    "diffInPercent": 0.6524319887429644
+  },
+  {
+    "id": "1329",
+    "Comparation": "(../images/homem_moreno03.jpg == ../images/mulher_morena02.jpg)",
+    "distance": 0.203125,
+    "diffInPercent": 0.6503822758473441
+  },
+  {
+    "id": "132",
+    "Comparation": "(../images/branca02.jpg == ../images/senhor_branco02.jpg)",
+    "distance": 0.390625,
+    "diffInPercent": 0.6485646090534979
+  },
+  {
+    "id": "642",
+    "Comparation": "(../images/familia_morena01.jpg == ../images/senhora_branca04.jpg)",
+    "distance": 0.203125,
+    "diffInPercent": 0.6469676360225141
+  },
+  {
+    "id": "040",
+    "Comparation": "(../images/branca01.jpg == ../images/senhora_branca02.jpg)",
+    "distance": 0.375,
+    "diffInPercent": 0.6462813688730874
+  },
+  {
+    "id": "2429",
+    "Comparation": "(../images/jovem_moreno04.jpg == ../images/mulher_morena02.jpg)",
+    "distance": 0.234375,
+    "diffInPercent": 0.6455149866885894
+  },
+  {
+    "id": "930",
+    "Comparation": "(../images/homem_branco03.jpg == ../images/mulher_morena03.jpg)",
+    "distance": 0.40625,
+    "diffInPercent": 0.6450751463376048
+  },
+  {
+    "id": "2023",
+    "Comparation": "(../images/jovem_loura01.jpg == ../images/jovem_moreno03.jpg)",
+    "distance": 0.25,
+    "diffInPercent": 0.6437401794642046
+  },
+  {
+    "id": "1629",
+    "Comparation": "(../images/jovem_branco01.jpg == ../images/mulher_morena02.jpg)",
+    "distance": 0.296875,
+    "diffInPercent": 0.6434830255227255
+  },
+  {
+    "id": "2336",
+    "Comparation": "(../images/jovem_moreno03.jpg == ../images/senhor_moreno02.jpg)",
+    "distance": 0.203125,
+    "diffInPercent": 0.6427415002698327
+  },
+  {
+    "id": "2745",
+    "Comparation": "(../images/morena10.jpg == ../images/senhora_morena03.jpg)",
+    "distance": 0.375,
+    "diffInPercent": 0.6422045028142589
+  },
+  {
+    "id": "813",
+    "Comparation": "(../images/homem_branco02.jpg == ../images/homem_moreno03.jpg)",
+    "distance": 0.3125,
+    "diffInPercent": 0.6415911968059207
+  },
+  {
+    "id": "137",
+    "Comparation": "(../images/branca02.jpg == ../images/senhor_moreno03.jpg)",
+    "distance": 0.3125,
+    "diffInPercent": 0.6415292181069959
+  },
+  {
+    "id": "2433",
+    "Comparation": "(../images/jovem_moreno04.jpg == ../images/senhor_branco03.jpg)",
+    "distance": 0.15625,
+    "diffInPercent": 0.6414570378407315
+  },
+  {
+    "id": "542",
+    "Comparation": "(../images/familia_branca01.jpg == ../images/senhora_branca04.jpg)",
+    "distance": 0.28125,
+    "diffInPercent": 0.6409005628517823
+  },
+  {
+    "id": "030",
+    "Comparation": "(../images/branca01.jpg == ../images/mulher_morena03.jpg)",
+    "distance": 0.46875,
+    "diffInPercent": 0.6400220676127134
+  },
+  {
+    "id": "1633",
+    "Comparation": "(../images/jovem_branco01.jpg == ../images/senhor_branco03.jpg)",
+    "distance": 0.25,
+    "diffInPercent": 0.6383075711740085
+  },
+  {
+    "id": "2744",
+    "Comparation": "(../images/morena10.jpg == ../images/senhora_morena02.jpg)",
+    "distance": 0.21875,
+    "diffInPercent": 0.636749530956848
+  },
+  {
+    "id": "1823",
+    "Comparation": "(../images/jovem_branco03.jpg == ../images/jovem_moreno03.jpg)",
+    "distance": 0.21875,
+    "diffInPercent": 0.6352801436149392
+  },
+  {
+    "id": "1734",
+    "Comparation": "(../images/jovem_branco02.jpg == ../images/senhor_branco04.jpg)",
+    "distance": 0.46875,
+    "diffInPercent": 0.6349929643527205
+  },
+  {
+    "id": "819",
+    "Comparation": "(../images/homem_branco02.jpg == ../images/jovem_branco04.jpg)",
+    "distance": 0.328125,
+    "diffInPercent": 0.6347258739896777
+  },
+  {
+    "id": "1840",
+    "Comparation": "(../images/jovem_branco03.jpg == ../images/senhora_branca02.jpg)",
+    "distance": 0.234375,
+    "diffInPercent": 0.6340113650168046
+  },
+  {
+    "id": "641",
+    "Comparation": "(../images/familia_morena01.jpg == ../images/senhora_branca03.jpg)",
+    "distance": 0.25,
+    "diffInPercent": 0.6330253283302064
+  },
+  {
+    "id": "821",
+    "Comparation": "(../images/homem_branco02.jpg == ../images/jovem_moreno01.jpg)",
+    "distance": 0.34375,
+    "diffInPercent": 0.6328299980523907
+  },
+  {
+    "id": "2241",
+    "Comparation": "(../images/jovem_moreno02.jpg == ../images/senhora_branca03.jpg)",
+    "distance": 0.21875,
+    "diffInPercent": 0.6318374775369494
+  },
+  {
+    "id": "913",
+    "Comparation": "(../images/homem_branco03.jpg == ../images/homem_moreno03.jpg)",
+    "distance": 0.34375,
+    "diffInPercent": 0.6308210726150926
+  },
+  {
+    "id": "518",
+    "Comparation": "(../images/familia_branca01.jpg == ../images/jovem_branco03.jpg)",
+    "distance": 0.296875,
+    "diffInPercent": 0.6302908067542213
+  },
+  {
+    "id": "219",
+    "Comparation": "(../images/branca03.jpg == ../images/jovem_branco04.jpg)",
+    "distance": 0.234375,
+    "diffInPercent": 0.6294858807521474
+  },
+  {
+    "id": "339",
+    "Comparation": "(../images/casal_branco01.jpg == ../images/senhora_branca01.jpg)",
+    "distance": 0.390625,
+    "diffInPercent": 0.6291768292682927
+  },
+  {
+    "id": "117",
+    "Comparation": "(../images/branca02.jpg == ../images/jovem_branco02.jpg)",
+    "distance": 0.375,
+    "diffInPercent": 0.6279308641975309
+  },
+  {
+    "id": "618",
+    "Comparation": "(../images/familia_morena01.jpg == ../images/jovem_branco03.jpg)",
+    "distance": 0.1875,
+    "diffInPercent": 0.6270731707317073
+  },
+  {
+    "id": "611",
+    "Comparation": "(../images/familia_morena01.jpg == ../images/homem_moreno01.jpg)",
+    "distance": 0.296875,
+    "diffInPercent": 0.626343808630394
+  },
+  {
+    "id": "725",
+    "Comparation": "(../images/homem_branco01.jpg == ../images/morena01.jpg)",
+    "distance": 0.390625,
+    "diffInPercent": 0.6258648381517173
+  },
+  {
+    "id": "2242",
+    "Comparation": "(../images/jovem_moreno02.jpg == ../images/senhora_branca04.jpg)",
+    "distance": 0.234375,
+    "diffInPercent": 0.6256303407048813
+  },
+  {
+    "id": "2332",
+    "Comparation": "(../images/jovem_moreno03.jpg == ../images/senhor_branco02.jpg)",
+    "distance": 0.234375,
+    "diffInPercent": 0.6247301672962763
+  },
+  {
+    "id": "810",
+    "Comparation": "(../images/homem_branco02.jpg == ../images/homem_branco04.jpg)",
+    "distance": 0.265625,
+    "diffInPercent": 0.6231406417372675
+  },
+  {
+    "id": "514",
+    "Comparation": "(../images/familia_branca01.jpg == ../images/homem_moreno04.jpg)",
+    "distance": 0.296875,
+    "diffInPercent": 0.6229737335834897
+  },
+  {
+    "id": "3245",
+    "Comparation": "(../images/senhor_branco02.jpg == ../images/senhora_morena03.jpg)",
+    "distance": 0.328125,
+    "diffInPercent": 0.6228604868913857
+  },
+  {
+    "id": "639",
+    "Comparation": "(../images/familia_morena01.jpg == ../images/senhora_branca01.jpg)",
+    "distance": 0.28125,
+    "diffInPercent": 0.6211843339587242
+  },
+  {
+    "id": "15",
+    "Comparation": "(../images/branca02.jpg == ../images/familia_branca01.jpg)",
+    "distance": 0.390625,
+    "diffInPercent": 0.6210995884773662
+  },
+  {
+    "id": "3337",
+    "Comparation": "(../images/senhor_branco03.jpg == ../images/senhor_moreno03.jpg)",
+    "distance": 0.265625,
+    "diffInPercent": 0.6187366952947222
+  },
+  {
+    "id": "4244",
+    "Comparation": "(../images/senhora_branca04.jpg == ../images/senhora_morena02.jpg)",
+    "distance": 0.328125,
+    "diffInPercent": 0.6160878060749692
+  },
+  {
+    "id": "345",
+    "Comparation": "(../images/casal_branco01.jpg == ../images/senhora_morena03.jpg)",
+    "distance": 0.328125,
+    "diffInPercent": 0.6158888367729831
+  },
+  {
+    "id": "539",
+    "Comparation": "(../images/familia_branca01.jpg == ../images/senhora_branca01.jpg)",
+    "distance": 0.359375,
+    "diffInPercent": 0.6149601313320826
+  },
+  {
+    "id": "1929",
+    "Comparation": "(../images/jovem_branco04.jpg == ../images/mulher_morena02.jpg)",
+    "distance": 0.28125,
+    "diffInPercent": 0.6140236758110783
+  },
+  {
+    "id": "2627",
+    "Comparation": "(../images/morena03.jpg == ../images/morena10.jpg)",
+    "distance": 0.421875,
+    "diffInPercent": 0.6138592592592592
+  },
+  {
+    "id": "49",
+    "Comparation": "(../images/casal_moreno01.jpg == ../images/homem_branco03.jpg)",
+    "distance": 0.375,
+    "diffInPercent": 0.6136116322701689
+  },
+  {
+    "id": "816",
+    "Comparation": "(../images/homem_branco02.jpg == ../images/jovem_branco01.jpg)",
+    "distance": 0.375,
+    "diffInPercent": 0.6132808696075567
+  },
+  {
+    "id": "2239",
+    "Comparation": "(../images/jovem_moreno02.jpg == ../images/senhora_branca01.jpg)",
+    "distance": 0.28125,
+    "diffInPercent": 0.6129616386107749
+  },
+  {
+    "id": "2738",
+    "Comparation": "(../images/morena10.jpg == ../images/senhor_moreno04.jpg)",
+    "distance": 0.28125,
+    "diffInPercent": 0.6123100375234521
+  },
+  {
+    "id": "2245",
+    "Comparation": "(../images/jovem_moreno02.jpg == ../images/senhora_morena03.jpg)",
+    "distance": 0.28125,
+    "diffInPercent": 0.6118109803058642
+  },
+  {
+    "id": "1325",
+    "Comparation": "(../images/homem_moreno03.jpg == ../images/morena01.jpg)",
+    "distance": 0.296875,
+    "diffInPercent": 0.6118003534291256
+  },
+  {
+    "id": "840",
+    "Comparation": "(../images/homem_branco02.jpg == ../images/senhora_branca02.jpg)",
+    "distance": 0.34375,
+    "diffInPercent": 0.611299785762976
+  },
+  {
+    "id": "1824",
+    "Comparation": "(../images/jovem_branco03.jpg == ../images/jovem_moreno04.jpg)",
+    "distance": 0.203125,
+    "diffInPercent": 0.6104883447838352
+  },
+  {
+    "id": "318",
+    "Comparation": "(../images/casal_branco01.jpg == ../images/jovem_branco03.jpg)",
+    "distance": 0.265625,
+    "diffInPercent": 0.6087828330206378
+  },
+  {
+    "id": "127",
+    "Comparation": "(../images/branca02.jpg == ../images/morena10.jpg)",
+    "distance": 0.3125,
+    "diffInPercent": 0.608243621399177
+  },
+  {
+    "id": "2425",
+    "Comparation": "(../images/jovem_moreno04.jpg == ../images/morena01.jpg)",
+    "distance": 0.328125,
+    "diffInPercent": 0.6081713419909281
+  },
+  {
+    "id": "919",
+    "Comparation": "(../images/homem_branco03.jpg == ../images/jovem_branco04.jpg)",
+    "distance": 0.421875,
+    "diffInPercent": 0.6081474450245214
+  },
+  {
+    "id": "1423",
+    "Comparation": "(../images/homem_moreno04.jpg == ../images/jovem_moreno03.jpg)",
+    "distance": 0.21875,
+    "diffInPercent": 0.6074692837878334
+  },
+  {
+    "id": "3239",
+    "Comparation": "(../images/senhor_branco02.jpg == ../images/senhora_branca01.jpg)",
+    "distance": 0.296875,
+    "diffInPercent": 0.607130149812734
+  },
+  {
+    "id": "344",
+    "Comparation": "(../images/casal_branco01.jpg == ../images/senhora_morena02.jpg)",
+    "distance": 0.328125,
+    "diffInPercent": 0.6070848968105066
+  },
+  {
+    "id": "644",
+    "Comparation": "(../images/familia_morena01.jpg == ../images/senhora_morena02.jpg)",
+    "distance": 0.28125,
+    "diffInPercent": 0.6061350844277673
+  },
+  {
+    "id": "940",
+    "Comparation": "(../images/homem_branco03.jpg == ../images/senhora_branca02.jpg)",
+    "distance": 0.40625,
+    "diffInPercent": 0.6054263565891473
+  },
+  {
+    "id": "1416",
+    "Comparation": "(../images/homem_moreno04.jpg == ../images/jovem_branco01.jpg)",
+    "distance": 0.296875,
+    "diffInPercent": 0.6053409431443594
+  },
+  {
+    "id": "520",
+    "Comparation": "(../images/familia_branca01.jpg == ../images/jovem_loura01.jpg)",
+    "distance": 0.265625,
+    "diffInPercent": 0.6042870544090057
+  },
+  {
+    "id": "3435",
+    "Comparation": "(../images/senhor_branco04.jpg == ../images/senhor_moreno01.jpg)",
+    "distance": 0.390625,
+    "diffInPercent": 0.6042125618054536
+  },
+  {
+    "id": "1828",
+    "Comparation": "(../images/jovem_branco03.jpg == ../images/mulher_morena01.jpg)",
+    "distance": 0.34375,
+    "diffInPercent": 0.6035910483620608
+  },
+  {
+    "id": "1015",
+    "Comparation": "(../images/homem_branco04.jpg == ../images/image_teste_segementacao_3_classes.jpg)",
+    "distance": 0.421875,
+    "diffInPercent": 0.6024033854998403
+  },
+  {
+    "id": "013",
+    "Comparation": "(../images/branca01.jpg == ../images/homem_moreno03.jpg)",
+    "distance": 0.3125,
+    "diffInPercent": 0.6022449028241776
+  },
+  {
+    "id": "321",
+    "Comparation": "(../images/casal_branco01.jpg == ../images/jovem_moreno01.jpg)",
+    "distance": 0.25,
+    "diffInPercent": 0.6018480300187617
+  },
+  {
+    "id": "545",
+    "Comparation": "(../images/familia_branca01.jpg == ../images/senhora_morena03.jpg)",
+    "distance": 0.390625,
+    "diffInPercent": 0.6016322701688556
+  },
+  {
+    "id": "411",
+    "Comparation": "(../images/casal_moreno01.jpg == ../images/homem_moreno01.jpg)",
+    "distance": 0.375,
+    "diffInPercent": 0.6016158536585365
+  },
+  {
+    "id": "3242",
+    "Comparation": "(../images/senhor_branco02.jpg == ../images/senhora_branca04.jpg)",
+    "distance": 0.21875,
+    "diffInPercent": 0.6011750936329588
+  },
+  {
+    "id": "1721",
+    "Comparation": "(../images/jovem_branco02.jpg == ../images/jovem_moreno01.jpg)",
+    "distance": 0.359375,
+    "diffInPercent": 0.6006496247654785
+  },
+  {
+    "id": "1637",
+    "Comparation": "(../images/jovem_branco01.jpg == ../images/senhor_moreno03.jpg)",
+    "distance": 0.296875,
+    "diffInPercent": 0.5998646277955051
+  },
+  {
+    "id": "2040",
+    "Comparation": "(../images/jovem_loura01.jpg == ../images/senhora_branca02.jpg)",
+    "distance": 0.296875,
+    "diffInPercent": 0.5995006947420365
+  },
+  {
+    "id": "342",
+    "Comparation": "(../images/casal_branco01.jpg == ../images/senhora_branca04.jpg)",
+    "distance": 0.3125,
+    "diffInPercent": 0.5991299249530957
+  },
+  {
+    "id": "2129",
+    "Comparation": "(../images/jovem_moreno01.jpg == ../images/mulher_morena02.jpg)",
+    "distance": 0.328125,
+    "diffInPercent": 0.5982230242231465
+  },
+  {
+    "id": "421",
+    "Comparation": "(../images/casal_moreno01.jpg == ../images/jovem_moreno01.jpg)",
+    "distance": 0.34375,
+    "diffInPercent": 0.5969465290806755
+  },
+  {
+    "id": "521",
+    "Comparation": "(../images/familia_branca01.jpg == ../images/jovem_moreno01.jpg)",
+    "distance": 0.3125,
+    "diffInPercent": 0.5949202626641651
+  },
+  {
+    "id": "1428",
+    "Comparation": "(../images/homem_moreno04.jpg == ../images/mulher_morena01.jpg)",
+    "distance": 0.40625,
+    "diffInPercent": 0.5944642711199499
+  },
+  {
+    "id": "418",
+    "Comparation": "(../images/casal_moreno01.jpg == ../images/jovem_branco03.jpg)",
+    "distance": 0.234375,
+    "diffInPercent": 0.5937757973733584
+  },
+  {
+    "id": "823",
+    "Comparation": "(../images/homem_branco02.jpg == ../images/jovem_moreno03.jpg)",
+    "distance": 0.265625,
+    "diffInPercent": 0.5929009640666082
+  },
+  {
+    "id": "541",
+    "Comparation": "(../images/familia_branca01.jpg == ../images/senhora_branca03.jpg)",
+    "distance": 0.234375,
+    "diffInPercent": 0.5926360225140713
+  },
+  {
+    "id": "638",
+    "Comparation": "(../images/familia_morena01.jpg == ../images/senhor_moreno04.jpg)",
+    "distance": 0.3125,
+    "diffInPercent": 0.5922138836772983
+  },
+  {
+    "id": "59",
+    "Comparation": "(../images/familia_branca01.jpg == ../images/homem_branco03.jpg)",
+    "distance": 0.4375,
+    "diffInPercent": 0.5916017823639775
+  },
+  {
+    "id": "621",
+    "Comparation": "(../images/familia_morena01.jpg == ../images/jovem_moreno01.jpg)",
+    "distance": 0.234375,
+    "diffInPercent": 0.5915243902439025
+  },
+  {
+    "id": "3440",
+    "Comparation": "(../images/senhor_branco04.jpg == ../images/senhora_branca02.jpg)",
+    "distance": 0.328125,
+    "diffInPercent": 0.5914843099818867
+  },
+  {
+    "id": "27",
+    "Comparation": "(../images/branca03.jpg == ../images/homem_branco01.jpg)",
+    "distance": 0.375,
+    "diffInPercent": 0.5912401321113235
+  },
+  {
+    "id": "614",
+    "Comparation": "(../images/familia_morena01.jpg == ../images/homem_moreno04.jpg)",
+    "distance": 0.28125,
+    "diffInPercent": 0.5905206378986867
+  },
+  {
+    "id": "910",
+    "Comparation": "(../images/homem_branco03.jpg == ../images/homem_branco04.jpg)",
+    "distance": 0.453125,
+    "diffInPercent": 0.589906660338554
+  },
+  {
+    "id": "010",
+    "Comparation": "(../images/branca01.jpg == ../images/homem_branco04.jpg)",
+    "distance": 0.296875,
+    "diffInPercent": 0.5877987896867966
+  },
+  {
+    "id": "1133",
+    "Comparation": "(../images/homem_moreno01.jpg == ../images/senhor_branco03.jpg)",
+    "distance": 0.25,
+    "diffInPercent": 0.5856557508242901
+  },
+  {
+    "id": "420",
+    "Comparation": "(../images/casal_moreno01.jpg == ../images/jovem_loura01.jpg)",
+    "distance": 0.265625,
+    "diffInPercent": 0.5846529080675422
+  },
+  {
+    "id": "14",
+    "Comparation": "(../images/branca02.jpg == ../images/casal_moreno01.jpg)",
+    "distance": 0.296875,
+    "diffInPercent": 0.583598353909465
+  },
+  {
+    "id": "2344",
+    "Comparation": "(../images/jovem_moreno03.jpg == ../images/senhora_morena02.jpg)",
+    "distance": 0.1875,
+    "diffInPercent": 0.5835132218024824
+  },
+  {
+    "id": "439",
+    "Comparation": "(../images/casal_moreno01.jpg == ../images/senhora_branca01.jpg)",
+    "distance": 0.296875,
+    "diffInPercent": 0.5816017823639775
+  },
+  {
+    "id": "2325",
+    "Comparation": "(../images/jovem_moreno03.jpg == ../images/morena01.jpg)",
+    "distance": 0.21875,
+    "diffInPercent": 0.5811746717035438
+  },
+  {
+    "id": "1140",
+    "Comparation": "(../images/homem_moreno01.jpg == ../images/senhora_branca02.jpg)",
+    "distance": 0.3125,
+    "diffInPercent": 0.5792727039918051
+  },
+  {
+    "id": "1222",
+    "Comparation": "(../images/homem_moreno02.jpg == ../images/jovem_moreno02.jpg)",
+    "distance": 0.3125,
+    "diffInPercent": 0.5788
+  },
+  {
+    "id": "1720",
+    "Comparation": "(../images/jovem_branco02.jpg == ../images/jovem_loura01.jpg)",
+    "distance": 0.25,
+    "diffInPercent": 0.578796904315197
+  },
+  {
+    "id": "916",
+    "Comparation": "(../images/homem_branco03.jpg == ../images/jovem_branco01.jpg)",
+    "distance": 0.375,
+    "diffInPercent": 0.5784148077835786
+  },
+  {
+    "id": "1023",
+    "Comparation": "(../images/homem_branco04.jpg == ../images/jovem_moreno03.jpg)",
+    "distance": 0.25,
+    "diffInPercent": 0.5773270875474644
+  },
+  {
+    "id": "620",
+    "Comparation": "(../images/familia_morena01.jpg == ../images/jovem_loura01.jpg)",
+    "distance": 0.25,
+    "diffInPercent": 0.5769160412757973
+  },
+  {
+    "id": "1123",
+    "Comparation": "(../images/homem_moreno01.jpg == ../images/jovem_moreno03.jpg)",
+    "distance": 0.296875,
+    "diffInPercent": 0.5763116617049201
+  },
+  {
+    "id": "2125",
+    "Comparation": "(../images/jovem_moreno01.jpg == ../images/morena01.jpg)",
+    "distance": 0.328125,
+    "diffInPercent": 0.5750129985319306
+  },
+  {
+    "id": "023",
+    "Comparation": "(../images/branca01.jpg == ../images/jovem_moreno03.jpg)",
+    "distance": 0.328125,
+    "diffInPercent": 0.5740303702114472
+  },
+  {
+    "id": "3241",
+    "Comparation": "(../images/senhor_branco02.jpg == ../images/senhora_branca03.jpg)",
+    "distance": 0.265625,
+    "diffInPercent": 0.5734761235955056
+  },
+  {
+    "id": "538",
+    "Comparation": "(../images/familia_branca01.jpg == ../images/senhor_moreno04.jpg)",
+    "distance": 0.265625,
+    "diffInPercent": 0.5723710131332083
+  },
+  {
+    "id": "028",
+    "Comparation": "(../images/branca01.jpg == ../images/mulher_morena01.jpg)",
+    "distance": 0.359375,
+    "diffInPercent": 0.5710812108580827
+  },
+  {
+    "id": "2244",
+    "Comparation": "(../images/jovem_moreno02.jpg == ../images/senhora_morena02.jpg)",
+    "distance": 0.28125,
+    "diffInPercent": 0.5706119118348186
+  },
+  {
+    "id": "445",
+    "Comparation": "(../images/casal_moreno01.jpg == ../images/senhora_morena03.jpg)",
+    "distance": 0.328125,
+    "diffInPercent": 0.5704878048780487
+  },
+  {
+    "id": "341",
+    "Comparation": "(../images/casal_branco01.jpg == ../images/senhora_branca03.jpg)",
+    "distance": 0.265625,
+    "diffInPercent": 0.5700867729831145
+  },
+  {
+    "id": "320",
+    "Comparation": "(../images/casal_branco01.jpg == ../images/jovem_loura01.jpg)",
+    "distance": 0.359375,
+    "diffInPercent": 0.5700187617260788
+  },
+  {
+    "id": "314",
+    "Comparation": "(../images/casal_branco01.jpg == ../images/homem_moreno04.jpg)",
+    "distance": 0.296875,
+    "diffInPercent": 0.567202157598499
+  },
+  {
+    "id": "1739",
+    "Comparation": "(../images/jovem_branco02.jpg == ../images/senhora_branca01.jpg)",
+    "distance": 0.1875,
+    "diffInPercent": 0.5664915572232645
+  },
+  {
+    "id": "923",
+    "Comparation": "(../images/homem_branco03.jpg == ../images/jovem_moreno03.jpg)",
+    "distance": 0.296875,
+    "diffInPercent": 0.5658756525866161
+  },
+  {
+    "id": "1718",
+    "Comparation": "(../images/jovem_branco02.jpg == ../images/jovem_branco03.jpg)",
+    "distance": 0.34375,
+    "diffInPercent": 0.5655698874296435
+  },
+  {
+    "id": "2642",
+    "Comparation": "(../images/morena03.jpg == ../images/senhora_branca04.jpg)",
+    "distance": 0.53125,
+    "diffInPercent": 0.5652203703703703
+  },
+  {
+    "id": "544",
+    "Comparation": "(../images/familia_branca01.jpg == ../images/senhora_morena02.jpg)",
+    "distance": 0.359375,
+    "diffInPercent": 0.5650656660412758
+  },
+  {
+    "id": "533",
+    "Comparation": "(../images/familia_branca01.jpg == ../images/senhor_branco03.jpg)",
+    "distance": 0.3125,
+    "diffInPercent": 0.5644441838649156
+  },
+  {
+    "id": "16",
+    "Comparation": "(../images/branca02.jpg == ../images/familia_morena01.jpg)",
+    "distance": 0.375,
+    "diffInPercent": 0.5637267489711935
+  },
+  {
+    "id": "2028",
+    "Comparation": "(../images/jovem_loura01.jpg == ../images/mulher_morena01.jpg)",
+    "distance": 0.3125,
+    "diffInPercent": 0.5636565507031829
+  },
+  {
+    "id": "924",
+    "Comparation": "(../images/homem_branco03.jpg == ../images/jovem_moreno04.jpg)",
+    "distance": 0.375,
+    "diffInPercent": 0.5631134314190792
+  },
+  {
+    "id": "240",
+    "Comparation": "(../images/branca03.jpg == ../images/senhora_branca02.jpg)",
+    "distance": 0.1875,
+    "diffInPercent": 0.5621594566891848
+  },
+  {
+    "id": "928",
+    "Comparation": "(../images/homem_branco03.jpg == ../images/mulher_morena01.jpg)",
+    "distance": 0.421875,
+    "diffInPercent": 0.5608701154880557
+  },
+  {
+    "id": "442",
+    "Comparation": "(../images/casal_moreno01.jpg == ../images/senhora_branca04.jpg)",
+    "distance": 0.25,
+    "diffInPercent": 0.5603564727954972
+  },
+  {
+    "id": "3238",
+    "Comparation": "(../images/senhor_branco02.jpg == ../images/senhor_moreno04.jpg)",
+    "distance": 0.265625,
+    "diffInPercent": 0.5584878277153558
+  },
+  {
+    "id": "828",
+    "Comparation": "(../images/homem_branco02.jpg == ../images/mulher_morena01.jpg)",
+    "distance": 0.421875,
+    "diffInPercent": 0.5579474632388742
+  },
+  {
+    "id": "230",
+    "Comparation": "(../images/branca03.jpg == ../images/mulher_morena03.jpg)",
+    "distance": 0.3125,
+    "diffInPercent": 0.5569685126686608
+  },
+  {
+    "id": "3235",
+    "Comparation": "(../images/senhor_branco02.jpg == ../images/senhor_moreno01.jpg)",
+    "distance": 0.28125,
+    "diffInPercent": 0.5562780898876405
+  },
+  {
+    "id": "1025",
+    "Comparation": "(../images/homem_branco04.jpg == ../images/morena01.jpg)",
+    "distance": 0.25,
+    "diffInPercent": 0.5556753255970759
+  },
+  {
+    "id": "016",
+    "Comparation": "(../images/branca01.jpg == ../images/jovem_branco01.jpg)",
+    "distance": 0.34375,
+    "diffInPercent": 0.5539924329883567
+  },
+  {
+    "id": "2641",
+    "Comparation": "(../images/morena03.jpg == ../images/senhora_branca03.jpg)",
+    "distance": 0.484375,
+    "diffInPercent": 0.5535592592592593
+  },
+  {
+    "id": "2024",
+    "Comparation": "(../images/jovem_loura01.jpg == ../images/jovem_moreno04.jpg)",
+    "distance": 0.203125,
+    "diffInPercent": 0.5517388029659641
+  },
+  {
+    "id": "338",
+    "Comparation": "(../images/casal_branco01.jpg == ../images/senhor_moreno04.jpg)",
+    "distance": 0.328125,
+    "diffInPercent": 0.5516135084427768
+  },
+  {
+    "id": "2238",
+    "Comparation": "(../images/jovem_moreno02.jpg == ../images/senhor_moreno04.jpg)",
+    "distance": 0.3125,
+    "diffInPercent": 0.5490817655040892
+  },
+  {
+    "id": "824",
+    "Comparation": "(../images/homem_branco02.jpg == ../images/jovem_moreno04.jpg)",
+    "distance": 0.28125,
+    "diffInPercent": 0.5484498247151621
+  },
+  {
+    "id": "414",
+    "Comparation": "(../images/casal_moreno01.jpg == ../images/homem_moreno04.jpg)",
+    "distance": 0.171875,
+    "diffInPercent": 0.5479291744840525
+  },
+  {
+    "id": "1113",
+    "Comparation": "(../images/homem_moreno01.jpg == ../images/homem_moreno03.jpg)",
+    "distance": 0.34375,
+    "diffInPercent": 0.5471333909536157
+  },
+  {
+    "id": "1925",
+    "Comparation": "(../images/jovem_branco04.jpg == ../images/morena01.jpg)",
+    "distance": 0.25,
+    "diffInPercent": 0.5441719526483778
+  },
+  {
+    "id": "435",
+    "Comparation": "(../images/casal_moreno01.jpg == ../images/senhor_moreno01.jpg)",
+    "distance": 0.1875,
+    "diffInPercent": 0.5438883677298312
+  },
+  {
+    "id": "3142",
+    "Comparation": "(../images/senhor_branco01.jpg == ../images/senhora_branca04.jpg)",
+    "distance": 0.359375,
+    "diffInPercent": 0.5434129629629629
+  },
+  {
+    "id": "024",
+    "Comparation": "(../images/branca01.jpg == ../images/jovem_moreno04.jpg)",
+    "distance": 0.34375,
+    "diffInPercent": 0.5419846548359742
+  },
+  {
+    "id": "2733",
+    "Comparation": "(../images/morena10.jpg == ../images/senhor_branco03.jpg)",
+    "distance": 0.296875,
+    "diffInPercent": 0.5414915572232646
+  },
+  {
+    "id": "1745",
+    "Comparation": "(../images/jovem_branco02.jpg == ../images/senhora_morena03.jpg)",
+    "distance": 0.40625,
+    "diffInPercent": 0.5405839587242026
+  },
+  {
+    "id": "441",
+    "Comparation": "(../images/casal_moreno01.jpg == ../images/senhora_branca03.jpg)",
+    "distance": 0.234375,
+    "diffInPercent": 0.5404432457786116
+  },
+  {
+    "id": "1742",
+    "Comparation": "(../images/jovem_branco02.jpg == ../images/senhora_branca04.jpg)",
+    "distance": 0.296875,
+    "diffInPercent": 0.5397467166979362
+  },
+  {
+    "id": "3741",
+    "Comparation": "(../images/senhor_moreno03.jpg == ../images/senhora_branca03.jpg)",
+    "distance": 0.3125,
+    "diffInPercent": 0.5393370370370371
+  },
+  {
+    "id": "535",
+    "Comparation": "(../images/familia_branca01.jpg == ../images/senhor_moreno01.jpg)",
+    "distance": 0.25,
+    "diffInPercent": 0.5388719512195121
+  },
+  {
+    "id": "1735",
+    "Comparation": "(../images/jovem_branco02.jpg == ../images/senhor_moreno01.jpg)",
+    "distance": 0.328125,
+    "diffInPercent": 0.5388461538461539
+  },
+  {
+    "id": "1424",
+    "Comparation": "(../images/homem_moreno04.jpg == ../images/jovem_moreno04.jpg)",
+    "distance": 0.203125,
+    "diffInPercent": 0.5382760781322363
+  },
+  {
+    "id": "2639",
+    "Comparation": "(../images/morena03.jpg == ../images/senhora_branca01.jpg)",
+    "distance": 0.296875,
+    "diffInPercent": 0.5380055555555555
+  },
+  {
+    "id": "1128",
+    "Comparation": "(../images/homem_moreno01.jpg == ../images/mulher_morena01.jpg)",
+    "distance": 0.390625,
+    "diffInPercent": 0.5379685649348571
+  },
+  {
+    "id": "311",
+    "Comparation": "(../images/casal_branco01.jpg == ../images/homem_moreno01.jpg)",
+    "distance": 0.375,
+    "diffInPercent": 0.537094277673546
+  },
+  {
+    "id": "3742",
+    "Comparation": "(../images/senhor_moreno03.jpg == ../images/senhora_branca04.jpg)",
+    "distance": 0.296875,
+    "diffInPercent": 0.5365037037037037
+  },
+  {
+    "id": "1738",
+    "Comparation": "(../images/jovem_branco02.jpg == ../images/senhor_moreno04.jpg)",
+    "distance": 0.25,
+    "diffInPercent": 0.5364704502814259
+  },
+  {
+    "id": "438",
+    "Comparation": "(../images/casal_moreno01.jpg == ../images/senhor_moreno04.jpg)",
+    "distance": 0.203125,
+    "diffInPercent": 0.5359826454033771
+  },
+  {
+    "id": "112",
+    "Comparation": "(../images/branca02.jpg == ../images/homem_moreno02.jpg)",
+    "distance": 0.3125,
+    "diffInPercent": 0.5356082304526749
+  },
+  {
+    "id": "1130",
+    "Comparation": "(../images/homem_moreno01.jpg == ../images/mulher_morena03.jpg)",
+    "distance": 0.3125,
+    "diffInPercent": 0.5339511508050834
+  },
+  {
+    "id": "3739",
+    "Comparation": "(../images/senhor_moreno03.jpg == ../images/senhora_branca01.jpg)",
+    "distance": 0.375,
+    "diffInPercent": 0.5330870370370371
+  },
+  {
+    "id": "3745",
+    "Comparation": "(../images/senhor_moreno03.jpg == ../images/senhora_morena03.jpg)",
+    "distance": 0.28125,
+    "diffInPercent": 0.5322351851851852
+  },
+  {
+    "id": "1239",
+    "Comparation": "(../images/homem_moreno02.jpg == ../images/senhora_branca01.jpg)",
+    "distance": 0.34375,
+    "diffInPercent": 0.5306537037037037
+  },
+  {
+    "id": "213",
+    "Comparation": "(../images/branca03.jpg == ../images/homem_moreno03.jpg)",
+    "distance": 0.3125,
+    "diffInPercent": 0.5294912754976653
+  },
+  {
+    "id": "1625",
+    "Comparation": "(../images/jovem_branco01.jpg == ../images/morena01.jpg)",
+    "distance": 0.328125,
+    "diffInPercent": 0.5277628131633353
+  },
+  {
+    "id": "122",
+    "Comparation": "(../images/branca02.jpg == ../images/jovem_moreno02.jpg)",
+    "distance": 0.375,
+    "diffInPercent": 0.52719341563786
+  },
+  {
+    "id": "715",
+    "Comparation": "(../images/homem_branco01.jpg == ../images/image_teste_segementacao_3_classes.jpg)",
+    "distance": 0.3125,
+    "diffInPercent": 0.5269732429665713
+  },
+  {
+    "id": "233",
+    "Comparation": "(../images/branca03.jpg == ../images/senhor_branco03.jpg)",
+    "distance": 0.25,
+    "diffInPercent": 0.5269467538617386
+  },
+  {
+    "id": "335",
+    "Comparation": "(../images/casal_branco01.jpg == ../images/senhor_moreno01.jpg)",
+    "distance": 0.34375,
+    "diffInPercent": 0.5263672607879925
+  },
+  {
+    "id": "2634",
+    "Comparation": "(../images/morena03.jpg == ../images/senhor_branco04.jpg)",
+    "distance": 0.546875,
+    "diffInPercent": 0.5253240740740741
+  },
+  {
+    "id": "3233",
+    "Comparation": "(../images/senhor_branco02.jpg == ../images/senhor_branco03.jpg)",
+    "distance": 0.28125,
+    "diffInPercent": 0.524749531835206
+  },
+  {
+    "id": "2735",
+    "Comparation": "(../images/morena10.jpg == ../images/senhor_moreno01.jpg)",
+    "distance": 0.234375,
+    "diffInPercent": 0.5241322701688556
+  },
+  {
+    "id": "1242",
+    "Comparation": "(../images/homem_moreno02.jpg == ../images/senhora_branca04.jpg)",
+    "distance": 0.390625,
+    "diffInPercent": 0.5235240740740741
+  },
+  {
+    "id": "1245",
+    "Comparation": "(../images/homem_moreno02.jpg == ../images/senhora_morena03.jpg)",
+    "distance": 0.34375,
+    "diffInPercent": 0.5212148148148148
+  },
+  {
+    "id": "1241",
+    "Comparation": "(../images/homem_moreno02.jpg == ../images/senhora_branca03.jpg)",
+    "distance": 0.3125,
+    "diffInPercent": 0.5211666666666667
+  },
+  {
+    "id": "2235",
+    "Comparation": "(../images/jovem_moreno02.jpg == ../images/senhor_moreno01.jpg)",
+    "distance": 0.390625,
+    "diffInPercent": 0.5211221439835699
+  },
+  {
+    "id": "18",
+    "Comparation": "(../images/branca02.jpg == ../images/homem_branco02.jpg)",
+    "distance": 0.328125,
+    "diffInPercent": 0.5170403292181069
+  },
+  {
+    "id": "319",
+    "Comparation": "(../images/casal_branco01.jpg == ../images/jovem_branco04.jpg)",
+    "distance": 0.296875,
+    "diffInPercent": 0.5153799249530957
+  },
+  {
+    "id": "3145",
+    "Comparation": "(../images/senhor_branco01.jpg == ../images/senhora_morena03.jpg)",
+    "distance": 0.3125,
+    "diffInPercent": 0.5138685185185186
+  },
+  {
+    "id": "2645",
+    "Comparation": "(../images/morena03.jpg == ../images/senhora_morena03.jpg)",
+    "distance": 0.453125,
+    "diffInPercent": 0.5137111111111111
+  },
+  {
+    "id": "3134",
+    "Comparation": "(../images/senhor_branco01.jpg == ../images/senhor_branco04.jpg)",
+    "distance": 0.5,
+    "diffInPercent": 0.5124907407407407
+  },
+  {
+    "id": "228",
+    "Comparation": "(../images/branca03.jpg == ../images/mulher_morena01.jpg)",
+    "distance": 0.234375,
+    "diffInPercent": 0.5117995072799094
+  },
+  {
+    "id": "1829",
+    "Comparation": "(../images/jovem_branco03.jpg == ../images/mulher_morena02.jpg)",
+    "distance": 0.28125,
+    "diffInPercent": 0.5111760497793135
+  },
+  {
+    "id": "1234",
+    "Comparation": "(../images/homem_moreno02.jpg == ../images/senhor_branco04.jpg)",
+    "distance": 0.375,
+    "diffInPercent": 0.5102129629629629
+  },
+  {
+    "id": "2638",
+    "Comparation": "(../images/morena03.jpg == ../images/senhor_moreno04.jpg)",
+    "distance": 0.328125,
+    "diffInPercent": 0.5101277777777777
+  },
+  {
+    "id": "1733",
+    "Comparation": "(../images/jovem_branco02.jpg == ../images/senhor_branco03.jpg)",
+    "distance": 0.359375,
+    "diffInPercent": 0.5095825515947467
+  },
+  {
+    "id": "635",
+    "Comparation": "(../images/familia_morena01.jpg == ../images/senhor_moreno01.jpg)",
+    "distance": 0.328125,
+    "diffInPercent": 0.508998592870544
+  },
+  {
+    "id": "1116",
+    "Comparation": "(../images/homem_moreno01.jpg == ../images/jovem_branco01.jpg)",
+    "distance": 0.25,
+    "diffInPercent": 0.507541854732866
+  },
+  {
+    "id": "433",
+    "Comparation": "(../images/casal_moreno01.jpg == ../images/senhor_branco03.jpg)",
+    "distance": 0.25,
+    "diffInPercent": 0.5039469981238274
+  },
+  {
+    "id": "3139",
+    "Comparation": "(../images/senhor_branco01.jpg == ../images/senhora_branca01.jpg)",
+    "distance": 0.21875,
+    "diffInPercent": 0.5029388888888889
+  },
+  {
+    "id": "444",
+    "Comparation": "(../images/casal_moreno01.jpg == ../images/senhora_morena02.jpg)",
+    "distance": 0.203125,
+    "diffInPercent": 0.5005651969981239
+  },
+  {
+    "id": "530",
+    "Comparation": "(../images/familia_branca01.jpg == ../images/mulher_morena03.jpg)",
+    "distance": 0.3125,
+    "diffInPercent": 0.49994606003752345
+  },
+  {
+    "id": "3141",
+    "Comparation": "(../images/senhor_branco01.jpg == ../images/senhora_branca03.jpg)",
+    "distance": 0.3125,
+    "diffInPercent": 0.4999314814814815
+  },
+  {
+    "id": "2644",
+    "Comparation": "(../images/morena03.jpg == ../images/senhora_morena02.jpg)",
+    "distance": 0.421875,
+    "diffInPercent": 0.4959
+  },
+  {
+    "id": "1429",
+    "Comparation": "(../images/homem_moreno04.jpg == ../images/mulher_morena02.jpg)",
+    "distance": 0.28125,
+    "diffInPercent": 0.49364222082981446
+  },
+  {
+    "id": "13",
+    "Comparation": "(../images/branca02.jpg == ../images/casal_branco01.jpg)",
+    "distance": 0.328125,
+    "diffInPercent": 0.4932707818930041
+  },
+  {
+    "id": "1415",
+    "Comparation": "(../images/homem_moreno04.jpg == ../images/image_teste_segementacao_3_classes.jpg)",
+    "distance": 0.421875,
+    "diffInPercent": 0.493236984771297
+  },
+  {
+    "id": "134",
+    "Comparation": "(../images/branca02.jpg == ../images/senhor_branco04.jpg)",
+    "distance": 0.40625,
+    "diffInPercent": 0.4929711934156379
+  },
+  {
+    "id": "2730",
+    "Comparation": "(../images/morena10.jpg == ../images/mulher_morena03.jpg)",
+    "distance": 0.359375,
+    "diffInPercent": 0.4927696998123827
+  },
+  {
+    "id": "37",
+    "Comparation": "(../images/casal_branco01.jpg == ../images/homem_branco01.jpg)",
+    "distance": 0.40625,
+    "diffInPercent": 0.4913954033771107
+  },
+  {
+    "id": "633",
+    "Comparation": "(../images/familia_morena01.jpg == ../images/senhor_branco03.jpg)",
+    "distance": 0.265625,
+    "diffInPercent": 0.4913015947467167
+  },
+  {
+    "id": "1741",
+    "Comparation": "(../images/jovem_branco02.jpg == ../images/senhora_branca03.jpg)",
+    "distance": 0.3125,
+    "diffInPercent": 0.49045731707317075
+  },
+  {
+    "id": "929",
+    "Comparation": "(../images/homem_branco03.jpg == ../images/mulher_morena02.jpg)",
+    "distance": 0.421875,
+    "diffInPercent": 0.48907134947002057
+  },
+  {
+    "id": "3138",
+    "Comparation": "(../images/senhor_branco01.jpg == ../images/senhor_moreno04.jpg)",
+    "distance": 0.21875,
+    "diffInPercent": 0.48653703703703705
+  },
+  {
+    "id": "623",
+    "Comparation": "(../images/familia_morena01.jpg == ../images/jovem_moreno03.jpg)",
+    "distance": 0.21875,
+    "diffInPercent": 0.4846060037523452
+  },
+  {
+    "id": "19",
+    "Comparation": "(../images/branca02.jpg == ../images/homem_branco03.jpg)",
+    "distance": 0.421875,
+    "diffInPercent": 0.4822699588477366
+  },
+  {
+    "id": "015",
+    "Comparation": "(../images/branca01.jpg == ../images/image_teste_segementacao_3_classes.jpg)",
+    "distance": 0.40625,
+    "diffInPercent": 0.48212966084667436
+  },
+  {
+    "id": "3744",
+    "Comparation": "(../images/senhor_moreno03.jpg == ../images/senhora_morena02.jpg)",
+    "distance": 0.25,
+    "diffInPercent": 0.47921296296296295
+  },
+  {
+    "id": "619",
+    "Comparation": "(../images/familia_morena01.jpg == ../images/jovem_branco04.jpg)",
+    "distance": 0.25,
+    "diffInPercent": 0.4781636960600375
+  },
+  {
+    "id": "1218",
+    "Comparation": "(../images/homem_moreno02.jpg == ../images/jovem_branco03.jpg)",
+    "distance": 0.34375,
+    "diffInPercent": 0.4772
+  },
+  {
+    "id": "2740",
+    "Comparation": "(../images/morena10.jpg == ../images/senhora_branca02.jpg)",
+    "distance": 0.359375,
+    "diffInPercent": 0.4763414634146341
+  },
+  {
+    "id": "419",
+    "Comparation": "(../images/casal_moreno01.jpg == ../images/jovem_branco04.jpg)",
+    "distance": 0.296875,
+    "diffInPercent": 0.4750398686679175
+  },
+  {
+    "id": "2029",
+    "Comparation": "(../images/jovem_loura01.jpg == ../images/mulher_morena02.jpg)",
+    "distance": 0.28125,
+    "diffInPercent": 0.4744179100601244
+  },
+  {
+    "id": "67",
+    "Comparation": "(../images/familia_morena01.jpg == ../images/homem_branco01.jpg)",
+    "distance": 0.296875,
+    "diffInPercent": 0.47415572232645403
+  },
+  {
+    "id": "029",
+    "Comparation": "(../images/branca01.jpg == ../images/mulher_morena02.jpg)",
+    "distance": 0.359375,
+    "diffInPercent": 0.47415398970859174
+  },
+  {
+    "id": "2546",
+    "Comparation": "(../images/morena01.jpg == ../images/senhora_morena04.jpg)",
+    "distance": 0.34375,
+    "diffInPercent": 0.47384510869565216
+  },
+  {
+    "id": "540",
+    "Comparation": "(../images/familia_branca01.jpg == ../images/senhora_branca02.jpg)",
+    "distance": 0.40625,
+    "diffInPercent": 0.4728470919324578
+  },
+  {
+    "id": "630",
+    "Comparation": "(../images/familia_morena01.jpg == ../images/mulher_morena03.jpg)",
+    "distance": 0.359375,
+    "diffInPercent": 0.47274390243902437
+  },
+  {
+    "id": "1244",
+    "Comparation": "(../images/homem_moreno02.jpg == ../images/senhora_morena02.jpg)",
+    "distance": 0.25,
+    "diffInPercent": 0.4720740740740741
+  },
+  {
+    "id": "1825",
+    "Comparation": "(../images/jovem_branco03.jpg == ../images/morena01.jpg)",
+    "distance": 0.34375,
+    "diffInPercent": 0.47177305060266983
+  },
+  {
+    "id": "1124",
+    "Comparation": "(../images/homem_moreno01.jpg == ../images/jovem_moreno04.jpg)",
+    "distance": 0.21875,
+    "diffInPercent": 0.4715131726367681
+  },
+  {
+    "id": "829",
+    "Comparation": "(../images/homem_branco02.jpg == ../images/mulher_morena02.jpg)",
+    "distance": 0.296875,
+    "diffInPercent": 0.4704937189599766
+  },
+  {
+    "id": "1744",
+    "Comparation": "(../images/jovem_branco02.jpg == ../images/senhora_morena02.jpg)",
+    "distance": 0.28125,
+    "diffInPercent": 0.47002110694183863
+  },
+  {
+    "id": "139",
+    "Comparation": "(../images/branca02.jpg == ../images/senhora_branca01.jpg)",
+    "distance": 0.40625,
+    "diffInPercent": 0.47001152263374485
+  },
+  {
+    "id": "210",
+    "Comparation": "(../images/branca03.jpg == ../images/homem_branco04.jpg)",
+    "distance": 0.203125,
+    "diffInPercent": 0.46942677831791835
+  },
+  {
+    "id": "1214",
+    "Comparation": "(../images/homem_moreno02.jpg == ../images/homem_moreno04.jpg)",
+    "distance": 0.25,
+    "diffInPercent": 0.46516111111111114
+  },
+  {
+    "id": "1719",
+    "Comparation": "(../images/jovem_branco02.jpg == ../images/jovem_branco04.jpg)",
+    "distance": 0.375,
+    "diffInPercent": 0.46497889305816137
+  },
+  {
+    "id": "1425",
+    "Comparation": "(../images/homem_moreno04.jpg == ../images/morena01.jpg)",
+    "distance": 0.375,
+    "diffInPercent": 0.46477511101424795
+  },
+  {
+    "id": "523",
+    "Comparation": "(../images/familia_branca01.jpg == ../images/jovem_moreno03.jpg)",
+    "distance": 0.296875,
+    "diffInPercent": 0.46416510318949344
+  },
+  {
+    "id": "1115",
+    "Comparation": "(../images/homem_moreno01.jpg == ../images/image_teste_segementacao_3_classes.jpg)",
+    "distance": 0.375,
+    "diffInPercent": 0.46364160184384906
+  },
+  {
+    "id": "513",
+    "Comparation": "(../images/familia_branca01.jpg == ../images/homem_moreno03.jpg)",
+    "distance": 0.34375,
+    "diffInPercent": 0.4634310506566604
+  },
+  {
+    "id": "1221",
+    "Comparation": "(../images/homem_moreno02.jpg == ../images/jovem_moreno01.jpg)",
+    "distance": 0.328125,
+    "diffInPercent": 0.463262962962963
+  },
+  {
+    "id": "57",
+    "Comparation": "(../images/familia_branca01.jpg == ../images/homem_branco01.jpg)",
+    "distance": 0.3125,
+    "diffInPercent": 0.4613015947467167
+  },
+  {
+    "id": "118",
+    "Comparation": "(../images/branca02.jpg == ../images/jovem_branco03.jpg)",
+    "distance": 0.28125,
+    "diffInPercent": 0.46130041152263374
+  },
+  {
+    "id": "3144",
+    "Comparation": "(../images/senhor_branco01.jpg == ../images/senhora_morena02.jpg)",
+    "distance": 0.25,
+    "diffInPercent": 0.4608833333333333
+  },
+  {
+    "id": "223",
+    "Comparation": "(../images/branca03.jpg == ../images/jovem_moreno03.jpg)",
+    "distance": 0.203125,
+    "diffInPercent": 0.4608161650552362
+  },
+  {
+    "id": "3645",
+    "Comparation": "(../images/senhor_moreno02.jpg == ../images/senhora_morena03.jpg)",
+    "distance": 0.265625,
+    "diffInPercent": 0.46075125208681134
+  },
+  {
+    "id": "2633",
+    "Comparation": "(../images/morena03.jpg == ../images/senhor_branco03.jpg)",
+    "distance": 0.5,
+    "diffInPercent": 0.4606037037037037
+  },
+  {
+    "id": "145",
+    "Comparation": "(../images/branca02.jpg == ../images/senhora_morena03.jpg)",
+    "distance": 0.40625,
+    "diffInPercent": 0.4588641975308642
+  },
+  {
+    "id": "1546",
+    "Comparation": "(../images/image_teste_segementacao_3_classes.jpg == ../images/senhora_morena04.jpg)",
+    "distance": 0.359375,
+    "diffInPercent": 0.45729518807786934
+  },
+  {
+    "id": "519",
+    "Comparation": "(../images/familia_branca01.jpg == ../images/jovem_branco04.jpg)",
+    "distance": 0.296875,
+    "diffInPercent": 0.456655722326454
+  },
+  {
+    "id": "610",
+    "Comparation": "(../images/familia_morena01.jpg == ../images/homem_branco04.jpg)",
+    "distance": 0.25,
+    "diffInPercent": 0.45513836772983113
+  },
+  {
+    "id": "2223",
+    "Comparation": "(../images/jovem_moreno02.jpg == ../images/jovem_moreno03.jpg)",
+    "distance": 0.21875,
+    "diffInPercent": 0.45256628892067335
+  },
+  {
+    "id": "430",
+    "Comparation": "(../images/casal_moreno01.jpg == ../images/mulher_morena03.jpg)",
+    "distance": 0.25,
+    "diffInPercent": 0.45255393996247656
+  },
+  {
+    "id": "2230",
+    "Comparation": "(../images/jovem_moreno02.jpg == ../images/mulher_morena03.jpg)",
+    "distance": 0.328125,
+    "diffInPercent": 0.4512643488465911
+  },
+  {
+    "id": "141",
+    "Comparation": "(../images/branca02.jpg == ../images/senhora_branca03.jpg)",
+    "distance": 0.3125,
+    "diffInPercent": 0.4491786008230453
+  },
+  {
+    "id": "1238",
+    "Comparation": "(../images/homem_moreno02.jpg == ../images/senhor_moreno04.jpg)",
+    "distance": 0.28125,
+    "diffInPercent": 0.44834074074074076
+  },
+  {
+    "id": "144",
+    "Comparation": "(../images/branca02.jpg == ../images/senhora_morena02.jpg)",
+    "distance": 0.3125,
+    "diffInPercent": 0.4483275720164609
+  },
+  {
+    "id": "3642",
+    "Comparation": "(../images/senhor_moreno02.jpg == ../images/senhora_branca04.jpg)",
+    "distance": 0.3125,
+    "diffInPercent": 0.44790205898720087
+  },
+  {
+    "id": "142",
+    "Comparation": "(../images/branca02.jpg == ../images/senhora_branca04.jpg)",
+    "distance": 0.328125,
+    "diffInPercent": 0.4477316872427983
+  },
+  {
+    "id": "3240",
+    "Comparation": "(../images/senhor_branco02.jpg == ../images/senhora_branca02.jpg)",
+    "distance": 0.3125,
+    "diffInPercent": 0.44721910112359553
+  },
+  {
+    "id": "510",
+    "Comparation": "(../images/familia_branca01.jpg == ../images/homem_branco04.jpg)",
+    "distance": 0.328125,
+    "diffInPercent": 0.44629455909943716
+  },
+  {
+    "id": "3738",
+    "Comparation": "(../images/senhor_moreno03.jpg == ../images/senhor_moreno04.jpg)",
+    "distance": 0.3125,
+    "diffInPercent": 0.4462925925925926
+  },
+  {
+    "id": "3639",
+    "Comparation": "(../images/senhor_moreno02.jpg == ../images/senhora_branca01.jpg)",
+    "distance": 0.359375,
+    "diffInPercent": 0.44612316824336856
+  },
+  {
+    "id": "3133",
+    "Comparation": "(../images/senhor_branco01.jpg == ../images/senhor_branco03.jpg)",
+    "distance": 0.328125,
+    "diffInPercent": 0.4433722222222222
+  },
+  {
+    "id": "1220",
+    "Comparation": "(../images/homem_moreno02.jpg == ../images/jovem_loura01.jpg)",
+    "distance": 0.3125,
+    "diffInPercent": 0.44267962962962965
+  },
+  {
+    "id": "47",
+    "Comparation": "(../images/casal_moreno01.jpg == ../images/homem_branco01.jpg)",
+    "distance": 0.3125,
+    "diffInPercent": 0.4419981238273921
+  },
+  {
+    "id": "216",
+    "Comparation": "(../images/branca03.jpg == ../images/jovem_branco01.jpg)",
+    "distance": 0.28125,
+    "diffInPercent": 0.4417876987813869
+  },
+  {
+    "id": "1730",
+    "Comparation": "(../images/jovem_branco02.jpg == ../images/mulher_morena03.jpg)",
+    "distance": 0.359375,
+    "diffInPercent": 0.44110225140712944
+  },
+  {
+    "id": "1219",
+    "Comparation": "(../images/homem_moreno02.jpg == ../images/jovem_branco04.jpg)",
+    "distance": 0.34375,
+    "diffInPercent": 0.43894074074074074
+  },
+  {
+    "id": "825",
+    "Comparation": "(../images/homem_branco02.jpg == ../images/morena01.jpg)",
+    "distance": 0.359375,
+    "diffInPercent": 0.43756694907001653
+  },
+  {
+    "id": "524",
+    "Comparation": "(../images/familia_branca01.jpg == ../images/jovem_moreno04.jpg)",
+    "distance": 0.28125,
+    "diffInPercent": 0.4363297373358349
+  },
+  {
+    "id": "2240",
+    "Comparation": "(../images/jovem_moreno02.jpg == ../images/senhora_branca02.jpg)",
+    "distance": 0.265625,
+    "diffInPercent": 0.43456834268529726
+  },
+  {
+    "id": "516",
+    "Comparation": "(../images/familia_branca01.jpg == ../images/jovem_branco01.jpg)",
+    "distance": 0.375,
+    "diffInPercent": 0.4343621013133208
+  },
+  {
+    "id": "1740",
+    "Comparation": "(../images/jovem_branco02.jpg == ../images/senhora_branca02.jpg)",
+    "distance": 0.390625,
+    "diffInPercent": 0.43411350844277674
+  },
+  {
+    "id": "025",
+    "Comparation": "(../images/branca01.jpg == ../images/morena01.jpg)",
+    "distance": 0.328125,
+    "diffInPercent": 0.43315522590356315
+  },
+  {
+    "id": "440",
+    "Comparation": "(../images/casal_moreno01.jpg == ../images/senhora_branca02.jpg)",
+    "distance": 0.34375,
+    "diffInPercent": 0.4301196060037523
+  },
+  {
+    "id": "1129",
+    "Comparation": "(../images/homem_moreno01.jpg == ../images/mulher_morena02.jpg)",
+    "distance": 0.296875,
+    "diffInPercent": 0.42983450174461413
+  },
+  {
+    "id": "224",
+    "Comparation": "(../images/branca03.jpg == ../images/jovem_moreno04.jpg)",
+    "distance": 0.25,
+    "diffInPercent": 0.4284207182204533
+  },
+  {
+    "id": "613",
+    "Comparation": "(../images/familia_morena01.jpg == ../images/homem_moreno03.jpg)",
+    "distance": 0.234375,
+    "diffInPercent": 0.42661350844277673
+  },
+  {
+    "id": "3641",
+    "Comparation": "(../images/senhor_moreno02.jpg == ../images/senhora_branca03.jpg)",
+    "distance": 0.296875,
+    "diffInPercent": 0.42566870710443333
+  },
+  {
+    "id": "3638",
+    "Comparation": "(../images/senhor_moreno02.jpg == ../images/senhor_moreno04.jpg)",
+    "distance": 0.234375,
+    "diffInPercent": 0.42540159525134486
+  },
+  {
+    "id": "121",
+    "Comparation": "(../images/branca02.jpg == ../images/jovem_moreno01.jpg)",
+    "distance": 0.359375,
+    "diffInPercent": 0.4242222222222222
+  },
+  {
+    "id": "413",
+    "Comparation": "(../images/casal_moreno01.jpg == ../images/homem_moreno03.jpg)",
+    "distance": 0.25,
+    "diffInPercent": 0.4214235459662289
+  },
+  {
+    "id": "1235",
+    "Comparation": "(../images/homem_moreno02.jpg == ../images/senhor_moreno01.jpg)",
+    "distance": 0.296875,
+    "diffInPercent": 0.42133333333333334
+  },
+  {
+    "id": "2728",
+    "Comparation": "(../images/morena10.jpg == ../images/mulher_morena01.jpg)",
+    "distance": 0.4375,
+    "diffInPercent": 0.4213250469043152
+  },
+  {
+    "id": "640",
+    "Comparation": "(../images/familia_morena01.jpg == ../images/senhora_branca02.jpg)",
+    "distance": 0.234375,
+    "diffInPercent": 0.4204033771106942
+  },
+  {
+    "id": "925",
+    "Comparation": "(../images/homem_branco03.jpg == ../images/morena01.jpg)",
+    "distance": 0.484375,
+    "diffInPercent": 0.41979750039550706
+  },
+  {
+    "id": "323",
+    "Comparation": "(../images/casal_branco01.jpg == ../images/jovem_moreno03.jpg)",
+    "distance": 0.203125,
+    "diffInPercent": 0.4189962476547842
+  },
+  {
+    "id": "2025",
+    "Comparation": "(../images/jovem_loura01.jpg == ../images/morena01.jpg)",
+    "distance": 0.34375,
+    "diffInPercent": 0.4168484683210617
+  },
+  {
+    "id": "2630",
+    "Comparation": "(../images/morena03.jpg == ../images/mulher_morena03.jpg)",
+    "distance": 0.46875,
+    "diffInPercent": 0.4162462962962963
+  },
+  {
+    "id": "330",
+    "Comparation": "(../images/casal_branco01.jpg == ../images/mulher_morena03.jpg)",
+    "distance": 0.34375,
+    "diffInPercent": 0.41456378986866793
+  },
+  {
+    "id": "333",
+    "Comparation": "(../images/casal_branco01.jpg == ../images/senhor_branco03.jpg)",
+    "distance": 0.28125,
+    "diffInPercent": 0.4145567542213884
+  },
+  {
+    "id": "528",
+    "Comparation": "(../images/familia_branca01.jpg == ../images/mulher_morena01.jpg)",
+    "distance": 0.359375,
+    "diffInPercent": 0.41454737335834896
+  },
+  {
+    "id": "815",
+    "Comparation": "(../images/homem_branco02.jpg == ../images/image_teste_segementacao_3_classes.jpg)",
+    "distance": 0.4375,
+    "diffInPercent": 0.41124074885577955
+  },
+  {
+    "id": "3244",
+    "Comparation": "(../images/senhor_branco02.jpg == ../images/senhora_morena02.jpg)",
+    "distance": 0.203125,
+    "diffInPercent": 0.40938202247191013
+  },
+  {
+    "id": "114",
+    "Comparation": "(../images/branca02.jpg == ../images/homem_moreno04.jpg)",
+    "distance": 0.40625,
+    "diffInPercent": 0.4092082304526749
+  },
+  {
+    "id": "120",
+    "Comparation": "(../images/branca02.jpg == ../images/jovem_loura01.jpg)",
+    "distance": 0.375,
+    "diffInPercent": 0.4091127572016461
+  },
+  {
+    "id": "229",
+    "Comparation": "(../images/branca03.jpg == ../images/mulher_morena02.jpg)",
+    "distance": 0.328125,
+    "diffInPercent": 0.40894868398180173
+  },
+  {
+    "id": "215",
+    "Comparation": "(../images/branca03.jpg == ../images/image_teste_segementacao_3_classes.jpg)",
+    "distance": 0.375,
+    "diffInPercent": 0.4086819437867517
+  },
+  {
+    "id": "2233",
+    "Comparation": "(../images/jovem_moreno02.jpg == ../images/senhor_branco03.jpg)",
+    "distance": 0.234375,
+    "diffInPercent": 0.4081994718890967
+  },
+  {
+    "id": "340",
+    "Comparation": "(../images/casal_branco01.jpg == ../images/senhora_branca02.jpg)",
+    "distance": 0.34375,
+    "diffInPercent": 0.4081285178236398
+  },
+  {
+    "id": "12",
+    "Comparation": "(../images/branca02.jpg == ../images/branca03.jpg)",
+    "distance": 0.328125,
+    "diffInPercent": 0.4070666666666667
+  },
+  {
+    "id": "628",
+    "Comparation": "(../images/familia_morena01.jpg == ../images/mulher_morena01.jpg)",
+    "distance": 0.40625,
+    "diffInPercent": 0.4048569418386492
+  },
+  {
+    "id": "2635",
+    "Comparation": "(../images/morena03.jpg == ../images/senhor_moreno01.jpg)",
+    "distance": 0.5,
+    "diffInPercent": 0.40448703703703703
+  },
+  {
+    "id": "313",
+    "Comparation": "(../images/casal_branco01.jpg == ../images/homem_moreno03.jpg)",
+    "distance": 0.25,
+    "diffInPercent": 0.40428939962476546
+  },
+  {
+    "id": "423",
+    "Comparation": "(../images/casal_moreno01.jpg == ../images/jovem_moreno03.jpg)",
+    "distance": 0.203125,
+    "diffInPercent": 0.40328095684803
+  },
+  {
+    "id": "616",
+    "Comparation": "(../images/familia_morena01.jpg == ../images/jovem_branco01.jpg)",
+    "distance": 0.296875,
+    "diffInPercent": 0.4007950281425891
+  },
+  {
+    "id": "915",
+    "Comparation": "(../images/homem_branco03.jpg == ../images/image_teste_segementacao_3_classes.jpg)",
+    "distance": 0.4375,
+    "diffInPercent": 0.39921847808891
+  },
+  {
+    "id": "2228",
+    "Comparation": "(../images/jovem_moreno02.jpg == ../images/mulher_morena01.jpg)",
+    "distance": 0.34375,
+    "diffInPercent": 0.39783208640481166
+  },
+  {
+    "id": "428",
+    "Comparation": "(../images/casal_moreno01.jpg == ../images/mulher_morena01.jpg)",
+    "distance": 0.390625,
+    "diffInPercent": 0.3976688555347092
+  },
+  {
+    "id": "410",
+    "Comparation": "(../images/casal_moreno01.jpg == ../images/homem_branco04.jpg)",
+    "distance": 0.328125,
+    "diffInPercent": 0.3961937148217636
+  },
+  {
+    "id": "2640",
+    "Comparation": "(../images/morena03.jpg == ../images/senhora_branca02.jpg)",
+    "distance": 0.46875,
+    "diffInPercent": 0.39591296296296297
+  },
+  {
+    "id": "1728",
+    "Comparation": "(../images/jovem_branco02.jpg == ../images/mulher_morena01.jpg)",
+    "distance": 0.40625,
+    "diffInPercent": 0.3940501876172608
+  },
+  {
+    "id": "328",
+    "Comparation": "(../images/casal_branco01.jpg == ../images/mulher_morena01.jpg)",
+    "distance": 0.390625,
+    "diffInPercent": 0.39035881801125705
+  },
+  {
+    "id": "1125",
+    "Comparation": "(../images/homem_moreno01.jpg == ../images/morena01.jpg)",
+    "distance": 0.328125,
+    "diffInPercent": 0.3898780370690483
+  },
+  {
+    "id": "1723",
+    "Comparation": "(../images/jovem_branco02.jpg == ../images/jovem_moreno03.jpg)",
+    "distance": 0.3125,
+    "diffInPercent": 0.38795262664165103
+  },
+  {
+    "id": "2946",
+    "Comparation": "(../images/mulher_morena02.jpg == ../images/senhora_morena04.jpg)",
+    "distance": 0.28125,
+    "diffInPercent": 0.38618621368558415
+  },
+  {
+    "id": "3135",
+    "Comparation": "(../images/senhor_branco01.jpg == ../images/senhor_moreno01.jpg)",
+    "distance": 0.296875,
+    "diffInPercent": 0.3859037037037037
+  },
+  {
+    "id": "416",
+    "Comparation": "(../images/casal_moreno01.jpg == ../images/jovem_branco01.jpg)",
+    "distance": 0.28125,
+    "diffInPercent": 0.3850797373358349
+  },
+  {
+    "id": "135",
+    "Comparation": "(../images/branca02.jpg == ../images/senhor_moreno01.jpg)",
+    "distance": 0.328125,
+    "diffInPercent": 0.3841991769547325
+  },
+  {
+    "id": "119",
+    "Comparation": "(../images/branca02.jpg == ../images/jovem_branco04.jpg)",
+    "distance": 0.40625,
+    "diffInPercent": 0.38379588477366255
+  },
+  {
+    "id": "624",
+    "Comparation": "(../images/familia_morena01.jpg == ../images/jovem_moreno04.jpg)",
+    "distance": 0.265625,
+    "diffInPercent": 0.38265712945590996
+  },
+  {
+    "id": "138",
+    "Comparation": "(../images/branca02.jpg == ../images/senhor_moreno04.jpg)",
+    "distance": 0.28125,
+    "diffInPercent": 0.3768674897119342
+  },
+  {
+    "id": "529",
+    "Comparation": "(../images/familia_branca01.jpg == ../images/mulher_morena02.jpg)",
+    "distance": 0.359375,
+    "diffInPercent": 0.37029549718574106
+  },
+  {
+    "id": "3140",
+    "Comparation": "(../images/senhor_branco01.jpg == ../images/senhora_branca02.jpg)",
+    "distance": 0.390625,
+    "diffInPercent": 0.36926296296296296
+  },
+  {
+    "id": "1223",
+    "Comparation": "(../images/homem_moreno02.jpg == ../images/jovem_moreno03.jpg)",
+    "distance": 0.1875,
+    "diffInPercent": 0.36402962962962965
+  },
+  {
+    "id": "310",
+    "Comparation": "(../images/casal_branco01.jpg == ../images/homem_branco04.jpg)",
+    "distance": 0.265625,
+    "diffInPercent": 0.3608794559099437
+  },
+  {
+    "id": "2729",
+    "Comparation": "(../images/morena10.jpg == ../images/mulher_morena02.jpg)",
+    "distance": 0.28125,
+    "diffInPercent": 0.3604409005628518
+  },
+  {
+    "id": "111",
+    "Comparation": "(../images/branca02.jpg == ../images/homem_moreno01.jpg)",
+    "distance": 0.484375,
+    "diffInPercent": 0.35960329218106996
+  },
+  {
+    "id": "3640",
+    "Comparation": "(../images/senhor_moreno02.jpg == ../images/senhora_branca02.jpg)",
+    "distance": 0.375,
+    "diffInPercent": 0.3571007234279355
+  },
+  {
+    "id": "2543",
+    "Comparation": "(../images/morena01.jpg == ../images/senhora_morena01.jpg)",
+    "distance": 0.53125,
+    "diffInPercent": 0.3567519625603865
+  },
+  {
+    "id": "2224",
+    "Comparation": "(../images/jovem_moreno02.jpg == ../images/jovem_moreno04.jpg)",
+    "distance": 0.234375,
+    "diffInPercent": 0.35572532731873696
+  },
+  {
+    "id": "316",
+    "Comparation": "(../images/casal_branco01.jpg == ../images/jovem_branco01.jpg)",
+    "distance": 0.28125,
+    "diffInPercent": 0.3555393996247655
+  },
+  {
+    "id": "424",
+    "Comparation": "(../images/casal_moreno01.jpg == ../images/jovem_moreno04.jpg)",
+    "distance": 0.1875,
+    "diffInPercent": 0.3547420262664165
+  },
+  {
+    "id": "1724",
+    "Comparation": "(../images/jovem_branco02.jpg == ../images/jovem_moreno04.jpg)",
+    "distance": 0.234375,
+    "diffInPercent": 0.3538133208255159
+  },
+  {
+    "id": "3740",
+    "Comparation": "(../images/senhor_moreno03.jpg == ../images/senhora_branca02.jpg)",
+    "distance": 0.421875,
+    "diffInPercent": 0.3486740740740741
+  },
+  {
+    "id": "17",
+    "Comparation": "(../images/branca02.jpg == ../images/homem_branco01.jpg)",
+    "distance": 0.421875,
+    "diffInPercent": 0.3464872427983539
+  },
+  {
+    "id": "2943",
+    "Comparation": "(../images/mulher_morena02.jpg == ../images/senhora_morena01.jpg)",
+    "distance": 0.5,
+    "diffInPercent": 0.34559648359698725
+  },
+  {
+    "id": "2846",
+    "Comparation": "(../images/mulher_morena01.jpg == ../images/senhora_morena04.jpg)",
+    "distance": 0.34375,
+    "diffInPercent": 0.3439868633164118
+  },
+  {
+    "id": "324",
+    "Comparation": "(../images/casal_branco01.jpg == ../images/jovem_moreno04.jpg)",
+    "distance": 0.34375,
+    "diffInPercent": 0.3433888367729831
+  },
+  {
+    "id": "1543",
+    "Comparation": "(../images/image_teste_segementacao_3_classes.jpg == ../images/senhora_morena01.jpg)",
+    "distance": 0.390625,
+    "diffInPercent": 0.3421354553318895
+  },
+  {
+    "id": "225",
+    "Comparation": "(../images/branca03.jpg == ../images/morena01.jpg)",
+    "distance": 0.328125,
+    "diffInPercent": 0.3404444071474384
+  },
+  {
+    "id": "2628",
+    "Comparation": "(../images/morena03.jpg == ../images/mulher_morena01.jpg)",
+    "distance": 0.515625,
+    "diffInPercent": 0.33930185185185185
+  },
+  {
+    "id": "1729",
+    "Comparation": "(../images/jovem_branco02.jpg == ../images/mulher_morena02.jpg)",
+    "distance": 0.375,
+    "diffInPercent": 0.3369887429643527
+  },
+  {
+    "id": "1240",
+    "Comparation": "(../images/homem_moreno02.jpg == ../images/senhora_branca02.jpg)",
+    "distance": 0.328125,
+    "diffInPercent": 0.3345648148148148
+  },
+  {
+    "id": "123",
+    "Comparation": "(../images/branca02.jpg == ../images/jovem_moreno03.jpg)",
+    "distance": 0.28125,
+    "diffInPercent": 0.334080658436214
+  },
+  {
+    "id": "1228",
+    "Comparation": "(../images/homem_moreno02.jpg == ../images/mulher_morena01.jpg)",
+    "distance": 0.40625,
+    "diffInPercent": 0.32915555555555553
+  },
+  {
+    "id": "629",
+    "Comparation": "(../images/familia_morena01.jpg == ../images/mulher_morena02.jpg)",
+    "distance": 0.3125,
+    "diffInPercent": 0.32888836772983115
+  },
+  {
+    "id": "415",
+    "Comparation": "(../images/casal_moreno01.jpg == ../images/image_teste_segementacao_3_classes.jpg)",
+    "distance": 0.375,
+    "diffInPercent": 0.3281519699812383
+  },
+  {
+    "id": "525",
+    "Comparation": "(../images/familia_branca01.jpg == ../images/morena01.jpg)",
+    "distance": 0.359375,
+    "diffInPercent": 0.32801125703564726
+  },
+  {
+    "id": "315",
+    "Comparation": "(../images/casal_branco01.jpg == ../images/image_teste_segementacao_3_classes.jpg)",
+    "distance": 0.375,
+    "diffInPercent": 0.3278939962476548
+  },
+  {
+    "id": "429",
+    "Comparation": "(../images/casal_moreno01.jpg == ../images/mulher_morena02.jpg)",
+    "distance": 0.203125,
+    "diffInPercent": 0.32624296435272043
+  },
+  {
+    "id": "3644",
+    "Comparation": "(../images/senhor_moreno02.jpg == ../images/senhora_morena02.jpg)",
+    "distance": 0.234375,
+    "diffInPercent": 0.32167315896865145
+  },
+  {
+    "id": "515",
+    "Comparation": "(../images/familia_branca01.jpg == ../images/image_teste_segementacao_3_classes.jpg)",
+    "distance": 0.4375,
+    "diffInPercent": 0.31635084427767357
+  },
+  {
+    "id": "2229",
+    "Comparation": "(../images/jovem_moreno02.jpg == ../images/mulher_morena02.jpg)",
+    "distance": 0.25,
+    "diffInPercent": 0.3162682913411817
+  },
+  {
+    "id": "2446",
+    "Comparation": "(../images/jovem_moreno04.jpg == ../images/senhora_morena04.jpg)",
+    "distance": 0.203125,
+    "diffInPercent": 0.3144456287430874
+  },
+  {
+    "id": "1725",
+    "Comparation": "(../images/jovem_branco02.jpg == ../images/morena01.jpg)",
+    "distance": 0.40625,
+    "diffInPercent": 0.31170731707317073
+  },
+  {
+    "id": "1213",
+    "Comparation": "(../images/homem_moreno02.jpg == ../images/homem_moreno03.jpg)",
+    "distance": 0.296875,
+    "diffInPercent": 0.3115537037037037
+  },
+  {
+    "id": "1230",
+    "Comparation": "(../images/homem_moreno02.jpg == ../images/mulher_morena03.jpg)",
+    "distance": 0.328125,
+    "diffInPercent": 0.31055185185185186
+  },
+  {
+    "id": "329",
+    "Comparation": "(../images/casal_branco01.jpg == ../images/mulher_morena02.jpg)",
+    "distance": 0.265625,
+    "diffInPercent": 0.3104268292682927
+  },
+  {
+    "id": "1346",
+    "Comparation": "(../images/homem_moreno03.jpg == ../images/senhora_morena04.jpg)",
+    "distance": 0.296875,
+    "diffInPercent": 0.3089506607489245
+  },
+  {
+    "id": "615",
+    "Comparation": "(../images/familia_morena01.jpg == ../images/image_teste_segementacao_3_classes.jpg)",
+    "distance": 0.328125,
+    "diffInPercent": 0.30587242026266415
+  },
+  {
+    "id": "425",
+    "Comparation": "(../images/casal_moreno01.jpg == ../images/morena01.jpg)",
+    "distance": 0.296875,
+    "diffInPercent": 0.30091932457786114
+  },
+  {
+    "id": "746",
+    "Comparation": "(../images/homem_branco01.jpg == ../images/senhora_morena04.jpg)",
+    "distance": 0.296875,
+    "diffInPercent": 0.2984265240566204
+  },
+  {
+    "id": "1646",
+    "Comparation": "(../images/jovem_branco01.jpg == ../images/senhora_morena04.jpg)",
+    "distance": 0.328125,
+    "diffInPercent": 0.29838059849248777
+  },
+  {
+    "id": "140",
+    "Comparation": "(../images/branca02.jpg == ../images/senhora_branca02.jpg)",
+    "distance": 0.390625,
+    "diffInPercent": 0.29831934156378603
+  },
+  {
+    "id": "4046",
+    "Comparation": "(../images/senhora_branca02.jpg == ../images/senhora_morena04.jpg)",
+    "distance": 0.265625,
+    "diffInPercent": 0.29775897602776874
+  },
+  {
+    "id": "2443",
+    "Comparation": "(../images/jovem_moreno04.jpg == ../images/senhora_morena01.jpg)",
+    "distance": 0.390625,
+    "diffInPercent": 0.29758291550958565
+  },
+  {
+    "id": "625",
+    "Comparation": "(../images/familia_morena01.jpg == ../images/morena01.jpg)",
+    "distance": 0.3125,
+    "diffInPercent": 0.2962781425891182
+  },
+  {
+    "id": "110",
+    "Comparation": "(../images/branca02.jpg == ../images/homem_branco04.jpg)",
+    "distance": 0.4375,
+    "diffInPercent": 0.29577283950617284
+  },
+  {
+    "id": "130",
+    "Comparation": "(../images/branca02.jpg == ../images/mulher_morena03.jpg)",
+    "distance": 0.359375,
+    "diffInPercent": 0.29287078189300414
+  },
+  {
+    "id": "1343",
+    "Comparation": "(../images/homem_moreno03.jpg == ../images/senhora_morena01.jpg)",
+    "distance": 0.453125,
+    "diffInPercent": 0.2912246909766546
+  },
+  {
+    "id": "2843",
+    "Comparation": "(../images/mulher_morena01.jpg == ../images/senhora_morena01.jpg)",
+    "distance": 0.5625,
+    "diffInPercent": 0.2882260470797913
+  },
+  {
+    "id": "128",
+    "Comparation": "(../images/branca02.jpg == ../images/mulher_morena01.jpg)",
+    "distance": 0.5,
+    "diffInPercent": 0.28748477366255143
+  },
+  {
+    "id": "2343",
+    "Comparation": "(../images/jovem_moreno03.jpg == ../images/senhora_morena01.jpg)",
+    "distance": 0.46875,
+    "diffInPercent": 0.28608112969958627
+  },
+  {
+    "id": "2629",
+    "Comparation": "(../images/morena03.jpg == ../images/mulher_morena02.jpg)",
+    "distance": 0.390625,
+    "diffInPercent": 0.28329444444444446
+  },
+  {
+    "id": "1043",
+    "Comparation": "(../images/homem_branco04.jpg == ../images/senhora_morena01.jpg)",
+    "distance": 0.5,
+    "diffInPercent": 0.2830698392419887
+  },
+  {
+    "id": "1643",
+    "Comparation": "(../images/jovem_branco01.jpg == ../images/senhora_morena01.jpg)",
+    "distance": 0.359375,
+    "diffInPercent": 0.2819701720700436
+  },
+  {
+    "id": "1215",
+    "Comparation": "(../images/homem_moreno02.jpg == ../images/image_teste_segementacao_3_classes.jpg)",
+    "distance": 0.359375,
+    "diffInPercent": 0.2800462962962963
+  },
+  {
+    "id": "3546",
+    "Comparation": "(../images/senhor_moreno01.jpg == ../images/senhora_morena04.jpg)",
+    "distance": 0.296875,
+    "diffInPercent": 0.27883574168316083
+  },
+  {
+    "id": "3346",
+    "Comparation": "(../images/senhor_branco03.jpg == ../images/senhora_morena04.jpg)",
+    "distance": 0.171875,
+    "diffInPercent": 0.27521104015268294
+  },
+  {
+    "id": "743",
+    "Comparation": "(../images/homem_branco01.jpg == ../images/senhora_morena01.jpg)",
+    "distance": 0.421875,
+    "diffInPercent": 0.2752038547071905
+  },
+  {
+    "id": "1946",
+    "Comparation": "(../images/jovem_branco04.jpg == ../images/senhora_morena04.jpg)",
+    "distance": 0.28125,
+    "diffInPercent": 0.2736051068643691
+  },
+  {
+    "id": "2146",
+    "Comparation": "(../images/jovem_moreno01.jpg == ../images/senhora_morena04.jpg)",
+    "distance": 0.328125,
+    "diffInPercent": 0.2711608453633472
+  },
+  {
+    "id": "1224",
+    "Comparation": "(../images/homem_moreno02.jpg == ../images/jovem_moreno04.jpg)",
+    "distance": 0.265625,
+    "diffInPercent": 0.2701648148148148
+  },
+  {
+    "id": "113",
+    "Comparation": "(../images/branca02.jpg == ../images/homem_moreno03.jpg)",
+    "distance": 0.328125,
+    "diffInPercent": 0.267761316872428
+  },
+  {
+    "id": "4043",
+    "Comparation": "(../images/senhora_branca02.jpg == ../images/senhora_morena01.jpg)",
+    "distance": 0.453125,
+    "diffInPercent": 0.2676993166287016
+  },
+  {
+    "id": "325",
+    "Comparation": "(../images/casal_branco01.jpg == ../images/morena01.jpg)",
+    "distance": 0.234375,
+    "diffInPercent": 0.264125234521576
+  },
+  {
+    "id": "1229",
+    "Comparation": "(../images/homem_moreno02.jpg == ../images/mulher_morena02.jpg)",
+    "distance": 0.34375,
+    "diffInPercent": 0.26411666666666667
+  },
+  {
+    "id": "1233",
+    "Comparation": "(../images/homem_moreno02.jpg == ../images/senhor_branco03.jpg)",
+    "distance": 0.234375,
+    "diffInPercent": 0.2627148148148148
+  },
+  {
+    "id": "2225",
+    "Comparation": "(../images/jovem_moreno02.jpg == ../images/morena01.jpg)",
+    "distance": 0.28125,
+    "diffInPercent": 0.26182748377159204
+  },
+  {
+    "id": "3046",
+    "Comparation": "(../images/mulher_morena03.jpg == ../images/senhora_morena04.jpg)",
+    "distance": 0.203125,
+    "diffInPercent": 0.2587070650193766
+  },
+  {
+    "id": "1216",
+    "Comparation": "(../images/homem_moreno02.jpg == ../images/jovem_branco01.jpg)",
+    "distance": 0.328125,
+    "diffInPercent": 0.2584148148148148
+  },
+  {
+    "id": "3043",
+    "Comparation": "(../images/mulher_morena03.jpg == ../images/senhora_morena01.jpg)",
+    "distance": 0.453125,
+    "diffInPercent": 0.2575767612864761
+  },
+  {
+    "id": "115",
+    "Comparation": "(../images/branca02.jpg == ../images/image_teste_segementacao_3_classes.jpg)",
+    "distance": 0.328125,
+    "diffInPercent": 0.2524510288065844
+  },
+  {
+    "id": "2346",
+    "Comparation": "(../images/jovem_moreno03.jpg == ../images/senhora_morena04.jpg)",
+    "distance": 0.1875,
+    "diffInPercent": 0.24660010793308149
+  },
+  {
+    "id": "1046",
+    "Comparation": "(../images/homem_branco04.jpg == ../images/senhora_morena04.jpg)",
+    "distance": 0.25,
+    "diffInPercent": 0.24435306433869194
+  },
+  {
+    "id": "2143",
+    "Comparation": "(../images/jovem_moreno01.jpg == ../images/senhora_morena01.jpg)",
+    "distance": 0.484375,
+    "diffInPercent": 0.23776991069243944
+  },
+  {
+    "id": "116",
+    "Comparation": "(../images/branca02.jpg == ../images/jovem_branco01.jpg)",
+    "distance": 0.359375,
+    "diffInPercent": 0.23716378600823046
+  },
+  {
+    "id": "3343",
+    "Comparation": "(../images/senhor_branco03.jpg == ../images/senhora_morena01.jpg)",
+    "distance": 0.453125,
+    "diffInPercent": 0.23138442340160023
+  },
+  {
+    "id": "046",
+    "Comparation": "(../images/branca01.jpg == ../images/senhora_morena04.jpg)",
+    "distance": 0.390625,
+    "diffInPercent": 0.22704440425959413
+  },
+  {
+    "id": "124",
+    "Comparation": "(../images/branca02.jpg == ../images/jovem_moreno04.jpg)",
+    "distance": 0.328125,
+    "diffInPercent": 0.2255604938271605
+  },
+  {
+    "id": "1943",
+    "Comparation": "(../images/jovem_branco04.jpg == ../images/senhora_morena01.jpg)",
+    "distance": 0.5625,
+    "diffInPercent": 0.2252676659528908
+  },
+  {
+    "id": "2046",
+    "Comparation": "(../images/jovem_loura01.jpg == ../images/senhora_morena04.jpg)",
+    "distance": 0.25,
+    "diffInPercent": 0.22477502045268613
+  },
+  {
+    "id": "3843",
+    "Comparation": "(../images/senhor_moreno04.jpg == ../images/senhora_morena01.jpg)",
+    "distance": 0.5,
+    "diffInPercent": 0.2201035781544256
+  },
+  {
+    "id": "129",
+    "Comparation": "(../images/branca02.jpg == ../images/mulher_morena02.jpg)",
+    "distance": 0.375,
+    "diffInPercent": 0.2187604938271605
+  },
+  {
+    "id": "3543",
+    "Comparation": "(../images/senhor_moreno01.jpg == ../images/senhora_morena01.jpg)",
+    "distance": 0.515625,
+    "diffInPercent": 0.21551789107092567
+  },
+  {
+    "id": "1846",
+    "Comparation": "(../images/jovem_branco03.jpg == ../images/senhora_morena04.jpg)",
+    "distance": 0.25,
+    "diffInPercent": 0.214011904922591
+  },
+  {
+    "id": "133",
+    "Comparation": "(../images/branca02.jpg == ../images/senhor_branco03.jpg)",
+    "distance": 0.328125,
+    "diffInPercent": 0.21287407407407408
+  },
+  {
+    "id": "1443",
+    "Comparation": "(../images/homem_moreno04.jpg == ../images/senhora_morena01.jpg)",
+    "distance": 0.4375,
+    "diffInPercent": 0.21285449641757703
+  },
+  {
+    "id": "946",
+    "Comparation": "(../images/homem_branco03.jpg == ../images/senhora_morena04.jpg)",
+    "distance": 0.359375,
+    "diffInPercent": 0.2125454833096029
+  },
+  {
+    "id": "246",
+    "Comparation": "(../images/branca03.jpg == ../images/senhora_morena04.jpg)",
+    "distance": 0.234375,
+    "diffInPercent": 0.21090158185926908
+  },
+  {
+    "id": "4546",
+    "Comparation": "(../images/senhora_morena03.jpg == ../images/senhora_morena04.jpg)",
+    "distance": 0.28125,
+    "diffInPercent": 0.210228461640891
+  },
+  {
+    "id": "1146",
+    "Comparation": "(../images/homem_moreno01.jpg == ../images/senhora_morena04.jpg)",
+    "distance": 0.296875,
+    "diffInPercent": 0.20964499503825346
+  },
+  {
+    "id": "3943",
+    "Comparation": "(../images/senhora_branca01.jpg == ../images/senhora_morena01.jpg)",
+    "distance": 0.4375,
+    "diffInPercent": 0.20931091514077832
+  },
+  {
+    "id": "1225",
+    "Comparation": "(../images/homem_moreno02.jpg == ../images/morena01.jpg)",
+    "distance": 0.375,
+    "diffInPercent": 0.2044074074074074
+  },
+  {
+    "id": "1843",
+    "Comparation": "(../images/jovem_branco03.jpg == ../images/senhora_morena01.jpg)",
+    "distance": 0.46875,
+    "diffInPercent": 0.2036322161782769
+  },
+  {
+    "id": "4143",
+    "Comparation": "(../images/senhora_branca03.jpg == ../images/senhora_morena01.jpg)",
+    "distance": 0.53125,
+    "diffInPercent": 0.20358990482179096
+  },
+  {
+    "id": "2043",
+    "Comparation": "(../images/jovem_loura01.jpg == ../images/senhora_morena01.jpg)",
+    "distance": 0.46875,
+    "diffInPercent": 0.20351071980469307
+  },
+  {
+    "id": "3846",
+    "Comparation": "(../images/senhor_moreno04.jpg == ../images/senhora_morena04.jpg)",
+    "distance": 0.1875,
+    "diffInPercent": 0.20334482663121745
+  },
+  {
+    "id": "043",
+    "Comparation": "(../images/branca01.jpg == ../images/senhora_morena01.jpg)",
+    "distance": 0.484375,
+    "diffInPercent": 0.20168027162234414
+  },
+  {
+    "id": "1446",
+    "Comparation": "(../images/homem_moreno04.jpg == ../images/senhora_morena04.jpg)",
+    "distance": 0.25,
+    "diffInPercent": 0.19899474214727436
+  },
+  {
+    "id": "1143",
+    "Comparation": "(../images/homem_moreno01.jpg == ../images/senhora_morena01.jpg)",
+    "distance": 0.390625,
+    "diffInPercent": 0.1989628349178911
+  },
+  {
+    "id": "846",
+    "Comparation": "(../images/homem_branco02.jpg == ../images/senhora_morena04.jpg)",
+    "distance": 0.296875,
+    "diffInPercent": 0.19714370922193009
+  },
+  {
+    "id": "4243",
+    "Comparation": "(../images/senhora_branca04.jpg == ../images/senhora_morena01.jpg)",
+    "distance": 0.453125,
+    "diffInPercent": 0.19471799061016007
+  },
+  {
+    "id": "3946",
+    "Comparation": "(../images/senhora_branca01.jpg == ../images/senhora_morena04.jpg)",
+    "distance": 0.25,
+    "diffInPercent": 0.1938177824554981
+  },
+  {
+    "id": "4446",
+    "Comparation": "(../images/senhora_morena02.jpg == ../images/senhora_morena04.jpg)",
+    "distance": 0.25,
+    "diffInPercent": 0.19236209335219237
+  },
+  {
+    "id": "843",
+    "Comparation": "(../images/homem_branco02.jpg == ../images/senhora_morena01.jpg)",
+    "distance": 0.453125,
+    "diffInPercent": 0.1878895218619145
+  },
+  {
+    "id": "3446",
+    "Comparation": "(../images/senhor_branco04.jpg == ../images/senhora_morena04.jpg)",
+    "distance": 0.40625,
+    "diffInPercent": 0.18655456014098987
+  },
+  {
+    "id": "4146",
+    "Comparation": "(../images/senhora_branca03.jpg == ../images/senhora_morena04.jpg)",
+    "distance": 0.3125,
+    "diffInPercent": 0.18604688090497104
+  },
+  {
+    "id": "3443",
+    "Comparation": "(../images/senhor_branco04.jpg == ../images/senhora_morena01.jpg)",
+    "distance": 0.40625,
+    "diffInPercent": 0.17684008909776278
+  },
+  {
+    "id": "125",
+    "Comparation": "(../images/branca02.jpg == ../images/morena01.jpg)",
+    "distance": 0.4375,
+    "diffInPercent": 0.17543374485596708
+  },
+  {
+    "id": "646",
+    "Comparation": "(../images/familia_morena01.jpg == ../images/senhora_morena04.jpg)",
+    "distance": 0.25,
+    "diffInPercent": 0.1748733583489681
+  },
+  {
+    "id": "943",
+    "Comparation": "(../images/homem_branco03.jpg == ../images/senhora_morena01.jpg)",
+    "distance": 0.453125,
+    "diffInPercent": 0.1744439171017244
+  },
+  {
+    "id": "243",
+    "Comparation": "(../images/branca03.jpg == ../images/senhora_morena01.jpg)",
+    "distance": 0.484375,
+    "diffInPercent": 0.17424128898452906
+  },
+  {
+    "id": "2246",
+    "Comparation": "(../images/jovem_moreno02.jpg == ../images/senhora_morena04.jpg)",
+    "distance": 0.25,
+    "diffInPercent": 0.17230305864231488
+  },
+  {
+    "id": "2746",
+    "Comparation": "(../images/morena10.jpg == ../images/senhora_morena04.jpg)",
+    "distance": 0.28125,
+    "diffInPercent": 0.16955206378986867
+  },
+  {
+    "id": "4246",
+    "Comparation": "(../images/senhora_branca04.jpg == ../images/senhora_morena04.jpg)",
+    "distance": 0.234375,
+    "diffInPercent": 0.16895428063592377
+  },
+  {
+    "id": "546",
+    "Comparation": "(../images/familia_branca01.jpg == ../images/senhora_morena04.jpg)",
+    "distance": 0.328125,
+    "diffInPercent": 0.1653799249530957
+  },
+  {
+    "id": "3243",
+    "Comparation": "(../images/senhor_branco02.jpg == ../images/senhora_morena01.jpg)",
+    "distance": 0.421875,
+    "diffInPercent": 0.15598314606741573
+  },
+  {
+    "id": "1743",
+    "Comparation": "(../images/jovem_branco02.jpg == ../images/senhora_morena01.jpg)",
+    "distance": 0.5,
+    "diffInPercent": 0.15360928705440902
+  },
+  {
+    "id": "443",
+    "Comparation": "(../images/casal_moreno01.jpg == ../images/senhora_morena01.jpg)",
+    "distance": 0.421875,
+    "diffInPercent": 0.15342870544090056
+  },
+  {
+    "id": "346",
+    "Comparation": "(../images/casal_branco01.jpg == ../images/senhora_morena04.jpg)",
+    "distance": 0.328125,
+    "diffInPercent": 0.15285178236397748
+  },
+  {
+    "id": "2646",
+    "Comparation": "(../images/morena03.jpg == ../images/senhora_morena04.jpg)",
+    "distance": 0.453125,
+    "diffInPercent": 0.14525
+  },
+  {
+    "id": "343",
+    "Comparation": "(../images/casal_branco01.jpg == ../images/senhora_morena01.jpg)",
+    "distance": 0.453125,
+    "diffInPercent": 0.14478189493433397
+  },
+  {
+    "id": "1246",
+    "Comparation": "(../images/homem_moreno02.jpg == ../images/senhora_morena04.jpg)",
+    "distance": 0.25,
+    "diffInPercent": 0.14346666666666666
+  },
+  {
+    "id": "3746",
+    "Comparation": "(../images/senhor_moreno03.jpg == ../images/senhora_morena04.jpg)",
+    "distance": 0.3125,
+    "diffInPercent": 0.14329259259259258
+  },
+  {
+    "id": "643",
+    "Comparation": "(../images/familia_morena01.jpg == ../images/senhora_morena01.jpg)",
+    "distance": 0.40625,
+    "diffInPercent": 0.14008677298311445
+  },
+  {
+    "id": "446",
+    "Comparation": "(../images/casal_moreno01.jpg == ../images/senhora_morena04.jpg)",
+    "distance": 0.265625,
+    "diffInPercent": 0.13755393996247656
+  },
+  {
+    "id": "543",
+    "Comparation": "(../images/familia_branca01.jpg == ../images/senhora_morena01.jpg)",
+    "distance": 0.484375,
+    "diffInPercent": 0.1359404315196998
+  },
+  {
+    "id": "3146",
+    "Comparation": "(../images/senhor_branco01.jpg == ../images/senhora_morena04.jpg)",
+    "distance": 0.28125,
+    "diffInPercent": 0.13363703703703703
+  },
+  {
+    "id": "2243",
+    "Comparation": "(../images/jovem_moreno02.jpg == ../images/senhora_morena01.jpg)",
+    "distance": 0.46875,
+    "diffInPercent": 0.1310764843950563
+  },
+  {
+    "id": "146",
+    "Comparation": "(../images/branca02.jpg == ../images/senhora_morena04.jpg)",
+    "distance": 0.3125,
+    "diffInPercent": 0.12907489711934156
+  },
+  {
+    "id": "2743",
+    "Comparation": "(../images/morena10.jpg == ../images/senhora_morena01.jpg)",
+    "distance": 0.4375,
+    "diffInPercent": 0.12825046904315196
+  },
+  {
+    "id": "1746",
+    "Comparation": "(../images/jovem_branco02.jpg == ../images/senhora_morena04.jpg)",
+    "distance": 0.28125,
+    "diffInPercent": 0.12509615384615386
+  },
+  {
+    "id": "3246",
+    "Comparation": "(../images/senhor_branco02.jpg == ../images/senhora_morena04.jpg)",
+    "distance": 0.234375,
+    "diffInPercent": 0.1231437265917603
+  },
+  {
+    "id": "3643",
+    "Comparation": "(../images/senhor_moreno02.jpg == ../images/senhora_morena01.jpg)",
+    "distance": 0.515625,
+    "diffInPercent": 0.1173659803375997
+  },
+  {
+    "id": "3743",
+    "Comparation": "(../images/senhor_moreno03.jpg == ../images/senhora_morena01.jpg)",
+    "distance": 0.40625,
+    "diffInPercent": 0.1172962962962963
+  },
+  {
+    "id": "1243",
+    "Comparation": "(../images/homem_moreno02.jpg == ../images/senhora_morena01.jpg)",
+    "distance": 0.4375,
+    "diffInPercent": 0.11580925925925926
+  },
+  {
+    "id": "3143",
+    "Comparation": "(../images/senhor_branco01.jpg == ../images/senhora_morena01.jpg)",
+    "distance": 0.40625,
+    "diffInPercent": 0.10717777777777777
+  },
+  {
+    "id": "143",
+    "Comparation": "(../images/branca02.jpg == ../images/senhora_morena01.jpg)",
+    "distance": 0.5,
+    "diffInPercent": 0.10654814814814814
+  },
+  {
+    "id": "2643",
+    "Comparation": "(../images/morena03.jpg == ../images/senhora_morena01.jpg)",
+    "distance": 0.453125,
+    "diffInPercent": 0.09151851851851851
+  },
+  {
+    "id": "3646",
+    "Comparation": "(../images/senhor_moreno02.jpg == ../images/senhora_morena04.jpg)",
+    "distance": 0.203125,
+    "diffInPercent": 0.09071229827490261
+  }
+]
