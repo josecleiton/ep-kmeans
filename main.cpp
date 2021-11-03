@@ -15,9 +15,11 @@
 using duration = std::chrono::duration<float>;
 namespace fs = std::filesystem;
 
+enum class KMeansOutputType : uint8_t { Iteration, Overall };
+
 struct Dataset {
-  const std::string image;
-  const std::vector<uint32_t> ks;
+  const fs::path &image;
+  const std::vector<uint32_t> &ks;
   const uint16_t repeat;
 };
 
@@ -51,14 +53,12 @@ struct KMeansResult {
   const std::vector<size_t> &classes() const { return *classes_ptr; }
 };
 
-enum KMeansOutputType { Iteration, Overall };
-
 inline long double d(const Pixel &p, const Pixel &q) {
-  const auto r = p.r - q.r; // (2, 1, 0)
-  const auto g = p.g - q.g; // (2, 1, 0)
-  const auto b = p.b - q.b; // (2, 1, 0)
+  const auto r = static_cast<long double>(p.r) - q.r; // (2, 1, 0)
+  const auto g = static_cast<long double>(p.g) - q.g; // (2, 1, 0)
+  const auto b = static_cast<long double>(p.b) - q.b; // (2, 1, 0)
 
-  return std::sqrt(static_cast<long double>(r * r + g * g + b * b));
+  return std::sqrt(r * r + g * g + b * b);
   // 3* (2, 1, 0) + (5, 5, 0) + (2, 1, 0) = (13, 9, 0)
 }
 
@@ -192,16 +192,17 @@ KMeansResult kmeans(const std::vector<PixelCoord> &dataset, const size_t N,
 
 // IGNORE: MAGICA
 std::unique_ptr<std::vector<PixelCoord>>
-load_dataset(const std::string &file_location) {
-  int width, height, bpp;
-  uint8_t *const rgb_image =
-      stbi_load(file_location.c_str(), &width, &height, &bpp, IMAGE_CHANNELS);
+load_dataset(const fs::path &file_location) {
+  int w, height, bpp;
+  uint8_t *const rgb_image = stbi_load(file_location.string().c_str(), &w,
+                                       &height, &bpp, IMAGE_CHANNELS);
 
   if (rgb_image == nullptr) {
-    throw std::domain_error("error loading image '" + file_location +
+    throw std::domain_error("error loading image '" + file_location.string() +
                             "'\nreason: " + stbi_failure_reason());
   }
 
+  const auto width = static_cast<int64_t>(w);
   auto result_ptr = std::make_unique<std::vector<PixelCoord>>(width * height);
   auto &result = *result_ptr;
 
@@ -250,8 +251,8 @@ int exp(const std::vector<Dataset> &datasets,
               << "pixels count: " << n << '\n';
 
     for (const auto k : dataset.ks) {
-      const auto filepath = fs::path(
-          "output/result_" + fs::path(dataset.image).stem().string() + ".csv");
+      const auto filepath = "output" / fs::path("result_") +=
+          fs::path(dataset.image).stem() += ".csv";
       std::ofstream file(filepath, std::fstream::out);
       if (!file.is_open()) {
         throw std::domain_error("output file not opened: '" +
@@ -317,10 +318,10 @@ int main(int argc, char *argv[]) {
     uint16_t k;
 
     while (file >> filename >> k) {
-      datasets.push_back({"images/" + filename, {k}, 100});
+      datasets.push_back({"images" / fs::path(filename), {k}, 100});
 
       if (!fs::exists(datasets.back().image)) {
-        throw std::domain_error("file '" + datasets.back().image +
+        throw std::domain_error("file '" + datasets.back().image.string() +
                                 "' not found");
       }
     }
