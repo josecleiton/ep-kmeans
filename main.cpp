@@ -11,6 +11,7 @@
 #include "stb_image.h"
 
 #define IMAGE_CHANNELS 3
+#define DATASETS_RESERVE 100
 
 using duration = std::chrono::duration<float>;
 namespace fs = std::filesystem;
@@ -193,29 +194,30 @@ KMeansResult kmeans(const std::vector<PixelCoord> &dataset, const size_t N,
 // IGNORE: MAGICA
 std::unique_ptr<std::vector<PixelCoord>>
 load_dataset(const fs::path &file_location) {
-  int w, height, bpp;
-  uint8_t *const rgb_image = stbi_load(file_location.string().c_str(), &w,
-                                       &height, &bpp, IMAGE_CHANNELS);
+  int w, h, bpp;
+  uint8_t *const rgb_image =
+      stbi_load(file_location.c_str(), &w, &h, &bpp, IMAGE_CHANNELS);
 
   if (rgb_image == nullptr) {
     throw std::domain_error("error loading image '" + file_location.string() +
                             "'\nreason: " + stbi_failure_reason());
   }
 
-  const auto width = static_cast<int64_t>(w);
+  const auto height = static_cast<uint32_t>(h);
+  const auto width = static_cast<uint32_t>(w);
   auto result_ptr = std::make_unique<std::vector<PixelCoord>>(width * height);
   auto &result = *result_ptr;
 
-  uint64_t dest, src_index = 0;
-  for (int i = 0; i < height; ++i) {
-    for (int j = 0; j < width; ++j) {
-      dest = i * width + j;
+  size_t dest, src_index = 0;
+  for (uint32_t i = 0; i < height; ++i) {
+    for (uint32_t j = 0; j < width; ++j) {
+      dest = static_cast<size_t>(i) * width + j;
 
       result[dest].r = rgb_image[src_index++];
       result[dest].g = rgb_image[src_index++];
       result[dest].b = rgb_image[src_index++];
-      result[dest].x = static_cast<uint32_t>(j);
-      result[dest].y = static_cast<uint32_t>(i);
+      result[dest].x = j;
+      result[dest].y = i;
     }
   }
 
@@ -304,14 +306,14 @@ int exp(const std::vector<Dataset> &datasets,
 int main(int argc, char *argv[]) {
   try {
     if (argc > 3) {
-      return exp({{std::string(argv[1]),
+      return exp({{fs::path(argv[1]),
                    {static_cast<uint32_t>(std::atoi(argv[2]))},
                    static_cast<uint16_t>(std::atoi(argv[3]))}},
                  KMeansOutputType::Iteration);
     }
 
     std::vector<Dataset> datasets;
-    datasets.reserve(100);
+    datasets.reserve(DATASETS_RESERVE);
 
     std::ifstream file("experimental", std::fstream::in);
     std::string filename;
