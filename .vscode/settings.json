@@ -1,6 +1,7 @@
 {
   "files.associations": {
     "cmath": "cpp",
-    "limits": "cpp"
+    "limits": "cpp",
+    "*.tcc": "cpp"
   }
 }

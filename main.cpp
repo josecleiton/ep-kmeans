@@ -20,8 +20,10 @@ enum class KMeansOutputType : uint8_t { Iteration, Overall };
 
 struct Dataset {
   const fs::path &image;
-  const std::vector<uint32_t> &ks;
+  const std::unique_ptr<std::vector<uint32_t>> &ks_ptr;
   const uint16_t repeat;
+
+  inline const std::vector<uint32_t> &ks() const { return *ks_ptr; }
 };
 
 struct Pixel {
@@ -50,8 +52,8 @@ struct KMeansResult {
     return iterations_count == max_iterations;
   }
 
-  const std::vector<Pixel> &means() const { return *means_ptr; }
-  const std::vector<size_t> &classes() const { return *classes_ptr; }
+  inline const std::vector<Pixel> &means() const { return *means_ptr; }
+  inline const std::vector<size_t> &classes() const { return *classes_ptr; }
 };
 
 inline long double d(const Pixel &p, const Pixel &q) {
@@ -64,8 +66,8 @@ inline long double d(const Pixel &p, const Pixel &q) {
 }
 
 // ANALISE QUANTITATIVA DA FUNÇÃO kmeans
-// (3, 0, 1) + K * (4, 1, 1) +
-// (2, 0, 0) + N * ((1, 0, 0)) +
+// (4, 0, 1) + K * (4, 1, 1) +
+// (3, 0, 1) + N * ((2, 1, 2)) +
 // (5, 0, 0) + K * ((1, 0, 0)) +
 // (0, 0, 1) + X * (
 //    (2, 2, 2) + (
@@ -80,19 +82,26 @@ inline long double d(const Pixel &p, const Pixel &q) {
 //
 // JUNTA OS TERMOS EM COMUM
 //
-// (10, 0, 2) + K * (5, 1, 1) + N * (1, 0, 0) + X * (
+// (12, 0, 3) + K * (5, 1, 1) + N * (2, 1, 2) + X * (
 //    (4, 2, 4) + N * ((6, 1, 3) + K * (17, 10, 2)) +
 //    K * ((12, 4, 3) + N * (8, 5, 2))
 // )
 //
-// (10, 0, 2) + K * (5, 1, 1) + N * (1, 0, 0) + X * (
+// (12, 0, 3) + K * (5, 1, 1) + N * (2, 1, 2) + X * (
 //    (4, 2, 4) + N * (6, 1, 3) + (N * K) * (17, 10, 2) +
 //    K * (12, 4, 3) + (N * K) * (8, 5, 2)
 // )
 //
-// (10, 0, 2) + K * (5, 1, 1) + N * (1, 0, 0) + X * (
+// (12, 0, 3) + K * (5, 1, 1) + N * (2, 1, 2) + X * (
 //    (4, 2, 4) + N * (6, 1 ,3) + K * (12, 4, 3) + (N * K) * (25, 15, 4)
 // )
+//
+// Separando (A, O, C)
+// A = 12 + 5K + 2N + X (4 + 6N + 12K + 25NK)
+// O = K + N + X (2 + N + 4K + 15NK)
+// C = 3 + K + 2N + X (4 + 3N + 3K + 4NK)
+//
+// Utilizar a aula 11 (1h01min) para construir a tabela e ter as normas L1 e L2
 
 KMeansResult kmeans(const std::vector<PixelCoord> &dataset, const size_t N,
                     const uint32_t K, const uint32_t max_iterations = 1000) {
@@ -103,8 +112,9 @@ KMeansResult kmeans(const std::vector<PixelCoord> &dataset, const size_t N,
 
   const auto init_time_start = std::chrono::high_resolution_clock::now();
 
-  auto means_ptr = std::make_unique<std::vector<Pixel>>(K); // (K + 1, 0, 0)
-  auto &means = *means_ptr;                                 // (1, 0, 0)
+  auto means_ptr = std::make_unique<std::vector<Pixel>>(); // (2, 0, 0)
+  auto &means = *means_ptr;                                // (1, 0, 0)
+  means.reserve(K);                                        // (K, 0, 0)
   for (uint32_t k = 0; k < K; ++k) {
     // g12(1, 0, 1); gr2(1, 1, 1); e2(2, 0, 0)
     means[k] = dataset[dist(eng)];
@@ -115,7 +125,7 @@ KMeansResult kmeans(const std::vector<PixelCoord> &dataset, const size_t N,
   const auto iterations_time_start = std::chrono::high_resolution_clock::now();
 
   auto classes_ptr = std::make_unique<std::vector<size_t>>(
-      N, std::numeric_limits<size_t>::max()); // (N + 1, 0, 0)
+      N, std::numeric_limits<size_t>::max()); // (2, 0, 1) + N * (2, 1, 2)
   auto &classes = *classes_ptr;               // (1, 0, 0)
 
   long double distance, minimum;            // (2, 0, 0)
@@ -196,7 +206,7 @@ std::unique_ptr<std::vector<PixelCoord>>
 load_dataset(const fs::path &file_location) {
   int w, h, bpp;
   uint8_t *const rgb_image =
-      stbi_load(file_location.c_str(), &w, &h, &bpp, IMAGE_CHANNELS);
+      stbi_load(file_location.string().c_str(), &w, &h, &bpp, IMAGE_CHANNELS);
 
   if (rgb_image == nullptr) {
     throw std::domain_error("error loading image '" + file_location.string() +
@@ -252,9 +262,10 @@ int exp(const std::vector<Dataset> &datasets,
     std::clog << "image: " << dataset.image << '\n'
               << "pixels count: " << n << '\n';
 
-    for (const auto k : dataset.ks) {
+    for (const auto k : dataset.ks()) {
       const auto filepath = "output" / fs::path("result_") +=
-          fs::path(dataset.image).stem() += ".csv";
+          fs::path(dataset.image).stem() += "_" + std::to_string(k) += ".csv";
+
       std::ofstream file(filepath, std::fstream::out);
       if (!file.is_open()) {
         throw std::domain_error("output file not opened: '" +
@@ -307,7 +318,8 @@ int main(int argc, char *argv[]) {
   try {
     if (argc > 3) {
       return exp({{fs::path(argv[1]),
-                   {static_cast<uint32_t>(std::atoi(argv[2]))},
+                   std::make_unique<std::vector<uint32_t>>(
+                       1, static_cast<uint32_t>(std::atoi(argv[2]))),
                    static_cast<uint16_t>(std::atoi(argv[3]))}},
                  KMeansOutputType::Iteration);
     }
@@ -317,10 +329,19 @@ int main(int argc, char *argv[]) {
 
     std::ifstream file("experimental", std::fstream::in);
     std::string filename;
-    uint16_t k;
+    uint16_t nk;
+    uint32_t k;
 
-    while (file >> filename >> k) {
-      datasets.push_back({"images" / fs::path(filename), {k}, 100});
+    while (file >> filename >> nk) {
+      auto ks = std::make_unique<std::vector<uint32_t>>();
+      ks->reserve(nk);
+
+      for (uint16_t i = 0; i < nk; i++) {
+        file >> k;
+        ks->emplace_back(k);
+      }
+
+      datasets.push_back({"images" / fs::path(filename), std::move(ks), 100});
 
       if (!fs::exists(datasets.back().image)) {
         throw std::domain_error("file '" + datasets.back().image.string() +
