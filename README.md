@@ -44,3 +44,12 @@ Todas as imagens devem rodar 100x e gerar um csv de resultados. As imagens se en
 |  senhor_branco02.jpg  |       3       |
 |  senhor_branco03.jpg  |       3       |
 |  senhor_branco04.jpg  |       3       |
+
+
+## Planejamento do domínio de testes
+ Do total de 46 imagens, foram selecionadas, inicialmente, 20 imagens com o Ns mais disperso para definir os seus respectivos Ks. 
+
+O Output, em ordem decrescente da diferença percentual entre as imagens, para encontrar as que possuiam o Ns com maior dispersão: `measurement/ranking-diff-images.json`.
+
+As 20 imagens escolhidas e seus respectivos K em : `experimental`
+
