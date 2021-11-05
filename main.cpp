@@ -112,9 +112,8 @@ KMeansResult kmeans(const std::vector<PixelCoord> &dataset, const size_t N,
 
   const auto init_time_start = std::chrono::high_resolution_clock::now();
 
-  auto means_ptr = std::make_unique<std::vector<Pixel>>(); // (2, 0, 0)
-  auto &means = *means_ptr;                                // (1, 0, 0)
-  means.reserve(K);                                        // (K, 0, 0)
+  auto means_ptr = std::make_unique<std::vector<Pixel>>(K); // (K + 2, 0, 0)
+  auto &means = *means_ptr;                                 // (1, 0, 0)
   for (uint32_t k = 0; k < K; ++k) {
     // g12(1, 0, 1); gr2(1, 1, 1); e2(2, 0, 0)
     means[k] = dataset[dist(eng)];
