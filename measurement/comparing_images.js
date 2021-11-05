@@ -15,6 +15,11 @@ async function getFiles(dir, files) {
   return files;
 }
 
+function getRandomArbitrary(min, max) {
+  const value = Math.random() * (max - min) + min;
+  return Math.round(value);
+}
+
 async function compareImage() {
   const resolutions = [];
 
@@ -25,9 +30,12 @@ async function compareImage() {
 
     const data = {
       res: image.getWidth() * image.getHeight(),
-      image: images[i],
+      image: `${images[i]} 4 5 10 15 20`,
     };
-    resolutions.push(data);
+    const contain = resolutions.find((value) => value.res === data.res);
+    if (!contain) {
+      resolutions.push(data);
+    }
   }
 
   resolutions.sort((a, b) => b.res - a.res);
