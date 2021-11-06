@@ -19,11 +19,13 @@ namespace fs = std::filesystem;
 enum class KMeansOutputType : uint8_t { Iteration, Overall };
 
 struct Dataset {
-  const fs::path &image;
-  const std::unique_ptr<std::vector<uint32_t>> &ks_ptr;
+  const fs::path image;
   const uint16_t repeat;
+  const std::vector<uint32_t> ks;
 
-  inline const std::vector<uint32_t> &ks() const { return *ks_ptr; }
+  Dataset(const fs::path &_image, const uint16_t _repeat,
+          const std::vector<uint32_t> &_ks)
+      : image(_image), repeat(_repeat), ks(_ks) {}
 };
 
 struct Pixel {
@@ -208,8 +210,9 @@ load_dataset(const fs::path &file_location) {
       stbi_load(file_location.string().c_str(), &w, &h, &bpp, IMAGE_CHANNELS);
 
   if (rgb_image == nullptr) {
-    throw std::domain_error("error loading image '" + file_location.string() +
-                            "'\nreason: " + stbi_failure_reason());
+    throw std::domain_error(std::string("error loading image: ") +
+                            stbi_failure_reason() + " " +
+                            file_location.string());
   }
 
   const auto height = static_cast<uint32_t>(h);
@@ -259,9 +262,10 @@ int exp(const std::vector<Dataset> &datasets,
     const auto n = pixels_ptr->size();
 
     std::clog << "image: " << dataset.image << '\n'
-              << "pixels count: " << n << '\n';
+              << "pixels count: " << n << '\n'
+              << "ks: " << dataset.ks.size() << '\n';
 
-    for (const auto k : dataset.ks()) {
+    for (const auto k : dataset.ks) {
       const auto filepath = "output" / fs::path("result_") +=
           fs::path(dataset.image).stem() += "_" + std::to_string(k) += ".csv";
 
@@ -316,11 +320,10 @@ int exp(const std::vector<Dataset> &datasets,
 int main(int argc, char *argv[]) {
   try {
     if (argc > 3) {
-      return exp({{fs::path(argv[1]),
-                   std::make_unique<std::vector<uint32_t>>(
-                       1, static_cast<uint32_t>(std::atoi(argv[2]))),
-                   static_cast<uint16_t>(std::atoi(argv[3]))}},
-                 KMeansOutputType::Iteration);
+      const std::vector<Dataset> datasets = {
+          Dataset(fs::path(argv[1]), static_cast<uint32_t>(std::atoi(argv[3])),
+                  {static_cast<uint32_t>(std::atoi(argv[2]))})};
+      return exp(datasets, KMeansOutputType::Iteration);
     }
 
     std::vector<Dataset> datasets;
@@ -330,21 +333,21 @@ int main(int argc, char *argv[]) {
     std::string filename;
     uint16_t nk;
     uint32_t k;
+    std::vector<uint32_t> ks;
 
     while (file >> filename >> nk) {
-      auto ks = std::make_unique<std::vector<uint32_t>>();
-      ks->reserve(nk);
+      ks.reserve(nk);
 
       for (uint16_t i = 0; i < nk; i++) {
         file >> k;
-        ks->emplace_back(k);
+        ks.emplace_back(k);
       }
+      datasets.emplace_back("images" / fs::path(filename), 100, ks);
+      const auto &dataset = datasets.back();
 
-      datasets.push_back({"images" / fs::path(filename), std::move(ks), 100});
-
-      if (!fs::exists(datasets.back().image)) {
-        throw std::domain_error("file '" + datasets.back().image.string() +
-                                "' not found");
+      if (!fs::exists(dataset.image)) {
+        throw std::domain_error("file " + dataset.image.string() +
+                                " not found");
       }
     }
 

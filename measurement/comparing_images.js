@@ -1,6 +1,7 @@
 const fsPromises = require("fs").promises;
 var fs = require("fs");
 const Jimp = require("jimp");
+var path = require("path");
 
 async function getFiles(dir, files) {
   if (!files) files = [];
@@ -26,6 +27,9 @@ async function compareImage() {
   let images = await getFiles("../images");
 
   for (let i = 0; i < images.length; i++) {
+    if(images[i] === '../images/image_teste_segementacao_3_classes.jpg') {
+      continue;
+    }
     const image = await Jimp.read(images[i]);
 
     const data = {
@@ -43,11 +47,13 @@ async function compareImage() {
   const fileName = "ranking-diff-images.json";
   const file = fs.createWriteStream(fileName);
 
-  const step = resolutions.length / 20;
+  const step = Math.round(resolutions.length / 20);
   for (let i = 0; i < resolutions.length; i += step) {
-    const parse = JSON.stringify(resolutions[Math.round(i)]);
-    file.write(`${parse}\n`);
+    const parse = images[i];
+    file.write(`${path.basename(parse)} 4 5 10 15 20\n`);
   }
+
+  file.write(path.basename(images[resolutions.length-1] + " 4 5 10 15 20\n"));
 
   file.close();
 }
