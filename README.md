@@ -53,3 +53,6 @@ O Output, em ordem decrescente da diferença percentual entre as imagens, para e
 
 As 20 imagens escolhidas e seus respectivos K em : `experimental`
 
+## Medição do tempo
+Tempo de execução da inicialização e por iteração. `outputs/outputs.7z`
+
