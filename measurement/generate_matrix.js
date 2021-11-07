@@ -2,7 +2,7 @@ var fs = require("fs");
 
 const fileName = "matrix.txt";
 const file = fs.createWriteStream(fileName);
-const size = 1000;
+const size = 500;
 
 for (let i = 0; i < size; i++) {
   if (i !== 0) {

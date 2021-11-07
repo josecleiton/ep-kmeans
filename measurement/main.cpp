@@ -4,7 +4,7 @@
 #include <iostream>
 #include <vector>
 
-#define N 1000
+#define N 500
 #define N_MEASUREMENTS 100
 
 using namespace std;
@@ -61,7 +61,7 @@ int main(void) {
 
     const chrono::duration<double> duration = end - start;
 
-    fresult << trunc(duration.count() * 1000000.0f);
+    fresult << duration.count();
   }
 
   fresult.close();
