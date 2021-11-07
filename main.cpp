@@ -20,6 +20,7 @@ enum class KMeansOutputType : uint8_t {
   Iteration,
   AllIterations,
   Overall,
+  IterationCount,
   Init
 };
 
@@ -31,6 +32,8 @@ constexpr const char *output_type_to_string(const KMeansOutputType type) {
     return "iteration";
   case KMeansOutputType::AllIterations:
     return "all_iterations";
+  case KMeansOutputType::IterationCount:
+    return "iteration_count";
   default:
     return "overall";
   }
@@ -271,7 +274,7 @@ load_dataset(const fs::path &file_location) {
 void write_result_csv(std::ofstream &file, const KMeansResult &result,
                       const uint16_t i,
                       const std::vector<KMeansOutputType> types) {
-  if (!i) {
+  if (i == 1) {
     for (size_t j = 0; j < types.size(); j++) {
       if (j != 0)
         file << ',';
@@ -283,7 +286,11 @@ void write_result_csv(std::ofstream &file, const KMeansResult &result,
   for (size_t j = 0; j < types.size(); j++) {
     if (j != 0)
       file << ',';
-    file << result.from_output_type(types[j]).count();
+    if (types[j] != KMeansOutputType::IterationCount) {
+      file << result.from_output_type(types[j]).count();
+    } else {
+      file << result.iterations_count;
+    }
   }
   file << '\n';
 }
@@ -392,9 +399,9 @@ int main(int argc, char *argv[]) {
 
     std::clog << "read " << datasets.size() << " photos\n";
 
-    return exp(datasets,
-               {KMeansOutputType::Init, KMeansOutputType::Iteration,
-                KMeansOutputType::AllIterations, KMeansOutputType::Overall});
+    return exp(datasets, {KMeansOutputType::Init, KMeansOutputType::Iteration,
+                          KMeansOutputType::AllIterations,
+                          KMeansOutputType::IterationCount});
   } catch (const std::exception &e) {
     std::cerr << e.what() << std::endl;
 
