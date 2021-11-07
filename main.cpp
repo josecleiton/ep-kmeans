@@ -16,7 +16,25 @@
 using duration = std::chrono::duration<float>;
 namespace fs = std::filesystem;
 
-enum class KMeansOutputType : uint8_t { Iteration, Overall };
+enum class KMeansOutputType : uint8_t {
+  Iteration,
+  AllIterations,
+  Overall,
+  Init
+};
+
+constexpr const char *output_type_to_string(const KMeansOutputType type) {
+  switch (type) {
+  case KMeansOutputType::Init:
+    return "init";
+  case KMeansOutputType::Iteration:
+    return "iteration";
+  case KMeansOutputType::AllIterations:
+    return "all_iterations";
+  default:
+    return "overall";
+  }
+}
 
 struct Dataset {
   const fs::path image;
@@ -52,6 +70,19 @@ struct KMeansResult {
 
   constexpr bool max_interations_reached() const {
     return iterations_count == max_iterations;
+  }
+
+  constexpr duration from_output_type(const KMeansOutputType type) const {
+    switch (type) {
+    case KMeansOutputType::Init:
+      return init_in_seconds;
+    case KMeansOutputType::Iteration:
+      return iteration();
+    case KMeansOutputType::AllIterations:
+      return iterations_in_seconds;
+    default:
+      return overall();
+    }
   }
 
   inline const std::vector<Pixel> &means() const { return *means_ptr; }
@@ -202,14 +233,13 @@ KMeansResult kmeans(const std::vector<PixelCoord> &dataset, const size_t N,
           std::move(classes_ptr)};
 }
 
-// IGNORE: MAGICA
 std::unique_ptr<std::vector<PixelCoord>>
 load_dataset(const fs::path &file_location) {
   int w, h, bpp;
   uint8_t *const rgb_image =
       stbi_load(file_location.string().c_str(), &w, &h, &bpp, IMAGE_CHANNELS);
 
-  if (rgb_image == nullptr) {
+  if (!rgb_image) {
     throw std::domain_error(std::string("error loading image: ") +
                             stbi_failure_reason() + " " +
                             file_location.string());
@@ -239,31 +269,36 @@ load_dataset(const fs::path &file_location) {
 }
 
 void write_result_csv(std::ofstream &file, const KMeansResult &result,
-                      const uint16_t i, const KMeansOutputType type) {
-  if (i != 0) {
-    file << ",\n";
-  } else {
-    file << "time,\n";
+                      const uint16_t i,
+                      const std::vector<KMeansOutputType> types) {
+  if (!i) {
+    for (size_t j = 0; j < types.size(); j++) {
+      if (j != 0)
+        file << ',';
+      file << output_type_to_string(types[j]);
+    }
+    file << '\n';
   }
 
-  if (type == KMeansOutputType::Iteration) {
-    file << result.iteration().count();
-  } else {
-    file << result.overall().count();
+  for (size_t j = 0; j < types.size(); j++) {
+    if (j != 0)
+      file << ',';
+    file << result.from_output_type(types[j]).count();
   }
+  file << '\n';
 }
 
 int exp(const std::vector<Dataset> &datasets,
-        const KMeansOutputType outputType) {
+        const std::vector<KMeansOutputType> &outputTypes) {
 
-  size_t dataset_id = 1;
   for (const auto &dataset : datasets) {
-    const auto &pixels_ptr = load_dataset(dataset.image);
+
+    const auto pixels_ptr = load_dataset(dataset.image);
     const auto n = pixels_ptr->size();
 
     std::clog << "image: " << dataset.image << '\n'
               << "pixels count: " << n << '\n'
-              << "ks: " << dataset.ks.size() << '\n';
+              << "ks: " << dataset.ks.size() << std::endl;
 
     for (const auto k : dataset.ks) {
       const auto filepath = "output" / fs::path("result_") +=
@@ -275,7 +310,8 @@ int exp(const std::vector<Dataset> &datasets,
                                 filepath.string() + "'");
       }
 
-      for (uint16_t i = 0; i < dataset.repeat; ++i) {
+      for (uint32_t count = 1;
+           count < static_cast<uint32_t>(dataset.repeat) + 1; ++count) {
         if (n < k) {
           throw std::domain_error("number of clusters must be less than " +
                                   std::to_string(n));
@@ -285,14 +321,14 @@ int exp(const std::vector<Dataset> &datasets,
           std::clog << '\n';
         }
 
-        std::clog << "kmeans begin (" << i + 1 << ")\n";
+        std::clog << "kmeans begin (" << count << ")\n";
 
         const auto &result = kmeans(*pixels_ptr, n, k);
 
         assert(k == result.means().size());
         assert(n == result.classes().size());
 
-        std::clog << "kmeans clusters: " << result.means().size() << '\n'
+        std::clog << "clusters: " << result.means().size() << '\n'
                   << "iterations count: " << result.iterations_count << '\n'
                   << "init time: " << result.init_in_seconds.count() << "s\n"
                   << "overall iterations time: "
@@ -305,13 +341,11 @@ int exp(const std::vector<Dataset> &datasets,
                     << ") ";
         }
 
-        std::clog << "\nkmeans finished\n";
+        std::clog << '\n' << std::endl;
 
-        write_result_csv(file, result, i, outputType);
+        write_result_csv(file, result, count, outputTypes);
       }
     }
-
-    ++dataset_id;
   }
 
   return 0;
@@ -323,7 +357,8 @@ int main(int argc, char *argv[]) {
       const std::vector<Dataset> datasets = {
           Dataset(fs::path(argv[1]), static_cast<uint32_t>(std::atoi(argv[3])),
                   {static_cast<uint32_t>(std::atoi(argv[2]))})};
-      return exp(datasets, KMeansOutputType::Iteration);
+      return exp(datasets,
+                 {KMeansOutputType::Init, KMeansOutputType::Iteration});
     }
 
     std::vector<Dataset> datasets;
@@ -349,15 +384,19 @@ int main(int argc, char *argv[]) {
         throw std::domain_error("file " + dataset.image.string() +
                                 " not found");
       }
+
+      ks.clear();
     }
 
     file.close();
 
     std::clog << "read " << datasets.size() << " photos\n";
 
-    return exp(datasets, KMeansOutputType::Overall);
+    return exp(datasets,
+               {KMeansOutputType::Init, KMeansOutputType::Iteration,
+                KMeansOutputType::AllIterations, KMeansOutputType::Overall});
   } catch (const std::exception &e) {
-    std::cerr << e.what() << '\n';
+    std::cerr << e.what() << std::endl;
 
     return 1;
   }
