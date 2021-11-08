@@ -32,18 +32,9 @@ Output com desvio padrão e média aritmética em: `/resources/setup_experimenta
 
 ## Plano experimental
 
-Todas as imagens devem rodar 100x e gerar um csv de resultados. As imagens se encontram em `/images`
+Todas as imagens devem rodar 20x e gerar um csv de resultados. Os ks utilizados serão: 5, 10, 15 e 20. As imagens se encontram em `/images`. 
 
-| 	      imagem 		| 	    k    	|
-| --------------------- |:-------------:|
-|   casal_moreno01.jpg  |       5       |
-| familia_branca01.jpg  |       6 	    |
-| familia_morena01.jpg  |       6       |
-|  mulher_morena03.jpg  |       3       |
-|  senhor_branco01.jpg  |       3       |
-|  senhor_branco02.jpg  |       3       |
-|  senhor_branco03.jpg  |       3       |
-|  senhor_branco04.jpg  |       3       |
+Seguem as 20 imagens escolhidas:
 
 
 ## Planejamento do domínio de testes
