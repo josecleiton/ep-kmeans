@@ -64,7 +64,7 @@ struct KMeansResult {
   const std::unique_ptr<std::vector<size_t>> classes_ptr;
 
   constexpr duration iteration() const {
-    return iterations_in_seconds / iterations_count;
+    return iterations_in_seconds / static_cast<long double>(iterations_count);
   }
 
   constexpr duration overall() const {
@@ -90,6 +90,36 @@ struct KMeansResult {
 
   inline const std::vector<Pixel> &means() const { return *means_ptr; }
   inline const std::vector<size_t> &classes() const { return *classes_ptr; }
+};
+
+struct KMeansResultMean {
+private:
+  long double n;
+  long double init = 0.0f, iteration = 0.0f, iterations_count = 0.0f;
+
+public:
+  KMeansResultMean(const uint32_t _n) : n(_n) {}
+
+  KMeansResultMean &operator+=(const KMeansResult &result) {
+    init += result.init_in_seconds.count() / n;
+    iteration += result.iteration().count() / n;
+    iterations_count += result.iterations_count / n;
+
+    return *this;
+  }
+
+  constexpr long double from_output_type(const KMeansOutputType type) const {
+    switch (type) {
+    case KMeansOutputType::Init:
+      return init;
+    case KMeansOutputType::Iteration:
+      return iteration;
+    case KMeansOutputType::IterationCount:
+      return iterations_count;
+    default:
+      throw new std::out_of_range("not supported");
+    }
+  }
 };
 
 inline long double d(const Pixel &p, const Pixel &q) {
@@ -137,6 +167,16 @@ inline long double d(const Pixel &p, const Pixel &q) {
 // O = K + N + X (2 + N + 4K + 15NK)
 // C = 3 + K + 2N + X (4 + 3N + 3K + 4NK)
 //
+//  INIT
+// A = 12 + 5K + 2N
+// O = K + N
+// C = 3 + K + 2N
+//
+//  ITERATION
+// A = 4 + 6 + 12K + 25NK
+// O = 2 + N + 4K + 15NK
+// C = 4 + 3N + 3K + 4NK
+//
 // Utilizar a aula 11 (1h01min) para construir a tabela e ter as normas L1 e L2
 
 KMeansResult kmeans(const std::vector<PixelCoord> &dataset, const size_t N,
@@ -155,10 +195,6 @@ KMeansResult kmeans(const std::vector<PixelCoord> &dataset, const size_t N,
     means[k] = dataset[dist(eng)];
   }
 
-  const auto init_time_end = std::chrono::high_resolution_clock::now();
-
-  const auto iterations_time_start = std::chrono::high_resolution_clock::now();
-
   auto classes_ptr = std::make_unique<std::vector<size_t>>(
       N, std::numeric_limits<size_t>::max()); // (2, 0, 1) + N * (2, 1, 2)
   auto &classes = *classes_ptr;               // (1, 0, 0)
@@ -168,6 +204,10 @@ KMeansResult kmeans(const std::vector<PixelCoord> &dataset, const size_t N,
   bool changed;                             // (1, 0, 0)
   std::vector<uint32_t> cluster_counter(K); // (K, 0, 0)
   size_t new_class = 0;                     // (1, 0, 0)
+
+  const auto init_time_end = std::chrono::high_resolution_clock::now();
+
+  const auto iterations_time_start = std::chrono::high_resolution_clock::now();
   for (; x < max_iterations; ++x) {
     // g13(0, 0, 1); gr3(1, 1, 1);
     // ex3 = (1, 1, 1) + (gr4 + ex4) + (gr6 + ex6)
@@ -295,6 +335,16 @@ void write_result_csv(std::ofstream &file, const KMeansResult &result,
   file << '\n';
 }
 
+void write_result_csv(std::ofstream &file, const KMeansResultMean &result_mean,
+                      const std::vector<KMeansOutputType> types) {
+  file << '\n';
+  for (size_t i = 0; i < types.size(); i++) {
+    if (i != 0)
+      file << ',';
+    file << result_mean.from_output_type(types[i]);
+  }
+}
+
 int exp(const std::vector<Dataset> &datasets,
         const std::vector<KMeansOutputType> &outputTypes) {
 
@@ -310,6 +360,7 @@ int exp(const std::vector<Dataset> &datasets,
     for (const auto k : dataset.ks) {
       const auto filepath = "output" / fs::path("result_") +=
           fs::path(dataset.image).stem() += "_" + std::to_string(k) += ".csv";
+      KMeansResultMean result_mean(dataset.repeat);
 
       std::ofstream file(filepath, std::fstream::out);
       if (!file.is_open()) {
@@ -351,7 +402,9 @@ int exp(const std::vector<Dataset> &datasets,
         std::clog << '\n' << std::endl;
 
         write_result_csv(file, result, count, outputTypes);
+        result_mean += result;
       }
+      write_result_csv(file, result_mean, outputTypes);
     }
   }
 
@@ -374,25 +427,20 @@ int main(int argc, char *argv[]) {
     std::ifstream file("experimental", std::fstream::in);
     std::string filename;
     uint16_t nk;
-    uint32_t k;
-    std::vector<uint32_t> ks;
 
     while (file >> filename >> nk) {
-      ks.reserve(nk);
+      std::vector<uint32_t> ks(nk);
 
       for (uint16_t i = 0; i < nk; i++) {
-        file >> k;
-        ks.emplace_back(k);
+        file >> ks[i];
       }
-      datasets.emplace_back("images" / fs::path(filename), 100, ks);
+      datasets.emplace_back("images" / fs::path(filename), 20, ks);
       const auto &dataset = datasets.back();
 
       if (!fs::exists(dataset.image)) {
         throw std::domain_error("file " + dataset.image.string() +
                                 " not found");
       }
-
-      ks.clear();
     }
 
     file.close();
@@ -400,7 +448,6 @@ int main(int argc, char *argv[]) {
     std::clog << "read " << datasets.size() << " photos\n";
 
     return exp(datasets, {KMeansOutputType::Init, KMeansOutputType::Iteration,
-                          KMeansOutputType::AllIterations,
                           KMeansOutputType::IterationCount});
   } catch (const std::exception &e) {
     std::cerr << e.what() << std::endl;
