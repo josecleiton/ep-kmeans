@@ -30,15 +30,8 @@ Resultado:
 
 Output com desvio padrão e média aritmética em: `/resources/setup_experimental.ods`
 
-## Plano experimental
-
-Todas as imagens devem rodar 20x e gerar um csv de resultados. Os ks utilizados serão: 5, 10, 15 e 20. As imagens se encontram em `/images`. 
-
-Seguem as 20 imagens escolhidas:
-
-
 ## Planejamento do domínio de testes
- Do total de 46 imagens, foram selecionadas, inicialmente, 20 imagens com o Ns mais disperso para definir os seus respectivos Ks. 
+Do total de 46 imagens, foram selecionadas, inicialmente, 20 imagens com o Ns mais disperso para definir os seus respectivos Ks (5, 10, 15, 20). 
 
 O Output, em ordem decrescente da diferença percentual entre as imagens, para encontrar as que possuiam o Ns com maior dispersão: `measurement/ranking-diff-images.json`.
 
