@@ -37,6 +37,11 @@ O Output, em ordem decrescente da diferença percentual entre as imagens, para e
 
 As 20 imagens escolhidas e seus respectivos K em : `experimental`
 
+## Dados analíticos
+
+Comparação analítica entre n (número de pixels) e k (número de clusters) a partir da análise quantitativa.
+Output: `/resources/dados_analiticos.ods`
+
 ## Medição do tempo
 Tempo de execução da inicialização e por iteração. `outputs/outputs.7z`
 
