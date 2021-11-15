@@ -22,19 +22,19 @@ function getRandomArbitrary(min, max) {
 }
 
 async function compareImage() {
-  const resolutions = [];
+  let resolutions = [];
 
   let images = await getFiles("../images");
 
   for (let i = 0; i < images.length; i++) {
-    if(images[i] === '../images/image_teste_segementacao_3_classes.jpg') {
+    if (images[i] === "../images/image_teste_segementacao_3_classes.jpg") {
       continue;
     }
     const image = await Jimp.read(images[i]);
 
     const data = {
       res: image.getWidth() * image.getHeight(),
-      image: `${images[i]} 4 5 10 15 20`,
+      image: `${path.basename(images[i])} 4 5 10 15 20`,
     };
     const contain = resolutions.find((value) => value.res === data.res);
     if (!contain) {
@@ -42,20 +42,24 @@ async function compareImage() {
     }
   }
 
-  resolutions.sort((a, b) => b.res - a.res);
+  resolutions = resolutions.sort((a, b) => a.res - b.res);
+  console.log(resolutions);
 
-  const fileName = "ranking-diff-images.json";
+  const fileName = "experimental";
   const file = fs.createWriteStream(fileName);
 
-  const step = Math.round(resolutions.length / 20);
-  for (let i = 0; i < resolutions.length; i += step) {
-    const parse = images[i];
-    file.write(`${path.basename(parse)} 4 5 10 15 20\n`);
+  const step = Math.round(resolutions.length / 5);
+  const picked = [];
+  for (let i = 0; i < resolutions.length; i += step + 1) {
+    picked.push(resolutions[i]);
+    file.write(picked[picked.length - 1].image + "\n");
   }
 
-  file.write(path.basename(images[resolutions.length-1] + " 4 5 10 15 20\n"));
+  // file.write(path.basename(images[resolutions.length-1] + " 4 5 10 15 20\n"));
+  // picked.push(resolutions[resolutions.length - 1]);
 
   file.close();
+  console.log(picked);
 }
 
 compareImage();
