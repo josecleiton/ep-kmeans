@@ -27,6 +27,7 @@ Resultado:
 - Memória: 64GB
 - Linguagem utilizada: C++17
 - Compilador: g++ 10.3.0 com a flag -O1
+- FLOPS = 12 * 4.9GHZ * 4 = 235,2 GFLOPS
 
 Output com desvio padrão e média aritmética em: `/resources/setup_experimental.ods`
 
