@@ -12,6 +12,7 @@
 
 #define IMAGE_CHANNELS 3
 #define DATASETS_RESERVE 100
+#define DEFAULT_REPEATITION 20
 
 using duration = std::chrono::duration<float>;
 namespace fs = std::filesystem;
@@ -434,7 +435,8 @@ int main(int argc, char *argv[]) {
       for (uint16_t i = 0; i < nk; i++) {
         file >> ks[i];
       }
-      datasets.emplace_back("images" / fs::path(filename), 20, ks);
+      datasets.emplace_back("images" / fs::path(filename), DEFAULT_REPEATITION,
+                            ks);
       const auto &dataset = datasets.back();
 
       if (!fs::exists(dataset.image)) {
