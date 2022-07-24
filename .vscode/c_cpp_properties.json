@@ -6,10 +6,10 @@
                 "${workspaceFolder}/**"
             ],
             "defines": [],
-            "compilerPath": "/bin/g++",
+            "compilerPath": "C:\\Program Files\\LLVM\\bin\\clang++.exe",
             "cStandard": "c17",
             "cppStandard": "c++17",
-            "intelliSenseMode": "linux-gcc-x64"
+            "intelliSenseMode": "windows-clang-x64"
         }
     ],
     "version": 4
